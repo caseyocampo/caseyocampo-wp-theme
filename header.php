@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php the_title(); ?> | Connor's Blog</title>
-    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
    
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"

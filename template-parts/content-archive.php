@@ -1,39 +1,29 @@
-<?php
-  get_header();
-?>
-    
-	<div class="main-content">
-        <section class="content">
-        <h1>Content Artchive</h1>
+<div class="post">
 
-        <!-- gets post or page content -->
-        <?php
-        if (have_posts()) {
-            while (have_posts()) {
-                the_post();
+    <a href="#" class="permalink">
+      <img
+        src="https://placekitten.com/300/250"
+        alt=""
+        class="post-image"
+      />
+    </a>
+    <div class="post-content">
+      <a href="<?php the_permalink(); ?>" class="permalink">
+        <h2><?php the_title(); ?></h2>
+      </a>
+      <span class="post-meta">
+        <span class="date"><?php the_date(); ?></span
+        ><?php the_tags('<span class="tag">#', '</span><span class="tag">', '</span>'); ?></span
+      >
 
-                // gets template part from template-parts.php folder
-                get_template_part('template-parts/content', 'archive');
-            }
-            }
-        ?>
-            
-        </section>
-        <!-- /content -->
-
-        <section class="sidebar">
-        <h1>Sidebar</h1>
-
-        <?php
-            dynamic_sidebar('sidebar-1');
-        ?>
-
-        </section>
-        <!-- /sidebar -->
-
+      
+      <span class="excerpt">
+      <?php
+          the_excerpt();
+      ?>
+      </span>
+      <a href="<?php the_permalink(); ?>" class="permalink read-more">Read More</a>
     </div>
-    <!-- /main content -->
-    
-<?php
-  get_footer();
-?>
+
+</div>
+<!-- /post -->

@@ -2,8 +2,9 @@
     get_header();
 ?>
     
-    <section>
-        <h1>Main Content</h1>
+    <section class="archive">
+      <div class="archive-container">
+        <h1>Thoughts</h1>
 
         <!-- gets post or page content -->
             <?php
@@ -17,21 +18,18 @@
             }
         ?>
 
-        <?php
-            the_posts_pagination();
-        ?>
+            <?php
+                the_posts_pagination();
+            ?>
+
             
+        </div>
+      <!-- /archive-container  -->
     </section>
+    <!-- /archive -->
 
     
-    <section>
-        <h1>Sidebar</h1>
-
-        <?php
-          dynamic_sidebar('sidebar-1');
-        ?>
-        
-    </section>
+    
 
 <?php
   get_footer();
