@@ -62,6 +62,18 @@ function dotcom_widget_areas()
         array(
             'before_title' => '<h2>',
             'after_title' => '</h2>',
+            'before_widget' => '<div class="sidebar-2-widget">',
+            'after_widget' => '</div>',
+            'name' => 'Bottom Sidebar Area',
+            'id' => 'sidebar-2',
+            'description' => 'Bottom Sidebar Widget Area'
+        )
+    );
+
+    register_sidebar(
+        array(
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
             'before_widget' => '<div class="widget">',
             'after_widget' => '</div>',
             'name' => 'Footer Area',

@@ -397,6 +397,10 @@ input#s {
   margin-left: 11.25px;
 }
 
+.archive .tag {
+  margin-right: 5px;
+}
+
 .tag {
   background: var(--blue);
   border-radius: 5px;

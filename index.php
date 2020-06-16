@@ -28,8 +28,17 @@
     </section>
     <!-- /archive -->
 
-    
-    
+    <div class="sidebar-2">
+        <div class="sidebar-2-widgets">
+
+            <?php
+                dynamic_sidebar('sidebar-2');
+            ?>
+
+        </div>  
+        <!-- /sidebar-widgets -->
+    </div>
+    <!-- /sidebar-2 -->
 
 <?php
   get_footer();
