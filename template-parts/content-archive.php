@@ -1,11 +1,21 @@
 <div class="post">
 
-    <a href="#" class="permalink">
-      <img
+    <a href="<?php the_permalink(); ?>" class="permalink">
+      <span class="post-image">
+        <?php
+            if ( has_post_thumbnail() ) {
+                the_post_thumbnail();
+            } 
+        ?>
+      </span>
+
+
+      <!-- <img
         src="https://placekitten.com/300/250"
         alt=""
         class="post-image"
-      />
+      /> -->
+
     </a>
     <div class="post-content">
       <a href="<?php the_permalink(); ?>" class="permalink">

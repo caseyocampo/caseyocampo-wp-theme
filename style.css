@@ -522,6 +522,16 @@ nav.navigation.pagination {
   width: 100%;
 }
 
+/* img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: 350px;
+  height: 250px;
+} */
+
+.archive .wp-post-image {
+  width: 350px;
+  height: 250px;
+}
+
 .single h1 {
   margin-top: 15px;
 }
@@ -790,9 +800,10 @@ footer .widget .textwidget {
     justify-content: center;
   }
 
-  .post-image {
-    margin-right: 0;
-    margin-right: 1em;
+  .post-image,
+  .archive .wp-post-image {
+    margin-right: 0.5em;
+    height: 100%;
     width: 25vw;
   }
 
