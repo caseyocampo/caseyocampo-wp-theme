@@ -15,9 +15,8 @@
         <h2><?php the_title(); ?></h2>
       </a>
       <span class="post-meta">
-        <span class="date"><?php the_date(); ?></span
-        ><?php the_tags('<span class="tag">#', '</span><span class="tag">', '</span>'); ?></span
-      >
+        <span class="date"><?php the_date(); ?></span><?php the_tags('<span class="tag">#', '</span><span class="tag">', '</span>'); ?>
+        </span>
 
       
       <span class="excerpt">

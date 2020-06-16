@@ -2,8 +2,7 @@
   get_header();
 ?>
     
-    <section>
-        <h1>Single</h1>
+    <section class="single">
 
       <!-- gets post or page content -->
       <?php
@@ -18,15 +17,20 @@
       ?>
         
     </section>
+    <!-- /single -->
 
-    <section class="sidebar"> 
-        <h1>Sidebar</h1>
+
+    <div class="sidebar-2">
+      <div class="sidebar-2-widgets">
     
         <?php
-        dynamic_sidebar('sidebar-1');
+        dynamic_sidebar('sidebar-2');
         ?>
 
-    </section>
+      </div>  
+      <!-- /sidebar-widgets -->
+    </div>
+    <!-- /sidebar-2 -->
     
 <?php
   get_footer();
