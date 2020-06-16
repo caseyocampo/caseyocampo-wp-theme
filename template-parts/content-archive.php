@@ -9,13 +9,6 @@
         ?>
       </span>
 
-
-      <!-- <img
-        src="https://placekitten.com/300/250"
-        alt=""
-        class="post-image"
-      /> -->
-
     </a>
     <div class="post-content">
       <a href="<?php the_permalink(); ?>" class="permalink">
