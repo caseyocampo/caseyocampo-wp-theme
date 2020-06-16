@@ -1,6 +1,4 @@
-<h1>Content Page</h1>
-
-<section>
+<div class="page-content">
 
     <?php
         if ( has_post_thumbnail() ) {
@@ -17,4 +15,4 @@
        the_content();
     ?>
  
-</section>
+</div>

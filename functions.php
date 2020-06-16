@@ -48,10 +48,10 @@ function dotcom_widget_areas()
 {
     register_sidebar(
         array(
-            'before_title' => '<h2 class="sidebar-header">',
+            'before_title' => '<h2>',
             'after_title' => '</h2>',
-            'before_widget' => '',
-            'after_widget' => '',
+            'before_widget' => '<div class="sidebar-widget">',
+            'after_widget' => '</div>',
             'name' => 'Right Sidebar Area',
             'id' => 'sidebar-1',
             'description' => 'Right Sidebar Widget Area'

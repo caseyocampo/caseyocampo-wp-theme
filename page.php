@@ -3,9 +3,8 @@
 ?>
 <!-- /header -->
 
-    <section>
-
-        <h1>Page</h1>
+    <section class="page-page">
+      <div class="page-container">
 
         <?php
             if (have_posts()) {
@@ -17,16 +16,23 @@
                 }
             }
         ?>
+
+        <div class="sidebar">
+            <div class="sidebar-widgets">
+
+                <?php
+                dynamic_sidebar('sidebar-1');
+                ?>
+
+            </div>
+            <!-- /sidebar-widgets -->
+        </div>
+        <!-- /sidebar -->
+
+        </div>
+        <!-- /page-container  -->
     </section>
-
-    <section class="sidebar"> 
-        <h1>Sidebar</h1>
-
-        <?php
-          dynamic_sidebar('sidebar-1');
-        ?>
-
-    </section>
+    <!-- /page-page -->
 
 
 <?php

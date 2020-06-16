@@ -19,7 +19,6 @@
     </section>
     <!-- /single -->
 
-
     <div class="sidebar-2">
       <div class="sidebar-2-widgets">
     
