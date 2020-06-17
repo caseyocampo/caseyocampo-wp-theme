@@ -2,29 +2,69 @@
     get_header();
 ?>
     
-    <section>
+    <section class="page-page">
+      <div class="page-container">
+        <div class="page-content">
+          
+            <h1 style="margin-bottom: 30px;">404 Error: Page Not Found</h1>
+            <p>Doh! The page you are looking for has been moved or no longer exists.</p>
 
-        <h1>404 Error: Page Not Found</h1>
-        <p>The page you are looking for has been moved or no longer exists. Try searching for the topic below instead.</p>
+            <form
+                  role="search"
+                  method="get"
+                  id="searchform"
+                  class="searchform"
+                  action="https://connorocampo.com/"
+                >
+                  <div>
+                    <div class="search-box">
+                      <p>
+                        <label class="screen-reader-text" for="s"
+                          >Try searching for the topic below instead.</label
+                        >
+                      </p>
+                      <input
+                        type="text"
+                        name="s"
+                        id="s"
+                        role="searchbox"
+                        arial-label="search"
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      class="search-button"
+                      aria-label="search the blog button"
+                    >
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </form>
 
-        <span id="error-search-box">
-          <?php
-              get_search_form();
-          ?>
-        </span>
+            
+        </div>
+        <!-- /page-content -->
+
+          
+
+        <div class="sidebar">
+            <div class="sidebar-widgets">
+
+              <?php
+              dynamic_sidebar('sidebar-1');
+              ?>
+
+            </div>
+            <!-- /sidebar-widgets -->
+        </div>
+        <!-- /sidebar -->
       
+        
+      </div>
+      <!-- /page-container  -->
     </section>
+    <!-- /page-page -->
 
-    <section>
-    <h1>Sidebar</h1>
-
-      <?php
-        dynamic_sidebar('sidebar-1');
-      ?>
-
-    </section>
-
-    
 <?php
   get_footer();
 ?>

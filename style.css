@@ -1,7 +1,7 @@
 /*
 Theme Name: connorocampo
 Text Domain: connorocampo.com
-Version: 1.0
+Version: 1.0.1
 Description: Connor Ocampo's blog.
 Tags: responsive, minimal, font awesome, right sidebar
 Author: Connor Ocampo
@@ -63,12 +63,10 @@ h6 {
 
 h1 {
   font-size: 48px;
-  line-height: 1.1;
 }
 
 h2 {
   font-size: 36px;
-  line-height: 1.15;
 }
 
 h3 {
@@ -130,10 +128,6 @@ blockquote cite {
   margin-top: 10px;
 }
 
-hr {
-  border: 1px solid #eaecef;
-}
-
 /* RESPONSIVE GLOBAL */
 
 @media (max-width: 800px) {
@@ -147,10 +141,6 @@ hr {
 
   h3 {
     font-size: 18px;
-  }
-
-  body {
-    font-size: 16px;
   }
 
   .table-container {
@@ -193,7 +183,7 @@ header nav ul {
 header nav ul li a {
   color: var(--white);
   display: inline-block;
-  font-weight: bold;
+  font-weight: 800;
   padding: 1em 20px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -301,6 +291,10 @@ input#s {
 .page-content a {
   color: var(--black);
   text-decoration: underline;
+}
+
+.page-page .sidebar ul li {
+  margin-left: 0;
 }
 
 /* SIDEBARS */
@@ -495,14 +489,6 @@ nav.navigation.pagination {
   content: ",";
 }
 
-.pagination .next:before {
-  content: "... ";
-}
-
-.pagination .prev:after {
-  content: " ...";
-}
-
 .pagination .next:after {
   content: "";
 }
@@ -518,7 +504,6 @@ nav.navigation.pagination {
 /* SINGLE PAGE */
 
 .single-container {
-  /* background: wheat; */
   margin: 0 auto;
   max-width: 800px;
   max-width: 700px;
@@ -529,11 +514,6 @@ nav.navigation.pagination {
   width: 100%;
 }
 
-/* img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
-  width: 350px;
-  height: 250px;
-} */
-
 .archive .wp-post-image {
   width: 350px;
   height: 250px;
@@ -541,6 +521,17 @@ nav.navigation.pagination {
 
 .single h1 {
   margin-top: 15px;
+}
+
+.single .tag a {
+  color: var(--white);
+  display: inline-block;
+  text-decoration: none;
+}
+
+.single a {
+  color: var(--black);
+  text-decoration: underline;
 }
 
 .post-meta {
@@ -797,6 +788,12 @@ footer .widget .textwidget {
     margin: 30px 1em 100px 1em;
   }
 
+  .page-page ul li,
+  .single ul li {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+  }
+
   /* ARCHIVE PAGE */
   .archive {
     margin: 30px 0 100px 0;
@@ -835,6 +832,17 @@ footer .widget .textwidget {
     display: none;
   }
 
+  nav.navigation.pagination {
+    display: block;
+    width: 100%;
+  }
+  .post-image,
+  .archive .wp-post-image {
+    margin-right: 0.75em;
+    height: 100%;
+    width: 35vw;
+  }
+
   /* FOOTER */
 
   .widgets {
@@ -847,5 +855,14 @@ footer .widget .textwidget {
 
   .widget:first-child {
     padding-top: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .archive .wp-post-image {
+    display: none;
+  }
+  .archive-container h1 {
+    margin-bottom: 60px;
   }
 }

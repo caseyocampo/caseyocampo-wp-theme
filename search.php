@@ -2,32 +2,26 @@
   get_header();
 ?>
     
-    <section>
-        <h1>Search</h1>
+    <section class="archive">
+      <div class="archive-container">
+        <h1>Thoughts</h1>
 
+          <!-- gets post or page content -->
+          <?php
+          if (have_posts()) {
+              while (have_posts()) {
+                  the_post();
 
-      <!-- gets post or page content -->
-      <?php
-      if (have_posts()) {
-          while (have_posts()) {
-            the_post();
-
-            // gets template part from template-parts.php folder
-            get_template_part('template-parts/content', 'archive');
-          }
-        }
-      ?>
+                  // gets template part from template-parts.php folder
+                  get_template_part('template-parts/content', 'archive');
+              }
+            }
+          ?>
         
+        </div>
+      <!-- /archive-container  -->
     </section>
-
-    <section>
-        <h1>Sidebar</h1>
-
-        <?php
-            dynamic_sidebar('sidebar-1');
-        ?>
-    
-    </section>
+    <!-- /archive -->
 
     
 <?php

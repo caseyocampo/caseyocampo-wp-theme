@@ -21,20 +21,6 @@
         <a href="/" class="color-white site-title"
           >Connor Ocampo</a
         >
-        <!-- <ul id="nav" class="nav-links">
-          <li>
-            <a href="/front-page.html" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="/archive.html" class="nav-link">Blog</a>
-          </li>
-          <li>
-            <a href="/single.html" class="nav-link">Single Page</a>
-          </li>
-          <li>
-            <a href="/page.html" class="nav-link">Page</a>
-          </li>
-        </ul> -->
 
         <?php
             wp_nav_menu(
