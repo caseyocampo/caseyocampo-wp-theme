@@ -43,10 +43,10 @@ function sendMail() {
   var link =
     "mailto:?" +
     "&subject=" +
-    escape("Hey! Check out this article: ") +
+    escape("Check out this article: ") +
     document.title +
     "&body=" +
-    escape("Found this article I think you might find interesting: ") +
+    escape("Article: ") +
     escape(window.location.href);
   window.location.href = link;
 }

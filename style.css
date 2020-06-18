@@ -1,9 +1,9 @@
 /*
 Theme Name: connorocampo
 Text Domain: connorocampo.com
-Version: 1.0.2
+Version: 1.0.3
 Description: Connor Ocampo's blog.
-Tags: responsive, minimal, font awesome, right sidebar
+Tags: responsive, minimal, font awesome, right sidebar, bottom sidebar
 Author: Connor Ocampo
 Author URI: https://connorocampo.dev
 */
@@ -20,8 +20,6 @@ Author URI: https://connorocampo.dev
 
 :root {
   --aqua: #73fbca;
-  --black: #141414;
-  /* --black: #0a0402; */
   --black: #24282e;
   --blue: #458de2;
   --forest: #3c5d5c;
@@ -31,14 +29,6 @@ Author URI: https://connorocampo.dev
   --wheat: #f5dfb3;
   --white: #ffffff;
   --width-content: 1200px;
-}
-
-.color-white {
-  color: #fff;
-}
-
-.color-blue {
-  color: var(--blue);
 }
 
 h1,
@@ -74,7 +64,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 21px;
   font-style: italic;
   font-weight: normal;
 }
@@ -159,6 +149,35 @@ blockquote cite {
   margin: 1em 0;
   height: 100%;
   width: 250px;
+}
+
+.page-page ul li,
+.single ul li {
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+}
+
+.page-page ul,
+.single ul {
+  margin: 1em 0;
+}
+
+blockquote.wp-block-quote {
+  padding: 0.5em 2em 2em 2em;
+  margin: 2.5em 0;
+}
+
+.page-content h1 {
+  margin-top: -7px;
+}
+
+.widget_text.sidebar-2-widget:last-child {
+  width: auto;
+}
+
+.sidebar-1-link {
+  color: var(--black);
+  text-decoration: underline;
 }
 
 @media (max-width: 800px) {

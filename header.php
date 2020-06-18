@@ -18,7 +18,7 @@
   <body>
     <header>
       <nav>
-        <a href="/" class="color-white site-title"
+        <a href="/" class="site-title"
           >Connor Ocampo</a
         >
 
