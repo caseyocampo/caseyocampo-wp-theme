@@ -8,7 +8,7 @@
         <p>Read my thoughts on...</p>
         <p class="tagline">
           Personal Finance. Music. Health. Fitness. Plant-based Food. LGBTQ+.
-          Tech.
+          Tech. ++
         </p>
       </div>
     </section>
