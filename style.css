@@ -1,7 +1,7 @@
 /*
 Theme Name: connorocampo
 Text Domain: connorocampo.com
-Version: 1.0.4
+Version: 1.0.5
 Description: Connor Ocampo's blog.
 Tags: responsive, minimal, font awesome, right sidebar, bottom sidebar
 Author: Connor Ocampo
@@ -832,7 +832,8 @@ footer .widget .textwidget {
   /* FRONT PAGE  */
 
   .main-front-page {
-    height: auto;
+    /* height: auto; */
+    height: 30vh;
   }
 
   .front-page-content {
@@ -842,7 +843,7 @@ footer .widget .textwidget {
   .tagline {
     font-size: 27px;
     margin-left: 0;
-    width: 300px;
+    /* width: 300px; */
   }
 
   /* PAGE PAGE */

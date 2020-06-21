@@ -1,3 +1,5 @@
+<!-- This document displays a single page -->
+
 <?php
     get_header();
 ?>

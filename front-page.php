@@ -1,3 +1,5 @@
+<!-- This document display a custom front page -->
+
 <?php
   get_header();
 ?>
@@ -5,10 +7,9 @@
 
     <section class="main-front-page">
       <div class="front-page-content">
-        <p>Read my thoughts on...</p>
+        <p>A blog about...</p>
         <p class="tagline">
-          Personal Finance. Music. Health. Fitness. Plant-based Food. LGBTQ+.
-          Tech. ++
+          Music++ 🤘🏻
         </p>
       </div>
     </section>

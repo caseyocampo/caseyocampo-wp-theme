@@ -1,3 +1,5 @@
+<!-- This document displays a search results page -->
+
 <?php
   get_header();
 ?>

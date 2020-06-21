@@ -1,3 +1,5 @@
+<!-- This document displays a custom 404 error page -->
+
 <?php
     get_header();
 ?>

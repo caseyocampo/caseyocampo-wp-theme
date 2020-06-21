@@ -1,3 +1,5 @@
+<!-- This document displays blog posts -->
+
 <?php
     get_header();
 ?>
