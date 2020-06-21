@@ -10,7 +10,7 @@
       </span>
       <h1><?php the_title(); ?></h1>
       <span class="post-meta">
-      <span class="date"><?php the_date(); ?></span><?php the_tags('<span class="tag">#', '</span><span class="tag">', '</span>'); ?>
+      <span class="date"><?php echo get_the_date(); ?></span><?php the_tags('<span class="tag">#', '</span><span class="tag">', '</span>'); ?>
       </span>
       <?php
           the_content();
