@@ -1,7 +1,7 @@
 /*
 Theme Name: connorocampo
 Text Domain: connorocampo.com
-Version: 1.0.3
+Version: 1.0.4
 Description: Connor Ocampo's blog.
 Tags: responsive, minimal, font awesome, right sidebar, bottom sidebar
 Author: Connor Ocampo
@@ -75,7 +75,32 @@ body {
 }
 
 a {
+  overflow-wrap: break-word;
   text-decoration: none;
+}
+
+/* RESPONSIVE FONT STYLES */
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .table-container {
+    width: 90vw;
+  }
 }
 
 .table-container {
@@ -118,24 +143,19 @@ blockquote cite {
   margin-top: 10px;
 }
 
-/* RESPONSIVE GLOBAL */
+.single ol li,
+.single ul li,
+.page-page ol li,
+.page-page ul li {
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
 
-@media (max-width: 800px) {
-  h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  .table-container {
-    width: 90vw;
-  }
+.single ol,
+.single ul,
+.page-page ol,
+.page-page ul {
+  margin: 1em 0;
 }
 
 /* CUSTOMIZER */
@@ -178,6 +198,12 @@ blockquote.wp-block-quote {
 .sidebar-1-link {
   color: var(--black);
   text-decoration: underline;
+}
+
+.wp-block-image figcaption {
+  font-size: 16px;
+  font-style: italic;
+  margin-left: 1em;
 }
 
 @media (max-width: 800px) {

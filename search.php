@@ -4,7 +4,7 @@
     
     <section class="archive">
       <div class="archive-container">
-        <h1>Thoughts</h1>
+        <h1>Search Results</h1>
 
           <!-- gets post or page content -->
           <?php
