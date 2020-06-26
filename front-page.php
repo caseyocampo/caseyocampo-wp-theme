@@ -1,20 +1,42 @@
-<!-- This document display a custom front page -->
+<!-- This document displays a single page -->
 
 <?php
-  get_header();
+    get_header();
 ?>
 <!-- /header -->
 
-    <section class="main-front-page">
-      <div class="front-page-content">
-        <p>A blog about...</p>
-        <p class="tagline">
-          Music++ 🤘🏻
-        </p>
-      </div>
+    <section class="page-page">
+      <div class="page-container">
+
+        <?php
+            if (have_posts()) {
+                while (have_posts()) {
+                    the_post();
+
+                    // gets template part from template-parts.php folder
+                    get_template_part('template-parts/content', 'page');
+                }
+            }
+        ?>
+
+        <div class="sidebar">
+            <div class="sidebar-widgets">
+
+                <?php
+                dynamic_sidebar('sidebar-1');
+                ?>
+
+            </div>
+            <!-- /sidebar-widgets -->
+        </div>
+        <!-- /sidebar -->
+
+        </div>
+        <!-- /page-container  -->
     </section>
-    <!-- /main-front-page -->
+    <!-- /page-page -->
+
 
 <?php
-  get_footer();
+    get_footer();
 ?>
