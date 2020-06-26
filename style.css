@@ -191,10 +191,6 @@ blockquote.wp-block-quote {
   margin-top: -7px;
 }
 
-.widget_text.sidebar-2-widget:last-child {
-  width: auto;
-}
-
 .sidebar-1-link {
   color: var(--black);
   text-decoration: underline;
@@ -656,7 +652,7 @@ footer {
 }
 
 .widget {
-  padding: 0 1em;
+  width: 300px;
 }
 
 footer .widget h2 {
@@ -751,7 +747,8 @@ footer .widget .textwidget {
   }
 
   /* SIDEBARS */
-  .sidebar-2 {
+  .sidebar-2,
+  .footer-content {
     margin: 0 1em;
   }
 
