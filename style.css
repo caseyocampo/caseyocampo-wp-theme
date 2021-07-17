@@ -158,6 +158,12 @@ blockquote cite {
   margin: 1em 0;
 }
 
+.avatar {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+
 /* CUSTOMIZER */
 
 .namecheap-link {

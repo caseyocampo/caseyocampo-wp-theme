@@ -10,6 +10,7 @@
       </span>
       <h1><?php the_title(); ?></h1>
       <span class="post-meta">
+      <!-- <img src="/wp-content/themes/dotcom/assets/images/avatar.png" alt="Connor Ocampo avatar" class="avatar"> -->
       <span class="date"><?php echo get_the_date(); ?></span><?php the_tags('<span class="tag">#', '</span><span class="tag">', '</span>'); ?>
       </span>
       <?php
