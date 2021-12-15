@@ -1,0 +1,58 @@
+/* Archive Page Styles */
+
+.archive {
+  border-bottom: 1px solid #eaecef;
+  display: flex;
+  justify-content: center;
+  padding: 80px 1em;
+}
+
+.archive-container {
+  width: var(--width-content);
+}
+
+.archive .page-container .permalink {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.archive .page-container a {
+  text-decoration: none;
+}
+
+.archive .wp-post-image {
+  width: 300px;
+  height: auto;
+}
+
+.archive-tag {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.archive .tag {
+  margin-right: 8px;
+}
+
+.read-more {
+  display: none;
+}
+.post-image {
+  height: auto;
+  width: 300px;
+}
+
+/* 
+  ** Desktop Breakpoint
+  */
+
+@media (max-width: 1200px) {
+  .archive {
+    padding: 0px;
+  }
+
+  .archive-container {
+    padding: 30px 1em 100px 1em;
+    width: 100%;
+  }
+}

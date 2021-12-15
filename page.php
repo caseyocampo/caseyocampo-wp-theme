@@ -1,11 +1,10 @@
 <!-- This document displays a single page -->
-
 <?php
     get_header();
 ?>
 <!-- /header -->
 
-    <section class="page-page">
+    <section class="page-page page-margin">
       <div class="page-container">
 
         <?php
@@ -20,10 +19,10 @@
         ?>
 
         <div class="sidebar">
-            <div class="sidebar-widgets">
+            <div class="sidebar-widgets right-sidebar">
 
                 <?php
-                dynamic_sidebar('sidebar-1');
+                dynamic_sidebar('sidebar-bio-area');
                 ?>
 
             </div>

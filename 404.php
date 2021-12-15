@@ -1,5 +1,4 @@
 <!-- This document displays a custom 404 error page -->
-
 <?php
     get_header();
 ?>
@@ -50,10 +49,10 @@
           
 
         <div class="sidebar">
-            <div class="sidebar-widgets">
+            <div class="sidebar-widgets right-sidebar">
 
               <?php
-              dynamic_sidebar('sidebar-1');
+              dynamic_sidebar('sidebar-bio-area');
               ?>
 
             </div>

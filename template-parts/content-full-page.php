@@ -1,4 +1,4 @@
-<div class="page-content">
+<div class="page-content-full ">
 
     <h1>
         <?php the_title(); ?>

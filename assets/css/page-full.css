@@ -1,0 +1,11 @@
+.page-content-full {
+  max-width: 100%;
+}
+
+.page-content-full p {
+  margin: 15px 0;
+}
+
+.page-featured-image {
+  display: none;
+}

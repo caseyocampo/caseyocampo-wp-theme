@@ -1,9 +1,6 @@
-<!-- This document displays blog posts -->
-
 <?php
     get_header();
 ?>
-    
     <section class="archive">
       <div class="archive-container">
         <h1>Thoughts</h1>

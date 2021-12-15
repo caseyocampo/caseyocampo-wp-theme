@@ -1,24 +1,41 @@
 <!-- This document display the blog post layout -->
 
 <article class="single-container">
-    <span class="post-image">
-        <?php
-            if ( has_post_thumbnail() ) {
-                the_post_thumbnail();
-            } 
-        ?>
-      </span>
-      <h1><?php the_title(); ?></h1>
+<div class="post-image">
+    <h1><?php the_title(); ?></h1>
+
+	<span class="featured-image">
+		<?php
+		  if ( has_post_thumbnail() ) {
+			  the_post_thumbnail();
+		  } 
+		?>
+	</span>
       <span class="post-meta">
-      <!-- <img src="/wp-content/themes/dotcom/assets/images/avatar.png" alt="Connor Ocampo avatar" class="avatar"> -->
-      <span class="date"><?php echo get_the_date(); ?></span><?php the_tags('<span class="tag">#', '</span><span class="tag">', '</span>'); ?>
+      <span class="date"><?php echo get_the_date(); ?></span><?php the_tags('<span class="tag">', '</span><span class="tag">', '</span>'); ?>
       </span>
+
       <?php
           the_content();
       ?>
-      <span class="post-credit">— Connor Ocampo, hobbyist music maker/writer/web developer </span>
+      </div>
+      
 
-
+<?php
+// next/prev. post
+the_post_navigation( array(
+	'prev_text' =>
+		'<i class="fas fa-arrow-left"></i>' .
+		'<span class="screen-reader-text"> Previous post</span> ' .
+		'<br /> ' .
+		'<span class="post-title" style="font-weight: bold;"> %title</span>',
+	'next_text' => 
+		'<span class="screen-reader-text">Next post </span> ' .
+		'<i class="fas fa-arrow-right"></i>' .
+		'<br /> ' .
+		'<span class="post-title" style="font-weight: bold;">%title </span>' ,
+) );
+?>
       <div class="share-post">
         <p class="share-post-text">share</p>
         <button onclick="sendMail(); return false" class="share-button">

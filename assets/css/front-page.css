@@ -1,0 +1,10 @@
+/* Front Page Styles */
+
+.front-page .page-container .permalink {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.front-page .page-container a {
+  text-decoration: none;
+}

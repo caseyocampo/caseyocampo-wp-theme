@@ -1,3 +1,17 @@
+<button onclick="topFunction()" id="scrollToTop" title="Go to top">Top</button>
+
+<div class="sidebar-2">
+	<div class="sidebar-2-widgets">
+
+		<?php
+		dynamic_sidebar('sidebar-2');
+		?>
+
+	</div>  
+	<!-- /sidebar-widgets -->
+</div>
+<!-- /sidebar-2 -->
+
 <footer>
       <div class="footer-content">
         <div class="widgets">
@@ -9,7 +23,7 @@
       </div>
       <!-- /footer-content -->
       <p class="footer-credit">
-        © 2020. Made with <i class="fa fa-heart" aria-hidden="true"></i> by me.
+        <?php echo get_bloginfo( 'name' ); ?> © <?php echo date('Y'); ?>.
       </p>
     </footer>
 

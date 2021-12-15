@@ -1,13 +1,13 @@
-<div class="post">
 
+<div class="post">
     <a href="<?php the_permalink(); ?>" class="permalink">
-      <span class="post-image">
+      <div class="post-image">
         <?php
             if ( has_post_thumbnail() ) {
                 the_post_thumbnail();
             } 
         ?>
-      </span>
+      </div>
 
     </a>
     <div class="post-content">
@@ -15,7 +15,7 @@
         <h2><?php the_title(); ?></h2>
       </a>
       <span class="post-meta">
-        <span class="date"><?php echo get_the_date(); ?></span><?php the_tags('<span class="tag">#', '</span><span class="tag">', '</span>'); ?>
+        <span class="date"><?php echo get_the_date(); ?></span><?php the_tags('<span class="tag">', '</span><span class="tag">', '</span>'); ?>
         </span>
 
       

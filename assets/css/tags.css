@@ -1,0 +1,48 @@
+/* Tags */
+
+.tag a {
+  background: var(--blue);
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding: 1px 10px 2px 10px;
+}
+
+.single .tag a {
+  color: var(--white);
+  display: inline-block;
+  text-decoration: none;
+}
+
+a.tag-cloud-link.tag-link-position-1,
+a.tag-cloud-link.tag-link-position-2,
+a.tag-cloud-link.tag-link-position-3,
+a.tag-cloud-link.tag-link-position-4,
+a.tag-cloud-link.tag-link-position-5,
+a.tag-cloud-link.tag-link-position-6,
+a.tag-cloud-link.tag-link-position-7,
+a.tag-cloud-link.tag-link-position-8,
+a.tag-cloud-link.tag-link-position-9,
+a.tag-cloud-link.tag-link-position-10,
+a.tag-cloud-link.tag-link-position-11,
+a.tag-cloud-link.tag-link-position-12,
+a.tag-cloud-link.tag-link-position-13,
+a.tag-cloud-link.tag-link-position-14,
+a.tag-cloud-link.tag-link-position-15,
+a.tag-cloud-link.tag-link-position-16,
+a.tag-cloud-link.tag-link-position-17,
+a.tag-cloud-link.tag-link-position-18,
+a.tag-cloud-link.tag-link-position-19,
+a.tag-cloud-link.tag-link-position-20 {
+  background: var(--blue);
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 16px !important;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding: 1px 10px 2px 10px;
+}

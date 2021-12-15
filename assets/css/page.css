@@ -1,0 +1,86 @@
+/* Page Style */
+
+.page-page {
+  border-bottom: 1px solid #eaecef;
+}
+
+.page-page {
+  display: flex;
+  justify-content: center;
+}
+
+.page-margin {
+  padding: 80px 1em;
+}
+
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: var(--width-content);
+}
+
+.page-content {
+  max-width: 800px;
+}
+
+.page-content h1 {
+  margin-bottom: 30px;
+}
+
+.page-content h2,
+.single h2 {
+  line-height: 1.35;
+}
+
+.page-content p,
+.single p {
+  margin: 15px 0;
+}
+
+.page-container a,
+.page-container .page-content-full a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+/* 
+  ** Desktop Breakpoint
+  */
+
+@media (max-width: 1200px) {
+  .page-container {
+    padding: 30px 1em;
+  }
+
+  .page-content {
+    max-width: 100%;
+  }
+
+  .page-margin {
+    padding: 30px 1em;
+  }
+
+  .page-margin .page-container {
+    padding: 0;
+  }
+}
+
+/* 
+  ** Mobile Breakpoint
+  */
+
+@media (max-width: 700px) {
+  /* 
+    ** WordPress Styles
+    */
+
+  img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .page-container {
+    width: 100%;
+  }
+}

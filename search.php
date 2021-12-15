@@ -1,5 +1,4 @@
 <!-- This document displays a search results page -->
-
 <?php
   get_header();
 ?>
@@ -25,16 +24,16 @@
     </section>
     <!-- /archive -->
 
-    <div class="sidebar-2">
+<!--     <div class="sidebar-2">
         <div class="sidebar-2-widgets">
 
             <?php
-                dynamic_sidebar('sidebar-2');
+//                 dynamic_sidebar('sidebar-2');
             ?>
 
-        </div>  
+        </div>   -->
         <!-- /sidebar-widgets -->
-    </div>
+<!--     </div> -->
     <!-- /sidebar-2 -->
 
     
