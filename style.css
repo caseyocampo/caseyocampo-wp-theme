@@ -48,26 +48,20 @@ body {
   height: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-}
-
 h1 {
   font-size: 48px;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 30px;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 24px;
-  /*   margin-bottom: 1em; */
+  font-weight: normal;
+  margin-top: 1.5em;
 }
 
 h4 {
@@ -809,7 +803,7 @@ footer .widget .textwidget {
 }
 
 .single h2 {
-  padding: 1em 0;
+  padding-top: 0.75em;
 }
 
 /* Customizer */
