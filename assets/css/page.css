@@ -28,7 +28,16 @@
   margin-bottom: 30px;
 }
 
-.page-content h2,
+.page-content h2 {
+  line-height: 1.35;
+  margin-top: 1.25em;
+}
+
+.page-content .post-content h2 {
+  line-height: 1.35;
+  margin-top: -5px;
+}
+
 .single h2 {
   line-height: 1.35;
 }

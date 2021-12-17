@@ -2,13 +2,11 @@
 Theme Name: Minimalist Theme
 Text Domain: caseyocampo.com
 Version: 2.5
-Description: Personal insight on life, journey, and income as a new real estate agent/investor.
+Description: Custom WordPress theme built with minimalist in mind.
 Tags: responsive, minimal, font awesome, right sidebar, bottom sidebar
 Author: Casey Ocampo
 Author URI: https://caseyocampo.com
 */
-
-/* GLOBAL */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
@@ -55,7 +53,8 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
+  margin-top: 1.5em;
 }
 
 h3 {
@@ -93,7 +92,7 @@ a {
 
 .php-tagline {
   font-size: 12px;
-  margin-bottom: -6px;
+  margin-bottom: -8px;
   width: 501px;
 }
 
@@ -682,8 +681,6 @@ footer .widget .textwidget {
     background: var(--white);
     color: var(--black);
   }
-
-  /* FRONT PAGE  */
 
   .main-front-page {
     height: 100px;
