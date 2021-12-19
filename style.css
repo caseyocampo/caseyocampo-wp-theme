@@ -54,13 +54,13 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 600;
-  margin-top: 1.5em;
+  margin-top: 1.25em;
 }
 
 h3 {
   font-size: 24px;
   font-weight: normal;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 h4 {
@@ -108,12 +108,6 @@ td {
   background: var(--lightgrey);
   margin: 1px;
   padding: 10px 15px;
-}
-
-footer {
-  background: #141d27;
-  color: #ffffff;
-  padding: 80px 0 10px 0;
 }
 
 @media (max-width: 800px) {
@@ -447,17 +441,6 @@ nav.navigation.post-navigation {
   }
 }
 
-/*
- * Footer 
- */
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: var(--width-content);
-}
-
 .widgets {
   display: flex;
   justify-content: space-between;
@@ -465,69 +448,6 @@ nav.navigation.post-navigation {
 
 .widget {
   width: 300px;
-}
-
-footer .widget a,
-footer .widget p {
-  color: #ffffff;
-}
-
-footer .widget h2 {
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  white-space: nowrap;
-}
-
-footer .widget ul li {
-  list-style: none;
-}
-
-footer .widget ul li {
-  display: block;
-}
-
-footer .widget ul li:last-child {
-  margin-bottom: 0;
-}
-
-footer .widget a {
-  color: #ffffff;
-}
-
-footer .widget a:hover {
-  text-decoration: underline;
-}
-
-footer .widget .textwidget {
-  max-width: 300px;
-}
-
-.footer-credit {
-  max-width: var(--width-content);
-  padding-top: 150px;
-  padding-left: 1em;
-  margin: 0 auto;
-}
-
-.fa-heart {
-  color: var(--red);
-  color: #fdc112;
-  margin: 0 5px;
-  animation-name: heart;
-  animation-duration: 1.75s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes heart {
-  0% {
-    -webkit-transform: scale(0.85);
-  }
-  50% {
-    -webkit-transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(0.85);
-  }
 }
 
 @media (min-width: 800px) {
@@ -543,66 +463,12 @@ footer .widget .textwidget {
 }
 
 @media (max-width: 1200px) {
-  nav {
-    flex-direction: column;
-  }
-
-  #nav {
-    display: none;
-  }
-
-  #nav-btn {
-    background: transparent;
-    border: none;
-    color: white;
-    display: block;
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
-  .toggle-nav {
-    color: var(--black);
-    font-size: 21px;
-    padding: 1.2em 1.5em;
-    padding: 1.1em 1.5em;
-  }
-
-  .fa-ellipsis-v {
-    color: var(--black);
-    font-size: 18px;
-    padding: 1.2em 1.5em;
-    padding: 1.1em 1.5em;
-  }
-
-  #nav.responsive {
-    display: block;
-    margin-top: 1em;
-    text-align: left;
-  }
-
-  #nav a {
-    padding: 1em 1em 1em 0;
-    width: 100%;
-  }
-
-  #nav.responsive a:hover {
-    background: var(--white);
-    color: var(--black);
-  }
-
   .main-front-page {
     height: 100px;
   }
 
   .front-page-content {
     margin: 40px 0 50px 0;
-  }
-
-  .tagline {
-    font-size: 27px;
-    margin-left: 0;
   }
 
   .page-page ul li,
@@ -639,20 +505,6 @@ footer .widget .textwidget {
   .archive .wp-post-image {
     margin-right: 0.75em;
     height: 100%;
-  }
-
-  /* FOOTER */
-
-  .widgets {
-    flex-direction: column;
-  }
-
-  .widget {
-    padding-top: 50px;
-  }
-
-  .widget:first-child {
-    padding-top: 0;
   }
 }
 
@@ -701,11 +553,12 @@ footer .widget .textwidget {
   display: none;
 }
 
-.single h2 {
-  padding-top: 0.75em;
+/* Customizer */
+
+body.customize-partial-edit-shortcuts-shown {
+  background: white;
 }
 
-/* Customizer */
 .wp-full-overlay-main {
   background: white;
 }

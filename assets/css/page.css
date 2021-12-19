@@ -1,4 +1,4 @@
-/* Page Style */
+/* Page */
 
 .page-page {
   border-bottom: 1px solid #eaecef;
@@ -53,9 +53,7 @@
   text-decoration: underline;
 }
 
-/* 
-  ** Desktop Breakpoint
-  */
+/* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
   .page-container {
@@ -75,15 +73,9 @@
   }
 }
 
-/* 
-  ** Mobile Breakpoint
-  */
+/* Mobile Breakpoint */
 
 @media (max-width: 700px) {
-  /* 
-    ** WordPress Styles
-    */
-
   img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     width: 100%;
     height: auto;

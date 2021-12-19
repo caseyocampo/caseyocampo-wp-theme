@@ -1,3 +1,5 @@
+/* Header */
+
 header {
   background: var(--white);
   border-bottom: 1px solid #eaecef;
@@ -38,7 +40,7 @@ header nav ul li a {
   width: 250px;
 }
 
-.nav__site-title {
+.nav__title {
   color: var(--black);
   font-size: 28px;
   font-weight: bold;
@@ -51,9 +53,7 @@ header nav ul li a {
   width: 501px;
 }
 
-/* 
- * Desktop Breakpoint
- */
+/* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
   header nav ul li a {
@@ -65,26 +65,58 @@ header nav ul li a {
     padding: 0 1em;
   }
 
-  .nav__site-title {
-    font-size: 26px;
+  nav {
+    flex-direction: column;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #nav-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    display: block;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .toggle-nav {
+    color: var(--black);
+    font-size: 21px;
+    padding: 1.2em 1.5em;
+    padding: 1.1em 1.5em;
+  }
+
+  #nav.responsive {
+    display: block;
+    margin-top: 1em;
+    text-align: left;
+  }
+
+  #nav a {
+    padding: 1em 1em 1em 0;
+    width: 100%;
+  }
+
+  #nav.responsive a:hover {
+    background: var(--white);
+    color: var(--black);
   }
 
   #nav li:not(:last-child) {
     border-bottom: 1px solid #eaecef;
   }
 
+  .nav__title {
+    font-size: 26px;
+  }
+
   .nav__tagline {
     margin-left: 2px;
     width: 100%;
-  }
-}
-
-/* 
-** Mobile Breakpoint
-*/
-
-@media (max-width: 700px) {
-  header nav ul li a {
-    background: none;
   }
 }

@@ -671,13 +671,6 @@ footer .widget .disclaimer {
     right: 0;
   }
 
-  .fa-ellipsis-v {
-    color: var(--aqua);
-    font-size: 18px;
-    padding: 1.2em 1.5em;
-    padding: 1.1em 1.5em;
-  }
-
   #nav.responsive {
     display: block;
     text-align: left;

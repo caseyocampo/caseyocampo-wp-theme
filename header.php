@@ -7,7 +7,6 @@
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
       type="text/javascript"
     ></script>
-	  
     <?php
       wp_head();
     ?>
@@ -22,7 +21,7 @@
           }
           ?>
         <a href="/"><img src="<?php echo $logo[0] ?>" alt="Site Logo" class="nav__logo" /></a>
-        <a href="/" class="nav__site-title"><?php echo get_bloginfo( 'name' ); ?></a>
+        <a href="/" class="nav__title"><?php echo get_bloginfo( 'name' ); ?></a>
         <p class="nav__tagline"><?php echo get_option('blogdescription'); ?></p>
 
         <?php
