@@ -161,30 +161,6 @@ hr {
   }
 }
 
-/* HEADER */
-
-header {
-  background: var(--black);
-  display: flex;
-  justify-content: center;
-}
-
-nav {
-  align-items: center;
-  display: flex;
-  width: var(--width-content);
-}
-
-.site-title {
-  color: var(--white);
-  font-family: 'Rock Salt', Helvetica, system-ui, -apple-system,
-    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 28px;
-  width: 100%;
-  white-space: nowrap;
-}
-
 header nav ul {
   display: flex;
   list-style-type: none;

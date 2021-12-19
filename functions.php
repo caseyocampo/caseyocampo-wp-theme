@@ -31,6 +31,7 @@ function minimal_register_styles()
 {
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style('minimal-style', get_template_directory_uri()."/style.css", $version, 'all');
+    wp_enqueue_style('minimal-header', get_template_directory_uri()."/assets/css/header.css", $version, 'all');
     wp_enqueue_style('minimal-archive', get_template_directory_uri()."/assets/css/archive.css", $version, 'all');
     wp_enqueue_style('minimal-article', get_template_directory_uri()."/assets/css/article.css", $version, 'all');
     wp_enqueue_style('minimal-front-page', get_template_directory_uri()."/assets/css/front-page.css", $version, 'all');

@@ -1,0 +1,90 @@
+header {
+  background: var(--white);
+  border-bottom: 1px solid #eaecef;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  width: var(--width-content);
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+header nav ul li a {
+  color: var(--black);
+  display: inline-block;
+  font-weight: 800;
+  padding-top: 1em;
+  margin: 0 0.5em;
+  white-space: nowrap;
+}
+
+header nav ul li a {
+  border-bottom: 5px solid #73fbca;
+}
+
+.nav__logo {
+  display: none;
+  width: 250px;
+}
+
+.nav__site-title {
+  color: var(--black);
+  font-size: 28px;
+  font-weight: bold;
+  min-width: 250px;
+}
+
+.nav__tagline {
+  font-size: 12px;
+  margin-bottom: -8px;
+  width: 501px;
+}
+
+/* 
+ * Desktop Breakpoint
+ */
+
+@media (max-width: 1200px) {
+  header nav ul li a {
+    border-bottom: none;
+  }
+
+  nav {
+    align-items: flex-start;
+    padding: 0 1em;
+  }
+
+  .nav__site-title {
+    font-size: 26px;
+  }
+
+  #nav li:not(:last-child) {
+    border-bottom: 1px solid #eaecef;
+  }
+
+  .nav__tagline {
+    margin-left: 2px;
+    width: 100%;
+  }
+}
+
+/* 
+** Mobile Breakpoint
+*/
+
+@media (max-width: 700px) {
+  header nav ul li a {
+    background: none;
+  }
+}
