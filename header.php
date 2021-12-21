@@ -20,9 +20,9 @@
             $logo = wp_get_attachment_image_src($custom_logo_id);
           }
           ?>
-        <a href="/"><img src="<?php echo $logo[0] ?>" alt="Site Logo" class="nav__logo" /></a>
-        <a href="/" class="nav__title"><?php echo get_bloginfo( 'name' ); ?></a>
-        <p class="nav__tagline"><?php echo get_option('blogdescription'); ?></p>
+        <a href="/"><img src="<?php echo $logo[0] ?>" alt="Site Logo" class="nav--logo" /></a>
+        <a href="/" class="nav--title"><?php echo get_bloginfo( 'name' ); ?></a>
+        <p class="nav--tagline"><?php echo get_option('blogdescription'); ?></p>
 
         <?php
             wp_nav_menu(

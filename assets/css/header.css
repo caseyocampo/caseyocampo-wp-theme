@@ -35,19 +35,19 @@ header nav ul li a {
   border-bottom: 5px solid #73fbca;
 }
 
-.nav__logo {
+.nav--logo {
   display: none;
   width: 250px;
 }
 
-.nav__title {
+.nav--title {
   color: var(--black);
   font-size: 28px;
   font-weight: bold;
   min-width: 250px;
 }
 
-.nav__tagline {
+.nav--tagline {
   font-size: 12px;
   margin-bottom: -8px;
   width: 501px;
@@ -111,11 +111,11 @@ header nav ul li a {
     border-bottom: 1px solid #eaecef;
   }
 
-  .nav__title {
+  .nav--title {
     font-size: 26px;
   }
 
-  .nav__tagline {
+  .nav--tagline {
     margin-left: 2px;
     width: 100%;
   }

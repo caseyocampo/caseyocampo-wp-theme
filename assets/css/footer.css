@@ -41,14 +41,14 @@ footer .widget .textwidget {
   max-width: 300px;
 }
 
-.footer-content {
+.footer--content {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   max-width: var(--width-content);
 }
 
-.footer-credit {
+.footer--credit {
   max-width: var(--width-content);
   padding-top: 150px;
   padding-left: 1em;

@@ -13,7 +13,7 @@
 <!-- /sidebar-2 -->
 
 <footer>
-      <div class="footer-content">
+      <div class="footer--content">
         <div class="widgets">
         <?php
             dynamic_sidebar('footer-1');
@@ -21,8 +21,8 @@
         </div>
         <!-- /widgets  -->
       </div>
-      <!-- /footer-content -->
-      <p class="footer-credit">
+      <!-- /footer--content -->
+      <p class="footer--credit">
         <?php echo get_bloginfo( 'name' ); ?> © <?php echo date('Y'); ?>.
       </p>
     </footer>

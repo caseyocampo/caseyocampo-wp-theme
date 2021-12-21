@@ -78,9 +78,7 @@
   text-decoration: underline;
 }
 
-/* 
-  ** Desktop Breakpoint
-  */
+/* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
   .sidebar {
@@ -89,7 +87,7 @@
   }
 
   .sidebar-2,
-  .footer-content {
+  .footer--content {
     margin: 0 1em;
   }
 
