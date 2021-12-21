@@ -4,7 +4,7 @@
         <?php the_title(); ?>
     </h1>
 
-    <span class="page-featured-image">
+    <span class="page--featured-image">
         <?php
             if ( has_post_thumbnail() ) {
                 the_post_thumbnail();

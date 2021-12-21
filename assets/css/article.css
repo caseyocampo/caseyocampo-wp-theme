@@ -1,4 +1,4 @@
-/* Styles for the Article Page */
+/* Article Page */
 
 .single-container {
   margin: 0 auto;
@@ -18,14 +18,14 @@
   margin-bottom: 15px;
 }
 
-.page-container .single a {
+.page--container .single a {
   color: #458de2;
   text-decoration: underline;
   word-wrap: break-word;
 }
 
 .featured-image {
-  width: 100%;
+  max-width: 700px;
 }
 
 .archive .wp-post-image {
@@ -48,9 +48,7 @@
   text-decoration: none;
 }
 
-/* 
-  ** Desktop Breakpoint
-  */
+/* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
   .single-container {
@@ -62,8 +60,9 @@
   }
 
   .single .wp-post-image {
+    display: block;
     height: 100%;
-    width: 100%;
+    margin-bottom: 1em;
   }
 
   .post-meta {
@@ -76,9 +75,7 @@
   }
 }
 
-/* 
-  ** Mobile Breakpoint
-  */
+/* Mobile Breakpoint */
 
 @media (max-width: 700px) {
   .archive .post {
@@ -89,5 +86,6 @@
   .post-image,
   .archive .wp-post-image {
     width: 100%;
+    max-width: 700px;
   }
 }

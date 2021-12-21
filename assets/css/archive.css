@@ -11,12 +11,12 @@
   width: var(--width-content);
 }
 
-.archive .page-container .permalink {
+.archive .page--container .permalink {
   color: var(--black);
   text-decoration: none;
 }
 
-.archive .page-container a {
+.archive .page--container a {
   text-decoration: none;
 }
 

@@ -1,17 +1,15 @@
-<!-- Not sure how to comment about this page. It should show the blog list page but I think since this is the exact same code for the index.php page, that the index.php page is given priority. -->
+<!-- Archive Page: template for tag and category pages -->
 <?php
   get_header();
 ?>
     
   <section class="archive">
-    <!-- <div class="archive-container"> -->
-    <div class="page-container">
-      <!-- <div class="archive-content"> -->
-      <div class="page-content">
-      <h1>
-        <?php single_cat_title(); ?>
-      </h1>
-      <!-- <h1><?php the_tags('<span class="tag archive-tag">#', '</span><span class="tag archive-tag">#', '</span>'); ?></h1> -->
+    <div class="page--container page--container">
+      <div class="page--content">
+
+      <h1>Archive - <?php single_cat_title(); ?></h1>
+      
+      <!-- <?php the_tags('<span class="tag archive-tag">', '</span><span class="tag archive-tag">', '</span>'); ?> -->
 
           <!-- gets post or page content -->
           <?php

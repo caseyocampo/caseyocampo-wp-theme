@@ -1,39 +1,36 @@
-/* Page */
+/* Page Template */
 
-.page-page {
+.page {
   border-bottom: 1px solid #eaecef;
-}
-
-.page-page {
   display: flex;
   justify-content: center;
 }
 
-.page-margin {
+.page--margin {
   padding: 80px 1em;
 }
 
-.page-container {
+.page--container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: var(--width-content);
 }
 
-.page-content {
+.page--content {
   max-width: 800px;
 }
 
-.page-content h1 {
+.page--content h1 {
   margin-bottom: 30px;
 }
 
-.page-content h2 {
+.page--content h2 {
   line-height: 1.35;
   margin-top: 1.25em;
 }
 
-.page-content .post-content h2 {
+.page--content .post-content h2 {
   line-height: 1.35;
   margin-top: -5px;
 }
@@ -42,13 +39,13 @@
   line-height: 1.35;
 }
 
-.page-content p,
+.page--content p,
 .single p {
   margin: 15px 0;
 }
 
-.page-container a,
-.page-container .page-content-full a {
+.page--container a,
+.page--container .page-content-full a {
   color: var(--blue);
   text-decoration: underline;
 }
@@ -56,19 +53,19 @@
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
-  .page-container {
+  .page--container {
     padding: 30px 1em;
   }
 
-  .page-content {
+  .page--content {
     max-width: 100%;
   }
 
-  .page-margin {
+  .page--margin {
     padding: 30px 1em;
   }
 
-  .page-margin .page-container {
+  .page--margin .page--container {
     padding: 0;
   }
 }
@@ -81,7 +78,7 @@
     height: auto;
   }
 
-  .page-container {
+  .page--container {
     width: 100%;
   }
 }

@@ -3,9 +3,9 @@
     get_header();
 ?>
     
-    <section class="page-page">
-      <div class="page-container">
-        <div class="page-content">
+    <section class="page">
+      <div class="page--container">
+        <div class="page--content">
           
             <h1 style="margin-bottom: 30px;">404 Error: Page Not Found</h1>
             <p>Doh! The page you are looking for has been moved or no longer exists.</p>
@@ -44,7 +44,7 @@
 
             
         </div>
-        <!-- /page-content -->
+        <!-- /page--content -->
 
           
 
@@ -62,9 +62,9 @@
       
         
       </div>
-      <!-- /page-container  -->
+      <!-- /page--container  -->
     </section>
-    <!-- /page-page -->
+    <!-- /page -->
 
 <?php
   get_footer();

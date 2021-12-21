@@ -10,8 +10,8 @@ get_header();
 ?>
 <!-- /header -->
 
-<section class="page-page page-margin">
-    <div class="page-container">
+<section class="page page--margin">
+    <div class="page--container">
         <?php
         if (have_posts()) {
             while (have_posts()) {
@@ -22,9 +22,9 @@ get_header();
         }
         ?>
     </div>
-    <!-- /page-container -->
+    <!-- /page--container -->
 </section>
-<!-- /page-page -->
+<!-- /page -->
 
 <?php
 get_footer();

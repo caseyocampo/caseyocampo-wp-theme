@@ -19,11 +19,11 @@
         </span>
 
       
-      <span class="excerpt">
+      <!-- <span class="excerpt">
       <?php
           the_excerpt();
       ?>
-      </span>
+      </span> -->
       <a href="<?php the_permalink(); ?>" class="permalink read-more">Read More</a>
     </div>
 

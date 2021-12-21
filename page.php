@@ -1,11 +1,11 @@
-<!-- This document displays a single page -->
+<!-- Page Template -->
 <?php
     get_header();
 ?>
 <!-- /header -->
 
-    <section class="page-page page-margin">
-      <div class="page-container">
+    <section class="page page--margin">
+      <div class="page--container">
 
         <?php
             if (have_posts()) {
@@ -31,9 +31,9 @@
         <!-- /sidebar -->
 
         </div>
-        <!-- /page-container  -->
+        <!-- /page--container  -->
     </section>
-    <!-- /page-page -->
+    <!-- /page -->
 
 
 <?php

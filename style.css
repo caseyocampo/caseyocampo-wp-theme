@@ -1,7 +1,7 @@
 /*
 Theme Name: Minimalist Theme
 Text Domain: caseyocampo.com
-Version: 2.5
+Version: 3.0
 Description: Custom Minimalist WordPress theme.
 Tags: responsive, minimal, font awesome, right sidebar, bottom sidebar
 Author: Casey Ocampo
@@ -150,19 +150,19 @@ td {
   width: fit-content;
 }
 
-.single ol li,
-.single ul li,
-.page-page ol li,
-.page-page ul li {
-  margin-left: 2em;
-  margin-bottom: 1em;
-}
-
 .single ol,
 .single ul,
-.page-page ol,
-.page-page ul {
+.page ol,
+.page ul {
   margin: 1em 0;
+}
+
+.single ol li,
+.single ul li,
+.page ol li,
+.page ul li {
+  margin-left: 2em;
+  margin-bottom: 1em;
 }
 
 .avatar {
@@ -184,13 +184,13 @@ td {
   width: 250px;
 }
 
-.page-page ul li,
+.page ul li,
 .single ul li {
   margin-left: 2em;
   margin-bottom: 0.5em;
 }
 
-.page-page ul,
+.page ul,
 .single ul {
   margin: 1em 0;
 }
@@ -290,7 +290,7 @@ input#s {
   margin-left: 11.25px;
 }
 
-.page-container h1,
+.page--container h1,
 .archive-container h1 {
   margin-bottom: 30px;
   line-height: 1.35;
@@ -471,7 +471,7 @@ nav.navigation.post-navigation {
     margin: 40px 0 50px 0;
   }
 
-  .page-page ul li,
+  .page ul li,
   .single ul li {
     margin-left: 2em;
     margin-bottom: 0.5em;
@@ -508,15 +508,13 @@ nav.navigation.post-navigation {
   }
 }
 
-/* 
-** Mobile Breakpoint
-*/
+/* Mobile Breakpoint */
 
 @media (max-width: 700px) {
   .single ol li,
   .single ul li,
-  .page-page ol li,
-  .page-page ul li {
+  .page ol li,
+  .page ul li {
     margin-left: 1em;
   }
 }
@@ -550,7 +548,7 @@ nav.navigation.post-navigation {
 }
 
 .single-container .post-image .featured-image {
-  display: none;
+  max-width: 700px;
 }
 
 /* Customizer */

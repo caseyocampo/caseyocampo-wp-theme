@@ -2,8 +2,8 @@
   get_header();
 ?>
     
-<section class="page-page page-margin">
-  <div class="page-container">
+<section class="page page--margin">
+  <div class="page--container">
 
     <section class="single">
 

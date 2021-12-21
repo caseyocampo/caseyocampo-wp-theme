@@ -1,10 +1,10 @@
 <?php
     get_header();
 ?>
-    <section class="page-page archive front-page">
-      <div class="page-container">
-        <div class="page-content">
-		  <h1>Latest Posts</h1>
+    <section class="page archive front-page">
+      <div class="page--container">
+        <div class="page--content">
+		  <h1>Recent Posts</h1>
 
         <?php
             if (have_posts()) {
@@ -25,7 +25,7 @@
             ?>
 		 
         </div>
-        <!-- /.page-content -->
+        <!-- /.page--content -->
 
         <div class="sidebar">
           <div class="sidebar-widgets right-sidebar">
@@ -40,9 +40,9 @@
         <!-- /sidebar -->
 	
         </div>
-        <!-- /page-container  -->
+        <!-- /page--container  -->
     </section>
-    <!-- /page-page -->
+    <!-- /page -->
 
 
    
