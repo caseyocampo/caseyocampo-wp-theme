@@ -1,6 +1,6 @@
 /* Right Sidebar / Bio About The Author Style */
 
-.sidebar-bio:first-child {
+.sidebar--bio:first-child {
   margin-top: 0px;
   border-radius: 3px;
   background: #f9f7f5;
@@ -12,10 +12,11 @@
   text-decoration: underline;
 }
 
-.right-sidebar .textwidget a {
+.sidebar--right .sidebar--widget .textwidget a {
   text-decoration: underline;
 }
 
-.right-sidebar .sidebar-widget h3 {
+.sidebar--right .sidebar--widget h3 {
+  margin-top: 0;
   margin-bottom: 20px;
 }

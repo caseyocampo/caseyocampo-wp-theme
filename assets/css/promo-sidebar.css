@@ -8,7 +8,7 @@
   max-width: var(--width-content);
 }
 
-.sidebar-widget,
+.sidebar--widget,
 .sidebar-2-widget {
   margin-top: 50px;
   padding: 20px;
@@ -23,12 +23,12 @@
   width: 300px;
 }
 
-.sidebar-widget h2,
+.sidebar--widget h2,
 .sidebar-2-widget h2 {
   margin-bottom: 25px;
 }
 
-.sidebar-widget:first-child {
+.sidebar--widget:first-child {
   margin-top: 0px;
 }
 

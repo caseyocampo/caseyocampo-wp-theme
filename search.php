@@ -32,7 +32,7 @@
             ?>
 
         </div>   -->
-        <!-- /sidebar-widgets -->
+        <!-- /  -->
 <!--     </div> -->
     <!-- /sidebar-2 -->
 

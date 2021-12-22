@@ -542,7 +542,7 @@ nav.navigation.post-navigation {
   opacity: 0.5;
 }
 
-.sidebar-bio h3,
+.sidebar--bio h3,
 .author-bio h3 {
   margin-top: 0;
 }
@@ -561,7 +561,7 @@ body.customize-partial-edit-shortcuts-shown {
   background: white;
 }
 
-.sidebar-bio:first-child,
+.sidebar--bio:first-child,
 .author-bio {
   margin-top: 0px;
   border-radius: 3px;

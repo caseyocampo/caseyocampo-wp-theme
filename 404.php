@@ -49,14 +49,14 @@
           
 
         <div class="sidebar">
-            <div class="sidebar-widgets right-sidebar">
+            <div class="sidebar--right">
 
               <?php
-              dynamic_sidebar('sidebar-bio-area');
+              dynamic_sidebar('sidebar-bio');
               ?>
 
             </div>
-            <!-- /sidebar-widgets -->
+            <!-- /  -->
         </div>
         <!-- /sidebar -->
       

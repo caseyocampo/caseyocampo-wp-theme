@@ -39,7 +39,7 @@ function minimalist_register_styles()
     wp_enqueue_style('minimalist-page-full', get_template_directory_uri()."/assets/css/page-full.css", $version, 'all');
     wp_enqueue_style('minimalist-page', get_template_directory_uri()."/assets/css/page.css", $version, 'all');
     wp_enqueue_style('minimalist-promo-sidebar', get_template_directory_uri()."/assets/css/promo-sidebar.css", $version, 'all');
-    wp_enqueue_style('minimalist-right-sidebar', get_template_directory_uri()."/assets/css/right-sidebar.css", $version, 'all');
+    wp_enqueue_style('minimalist-sidebar-right', get_template_directory_uri()."/assets/css/sidebar-right.css", $version, 'all');
     wp_enqueue_style('minimalist-tags', get_template_directory_uri()."/assets/css/tags.css", $version, 'all');
     wp_enqueue_style('minimalist-fontawesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css", array(), '5.13.0', 'all');
 }
@@ -61,11 +61,11 @@ function minimalist_widget_areas()
         array(
             'before_title' => '<h3>',
             'after_title' => '</h3>',
-            'before_widget' => '<div class="sidebar-widget sidebar-bio">',
+            'before_widget' => '<div class="sidebar--widget sidebar--bio">',
             'after_widget' => '</div>',
             'name' => 'Right Sidebar Bio Area',
-            'id' => 'sidebar-bio-area',
-            'description' => 'Right Sidebar Widget Area'
+            'id' => 'sidebar-bio',
+            'description' => 'Right Sidebar Bio Area'
         )
     );
 
@@ -73,7 +73,7 @@ function minimalist_widget_areas()
         array(
             'before_title' => '<h3>',
             'after_title' => '</h3>',
-            'before_widget' => '<div class="sidebar-widget">',
+            'before_widget' => '<div class="sidebar--widget">',
             'after_widget' => '</div>',
             'name' => 'Right Sidebar Promo Area',
             'id' => 'sidebar-promo-area',
