@@ -18,11 +18,11 @@
                 }
             ?>
 		  
-		  <?php
+            <?php
                 the_posts_pagination(array(
-					'screen_reader_text' => '',
-					'title' => '',
-					));
+                    'screen_reader_text' => '',
+                    'title' => '',
+                    ));
             ?>
 		 
         </div>
