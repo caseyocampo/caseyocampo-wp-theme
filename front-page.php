@@ -1,6 +1,7 @@
 <?php
     get_header();
 ?>
+
     <section class="page archive front-page">
       <div class="page--container">
         <div class="page--content">
@@ -35,17 +36,12 @@
               ?>
 
           </div>
-          <!-- /  -->
         </div>
-        <!-- /sidebar -->
 	
         </div>
         <!-- /page--container  -->
     </section>
     <!-- /page -->
-
-
-   
 
 <?php
     get_footer();

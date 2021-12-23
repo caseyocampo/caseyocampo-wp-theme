@@ -1,4 +1,3 @@
-<!-- Archive Page: template for tag and category pages -->
 <?php
   get_header();
 ?>
@@ -41,16 +40,13 @@
               ?>
 
           </div>
-          <!-- /.  -->
         </div>
-        <!-- /.sidebar -->
      
         
       </div>
     <!-- /.archive-container  -->
 	  
   </section>
-  <!-- /.archive -->
 
     
 <?php

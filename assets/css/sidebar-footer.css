@@ -1,0 +1,10 @@
+.sidebar--footer {
+  margin: 0 auto;
+  padding: 0 0 80px 0;
+  max-width: var(--width-content);
+}
+
+.sidebar-2-widgets {
+  display: flex;
+  justify-content: space-between;
+}

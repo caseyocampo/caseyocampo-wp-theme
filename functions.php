@@ -38,8 +38,9 @@ function minimalist_register_styles()
     wp_enqueue_style('minimalist-front-page', get_template_directory_uri()."/assets/css/front-page.css", $version, 'all');
     wp_enqueue_style('minimalist-page-full', get_template_directory_uri()."/assets/css/page-full.css", $version, 'all');
     wp_enqueue_style('minimalist-page', get_template_directory_uri()."/assets/css/page.css", $version, 'all');
-    wp_enqueue_style('minimalist-promo-sidebar', get_template_directory_uri()."/assets/css/promo-sidebar.css", $version, 'all');
+    wp_enqueue_style('minimalist-sidebar-promo', get_template_directory_uri()."/assets/css/sidebar-promo.css", $version, 'all');
     wp_enqueue_style('minimalist-sidebar-right', get_template_directory_uri()."/assets/css/sidebar-right.css", $version, 'all');
+    wp_enqueue_style('minimalist-sidebar-footer', get_template_directory_uri()."/assets/css/sidebar-footer.css", $version, 'all');
     wp_enqueue_style('minimalist-tags', get_template_directory_uri()."/assets/css/tags.css", $version, 'all');
     wp_enqueue_style('minimalist-fontawesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css", array(), '5.13.0', 'all');
 }
@@ -65,7 +66,7 @@ function minimalist_widget_areas()
             'after_widget' => '</div>',
             'name' => 'Right Sidebar Bio Area',
             'id' => 'sidebar-bio',
-            'description' => 'Right Sidebar Bio Area'
+            'description' => 'Right Sidebar Widget Bio Area'
         )
     );
 
@@ -87,9 +88,9 @@ function minimalist_widget_areas()
             'after_title' => '</h2>',
             'before_widget' => '<div class="sidebar-2-widget">',
             'after_widget' => '</div>',
-            'name' => 'Bottom Sidebar Area',
-            'id' => 'sidebar-2',
-            'description' => 'Bottom Sidebar Widget Area'
+            'name' => 'Sidebar Footer Area',
+            'id' => 'sidebar-footer',
+            'description' => 'Sidebar Footer Widget Area'
         )
     );
 
@@ -108,6 +109,7 @@ function minimalist_widget_areas()
 
 add_action('widgets_init', 'minimalist_widget_areas');
 ?>
+
 <?php
     // Limit excerpt word count
     
@@ -116,6 +118,7 @@ add_action('widgets_init', 'minimalist_widget_areas');
     }
     add_filter( 'excerpt_length', 'minimalist_excerpt_length', 999 );
 ?>
+
 <?php
 	function add_cors_http_header(){
     	header("Access-Control-Allow-Origin: *");
@@ -123,6 +126,7 @@ add_action('widgets_init', 'minimalist_widget_areas');
 
 	add_action('init','add_cors_http_header');
 ?>
+
 <?php
 	add_filter('jpeg_quality', function($arg){return 100;});
 	add_filter('jpg_quality', function($arg){return 100;});

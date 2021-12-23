@@ -1,4 +1,3 @@
-<!-- This document displays a search results page -->
 <?php
   get_header();
 ?>
@@ -23,18 +22,6 @@
       <!-- /archive-container  -->
     </section>
     <!-- /archive -->
-
-<!--     <div class="sidebar-2">
-        <div class="sidebar-2-widgets">
-
-            <?php
-//                 dynamic_sidebar('sidebar-2');
-            ?>
-
-        </div>   -->
-        <!-- /  -->
-<!--     </div> -->
-    <!-- /sidebar-2 -->
 
     
 <?php
