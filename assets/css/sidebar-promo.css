@@ -52,11 +52,6 @@
   margin-left: 0;
 }
 
-.sidebar-1-link {
-  color: var(--black);
-  text-decoration: underline;
-}
-
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {

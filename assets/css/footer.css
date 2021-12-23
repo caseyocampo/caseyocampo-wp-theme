@@ -1,9 +1,11 @@
-/* Footer */
-
 footer {
-  background: #141d27;
+  background: var(--bg-black);
   color: #ffffff;
   padding: 80px 0 10px 0;
+}
+
+footer h2 {
+  color: white;
 }
 
 footer .widget a,
@@ -49,6 +51,7 @@ footer .widget .textwidget {
 }
 
 .footer--credit {
+  color: white;
   max-width: var(--width-content);
   padding-top: 150px;
   padding-left: 1em;

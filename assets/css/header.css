@@ -1,5 +1,3 @@
-/* Header */
-
 header {
   background: white;
   border-bottom: 1px solid #eaecef;
@@ -25,14 +23,13 @@ header nav ul {
 header nav ul li a {
   color: var(--black);
   display: inline-block;
-  font-weight: 800;
   padding-top: 1em;
-  margin: 0 0.5em;
+  margin: 0 1em;
   white-space: nowrap;
 }
 
 header nav ul li a {
-  border-bottom: 5px solid #73fbca;
+  border-bottom: 5px solid none;
 }
 
 .nav--logo {

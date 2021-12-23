@@ -15,6 +15,10 @@
   margin: 0;
 }
 
+.article img {
+  margin-top: 1em;
+}
+
 .single h1 {
   margin-top: 5px;
   margin-bottom: 15px;
