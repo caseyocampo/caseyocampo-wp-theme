@@ -3,17 +3,12 @@
 }
 
 .sidebar--widget,
-.sidebar-2-widget {
+.sidebar--footer--widget {
   margin-top: 50px;
   padding: 20px;
 }
 
-.sidebar-2-widget {
-  width: 300px;
-}
-
-.sidebar--widget h2,
-.sidebar-2-widget h2 {
+.sidebar--footer--widget h2 {
   margin-bottom: 25px;
 }
 
@@ -73,13 +68,5 @@
   .sidebar--footer,
   .footer--content {
     margin: 0 1em;
-  }
-
-  .sidebar-2-widgets {
-    flex-direction: column;
-  }
-
-  .sidebar-2-widget {
-    width: 100%;
   }
 }

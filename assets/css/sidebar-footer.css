@@ -4,7 +4,23 @@
   max-width: var(--width-content);
 }
 
-.sidebar-2-widgets {
+.sidebar--footer--widgets {
   display: flex;
   justify-content: space-between;
+}
+
+.sidebar--footer--widget {
+  width: 300px;
+}
+
+/* Desktop Breakpoint */
+
+@media (max-width: 1200px) {
+  .sidebar--footer--widgets {
+    flex-direction: column;
+  }
+
+  .sidebar--footer--widget {
+    width: 100%;
+  }
 }

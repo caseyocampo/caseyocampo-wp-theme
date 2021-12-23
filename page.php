@@ -22,7 +22,7 @@
             <div class="sidebar--right">
 
                 <?php
-                dynamic_sidebar('sidebar-bio');
+                dynamic_sidebar('sidebar-right');
                 ?>
 
             </div>

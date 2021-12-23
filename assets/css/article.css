@@ -1,15 +1,17 @@
-/* Article Page */
-
-.single-container {
+.article {
   margin: 0 auto;
   max-width: 700px;
 }
 
-.single-container .post-image {
+.article .post-image .featured--image {
+  max-width: 700px;
+}
+
+.article .post-image {
   width: 100%;
 }
 
-.archive .post-content p {
+.archive .post--content p {
   margin: 0;
 }
 
@@ -24,7 +26,7 @@
   word-wrap: break-word;
 }
 
-.featured-image {
+.featured--image {
   max-width: 700px;
 }
 
@@ -33,7 +35,7 @@
   height: auto;
 }
 
-.post-meta {
+.article--meta {
   display: inline-block;
 }
 
@@ -51,7 +53,7 @@
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
-  .single-container {
+  .article {
     max-width: 100%;
   }
 
@@ -65,7 +67,7 @@
     margin-bottom: 1em;
   }
 
-  .post-meta {
+  .article--meta {
     margin-top: 3px;
   }
 

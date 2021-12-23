@@ -24,12 +24,10 @@
 
             
         </div>
-      <!-- /archive-container  -->
     </section>
-    <!-- /archive -->
 
     <div class="sidebar--footer">
-        <div class="sidebar-2-widgets">
+        <div class="sidebar--footer--widgets">
 
             <?php
                 dynamic_sidebar('sidebar-footer');

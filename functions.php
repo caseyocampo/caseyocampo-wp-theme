@@ -65,7 +65,7 @@ function minimalist_widget_areas()
             'before_widget' => '<div class="sidebar--widget sidebar--bio">',
             'after_widget' => '</div>',
             'name' => 'Right Sidebar Bio Area',
-            'id' => 'sidebar-bio',
+            'id' => 'sidebar-right',
             'description' => 'Right Sidebar Widget Bio Area'
         )
     );
@@ -86,7 +86,7 @@ function minimalist_widget_areas()
         array(
             'before_title' => '<h2>',
             'after_title' => '</h2>',
-            'before_widget' => '<div class="sidebar-2-widget">',
+            'before_widget' => '<div class="sidebar--footer--widget">',
             'after_widget' => '</div>',
             'name' => 'Sidebar Footer Area',
             'id' => 'sidebar-footer',
