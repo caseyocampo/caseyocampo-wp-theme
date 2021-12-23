@@ -17,7 +17,7 @@
 
 .single .tag a {
   border-radius: 15px;
-  color: var(--white);
+  color: white;
   display: inline-block;
   text-decoration: none;
 }

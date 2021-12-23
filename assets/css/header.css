@@ -1,7 +1,7 @@
 /* Header */
 
 header {
-  background: var(--white);
+  background: white;
   border-bottom: 1px solid #eaecef;
   display: flex;
   justify-content: center;
@@ -103,7 +103,7 @@ header nav ul li a {
   }
 
   #nav.responsive a:hover {
-    background: var(--white);
+    background: white;
     color: var(--black);
   }
 
