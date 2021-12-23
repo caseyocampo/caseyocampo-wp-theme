@@ -2,16 +2,21 @@
 
 .tag a {
   background: var(--blue);
-  border-radius: 5px;
+  border-radius: 15px;
   color: white;
   display: inline-block;
   font-size: 16px;
   margin-right: 5px;
   margin-bottom: 10px;
-  padding: 1px 10px 2px 10px;
+  padding: 1px 15px 2px 15px;
+}
+
+.archive .tag {
+  margin-right: 8px;
 }
 
 .single .tag a {
+  border-radius: 15px;
   color: var(--white);
   display: inline-block;
   text-decoration: none;
@@ -38,11 +43,11 @@ a.tag-cloud-link.tag-link-position-18,
 a.tag-cloud-link.tag-link-position-19,
 a.tag-cloud-link.tag-link-position-20 {
   background: var(--blue);
-  border-radius: 5px;
+  border-radius: 15px;
   color: white;
   display: inline-block;
   font-size: 16px !important;
   margin-right: 5px;
   margin-bottom: 10px;
-  padding: 1px 10px 2px 10px;
+  padding: 1px 15px 2px 15px;
 }

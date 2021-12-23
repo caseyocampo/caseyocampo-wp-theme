@@ -21,17 +21,13 @@
 }
 
 .archive .wp-post-image {
+  border-radius: 7px;
   width: 300px;
   height: auto;
 }
 
-.archive-tag {
-  font-size: 30px;
-  margin-bottom: 0px;
-}
-
-.archive .tag {
-  margin-right: 8px;
+.single .wp-post-image {
+  border-radius: 7px;
 }
 
 .read-more {
