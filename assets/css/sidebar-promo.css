@@ -2,10 +2,13 @@
   width: 300px;
 }
 
+.sidebar--widget {
+  padding: 0 20px;
+}
+
 .sidebar--widget,
 .sidebar--footer--widget {
   margin-top: 50px;
-  padding: 20px;
 }
 
 .sidebar--footer--widget h2 {
@@ -60,8 +63,7 @@
     width: 100%;
   }
 
-  .sidebar--footer,
-  .footer--content {
-    margin: 0 1em;
+  .sidebar--right .sidebar--widget {
+    padding: 0;
   }
 }

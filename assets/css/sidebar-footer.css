@@ -16,11 +16,21 @@
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
+  .sidebar--footer {
+    padding: 0 1em 80px 1em;
+  }
+
   .sidebar--footer--widgets {
     flex-direction: column;
   }
 
   .sidebar--footer--widget {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .footer--content .widgets {
+    flex-direction: column;
   }
 }

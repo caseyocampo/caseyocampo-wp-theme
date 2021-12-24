@@ -43,9 +43,8 @@ footer .widget .textwidget {
   max-width: 300px;
 }
 
-.footer--content {
+.footer--content .widgets {
   display: flex;
-  flex-direction: column;
   margin: 0 auto;
   max-width: var(--width-content);
 }
@@ -56,4 +55,12 @@ footer .widget .textwidget {
   padding-top: 150px;
   padding-left: 1em;
   margin: 0 auto;
+}
+
+/* Desktop Breakpoint */
+
+@media (max-width: 1200px) {
+  .footer--content .widgets {
+    padding: 0 1em;
+  }
 }

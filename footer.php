@@ -14,7 +14,7 @@
     <div class="footer--content">
       <div class="widgets">
         <?php
-          dynamic_sidebar('footer-1');
+          dynamic_sidebar('footer-widget-area');
         ?>
       </div>
     </div>

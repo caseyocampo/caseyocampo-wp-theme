@@ -100,8 +100,8 @@ function minimalist_widget_areas()
             'after_title' => '</h2>',
             'before_widget' => '<div class="widget">',
             'after_widget' => '</div>',
-            'name' => 'Footer Area',
-            'id' => 'footer-1',
+            'name' => 'Footer Widget Area',
+            'id' => 'footer-widget-area',
             'description' => 'Footer Widget Area'
         )
     );
