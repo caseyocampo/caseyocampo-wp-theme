@@ -316,7 +316,7 @@ input#s {
 }
 
 .read-more {
-  border-bottom: 5px solid #73fbca;
+  border-bottom: 5px solid var(--blue);
   font-weight: bold;
   width: fit-content;
 }
@@ -354,7 +354,7 @@ nav.navigation.pagination {
 }
 
 .pagination .current {
-  color: var(--aqua);
+  color: var(--blue);
 }
 
 .pagination .screen-reader-text {
