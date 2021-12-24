@@ -115,6 +115,13 @@ td {
   padding: 10px 15px;
 }
 
+hr {
+  border-width: 0;
+  color: #eaecef;
+  background: #eaecef;
+  height: 1px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 30px;
@@ -319,6 +326,16 @@ input#s {
   border-bottom: 5px solid var(--blue);
   font-weight: bold;
   width: fit-content;
+}
+
+.github--link {
+  background: var(--black);
+  border-radius: 30px;
+  color: white !important;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 15px;
+  text-decoration: none !important;
 }
 
 nav.navigation.pagination {

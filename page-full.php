@@ -4,11 +4,9 @@ Template Name: Full Width Template
 */
 ?>
 
-<!-- This document displays a single page -->
 <?php
 get_header();
 ?>
-<!-- /header -->
 
 <section class="page page--margin">
     <div class="page--container">
@@ -22,9 +20,7 @@ get_header();
         }
         ?>
     </div>
-    <!-- /page--container -->
 </section>
-<!-- /page -->
 
 <?php
 get_footer();
