@@ -23,13 +23,24 @@ window.onclick = function (toggle) {
 }
 
 // ADD ACTIVE CLASS TO NAV LINK WHEN SELECTED
-$(function () {
-  var current = location.pathname
+// $(function () {
+//   var current = location.pathname
+//   $('#nav li a').each(function () {
+//     var $this = $(this)
+//     // if the current path is like this link, make it active
+//     if ($this.attr('href').indexOf(current) !== -1) {
+//       $this.addClass('active')
+//     } else {
+//       $this.removeClass('active')
+//     }
+//   })
+// })
+
+// ADD ACTIVE CLASS TO NAV LINK WHEN SELECTED
+$(document).ready(function () {
   $('#nav li a').each(function () {
-    var $this = $(this)
-    // if the current path is like this link, make it active
-    if ($this.attr('href').indexOf(current) !== -1) {
-      $this.addClass('active')
+    if (this.href == window.location.href) {
+      $(this).addClass('active')
     }
   })
 })
