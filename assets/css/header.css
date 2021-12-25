@@ -32,6 +32,10 @@ header nav ul li a {
   border-bottom: 3px solid white;
 }
 
+header nav ul li a:hover {
+  border-bottom: 3px solid var(--blue);
+}
+
 .active {
   border-bottom: 3px solid var(--blue);
 }
