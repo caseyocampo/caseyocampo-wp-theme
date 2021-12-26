@@ -18,11 +18,9 @@ Author URI: https://caseyocampo.com
 
 :root {
   --aqua: #73fbca;
-  --black: #24282e;
   --black: #252525;
-  --bg-black: #121820;
   --blue: #458de2;
-  --lightgrey: #f2f2f2;
+  --greylight: #f2f2f2;
   --width-content: 1175px;
   --width-mobile: 700px;
 }
@@ -105,12 +103,12 @@ table {
 
 th {
   background: var(--black);
-  color: var(--lightgrey);
+  color: var(--greylight);
   padding: 15px 25px;
 }
 
 td {
-  background: var(--lightgrey);
+  background: var(--greylight);
   margin: 1px;
   padding: 10px 15px;
 }
@@ -266,7 +264,7 @@ input#s {
 
 .social-media-link {
   background: var(--black);
-  color: var(--lightgrey);
+  color: var(--greylight);
   border-radius: 50%;
   display: inline-block;
   height: 45px;
