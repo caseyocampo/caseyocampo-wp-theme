@@ -74,6 +74,10 @@ header nav ul li a:hover {
     flex-direction: column;
   }
 
+  .active {
+    border-bottom: 3px solid white;
+  }
+
   #nav {
     display: none;
   }
