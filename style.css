@@ -144,6 +144,7 @@ hr {
 
 .disclaimer {
   background: #f5f6f7;
+  border-radius: 7px;
   padding: 10px 20px;
   color: #6c7f87;
   font-size: 14px;

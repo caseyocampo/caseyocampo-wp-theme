@@ -78,6 +78,10 @@ header nav ul li a:hover {
     border-bottom: 3px solid white;
   }
 
+  header nav ul li a:hover {
+    border-bottom: 3px solid white;
+  }
+
   #nav {
     display: none;
   }
