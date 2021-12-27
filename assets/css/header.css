@@ -125,6 +125,7 @@ header nav ul li a:hover {
   }
 
   .nav--tagline {
+    margin-top: -3px;
     margin-left: 2px;
     width: 100%;
   }
