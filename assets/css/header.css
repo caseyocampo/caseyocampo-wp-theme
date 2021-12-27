@@ -75,11 +75,11 @@ header nav ul li a:hover {
   }
 
   .active {
-    border-bottom: 3px solid white;
+    border-bottom: none;
   }
 
   header nav ul li a:hover {
-    border-bottom: 3px solid white;
+    border-bottom: none;
   }
 
   #nav {
