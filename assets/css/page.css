@@ -11,9 +11,12 @@
 }
 
 .page--container {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2em;
   width: var(--width-content);
 }
 
@@ -54,6 +57,7 @@
 
 @media (max-width: 1200px) {
   .page--container {
+    grid-auto-flow: row;
     padding: 30px 1em;
   }
 

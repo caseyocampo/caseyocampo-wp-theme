@@ -1,10 +1,10 @@
 .article {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .article .post-image .featured--image {
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .article .post-image {
@@ -41,7 +41,8 @@
 
 .article--meta {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 1em;
 }
 
 .post-credit {
@@ -79,6 +80,13 @@
   .single img {
     max-width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .post {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
   }
 }
 
