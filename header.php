@@ -7,6 +7,23 @@
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
       type="text/javascript"
     ></script>
+
+  <!-- LinkedIn Card -->
+
+  <meta property='og:title' content='Casey Ocampo | Writer and React Developer' />
+  <meta
+    property='og:image'
+    content='https://raw.githubusercontent.com/caseyocampo/caseyocampo.com/master/src/assets/images/hello_homepage.jpeg'
+  />
+  <meta
+    property='og:description'
+    content='Welcome to my humble corner of the internet where I share my front-end projects and thoughts on tech.'
+  />
+  <meta
+    property='og:url'
+    content='https://caseyocampo.com/'
+  />
+
     <?php
       wp_head();
     ?>

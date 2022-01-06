@@ -88,7 +88,7 @@ function minimalist_widget_areas()
             'after_title' => '</h2>',
             'before_widget' => '<div class="sidebar--footer--widget">',
             'after_widget' => '</div>',
-            'name' => 'Sidebar Footer Area',
+            'name' => 'Footer Sidebar Area',
             'id' => 'sidebar-footer',
             'description' => 'Sidebar Footer Widget Area'
         )
