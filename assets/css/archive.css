@@ -38,13 +38,11 @@
   width: 300px;
 }
 
-/* 
-  ** Desktop Breakpoint
-  */
+/* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
   .archive {
-    padding: 0px;
+    padding: 0;
   }
 
   .archive-container {

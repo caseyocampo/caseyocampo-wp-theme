@@ -8,7 +8,7 @@ Template Name: Full Width Template
 get_header();
 ?>
 
-<section class="page page--margin">
+<section class="page">
     <div class="page--container">
         <?php
         if (have_posts()) {

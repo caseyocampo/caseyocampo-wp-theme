@@ -2,8 +2,8 @@
   get_header();
 ?>
     
-  <section class="archive">
-    <div class="page--container page--container">
+  <section class="page archive">
+    <div class="page--container">
       <div class="page--content">
 
       <h1>Archive - <?php single_cat_title(); ?></h1>
@@ -30,7 +30,6 @@
           ?>
 
         </div>
-        <!-- /.archive-content -->
 
         <div class="sidebar">
           <div class="sidebar--right">

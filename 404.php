@@ -6,7 +6,7 @@
     <div class="page--container">
       <div class="page--content">
         
-        <h1 style="margin-bottom: 30px;">404 Error: Page Not Found</h1>
+        <h1 style="margin-bottom: 30px">404 Error: Page Not Found</h1>
         <p>Doh! The page you are looking for has been moved or no longer exists.</p>
       
         <form

@@ -1,22 +1,14 @@
-/* Page Template */
-
 .page {
   border-bottom: 1px solid #eaecef;
   display: flex;
   justify-content: center;
-}
-
-.page--margin {
   padding: 80px 1em;
 }
 
 .page--container {
-  /* display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; */
   display: grid;
   grid-auto-flow: column;
-  grid-gap: 2em;
+  justify-content: space-between;
   width: var(--width-content);
 }
 
@@ -56,21 +48,29 @@
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
-  .page--container {
-    grid-auto-flow: row;
+  .page {
     padding: 30px 1em;
   }
 
+  .page--container {
+    /* grid-auto-flow: row; */
+    grid-template-columns: 70% auto;
+    grid-gap: 2em;
+    padding: 30px 1em;
+  }
+
+  .page--container {
+    padding: 0;
+  }
   .page--content {
     max-width: 100%;
   }
+}
 
-  .page--margin {
-    padding: 30px 1em;
-  }
-
-  .page--margin .page--container {
-    padding: 0;
+@media (max-width: 1024px) {
+  .page--container {
+    grid-template-columns: none;
+    grid-auto-flow: row;
   }
 }
 

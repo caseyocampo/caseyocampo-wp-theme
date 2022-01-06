@@ -25,3 +25,9 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
+
+@media (max-width: 1200px) {
+  .sidebar--right .sidebar--widget:not(:first-child) {
+    padding: 0;
+  }
+}

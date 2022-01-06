@@ -4,7 +4,7 @@
 ?>
 <!-- /header -->
 
-    <section class="page page--margin">
+    <section class="page">
       <div class="page--container">
 
         <?php
