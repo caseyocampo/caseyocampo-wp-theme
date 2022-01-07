@@ -1,7 +1,7 @@
 /*
 Theme Name: Minimalist Theme
 Text Domain: caseyocampo.com
-Version: 3.1
+Version: 3.12
 Description: Custom Minimalist WordPress theme.
 Tags: responsive, minimal, font awesome, right sidebar, bottom sidebar
 Author: Casey Ocampo
@@ -22,7 +22,7 @@ Author URI: https://caseyocampo.com
   --blue: #458de2;
   --greylight: #f2f2f2;
   --width-content: 1175px;
-  --w-tablet: 1024px;
+  --w-tablet: 900px;
   --width-mobile: 700px;
 }
 

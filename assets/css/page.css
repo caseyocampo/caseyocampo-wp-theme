@@ -53,10 +53,10 @@
   }
 
   .page--container {
-    /* grid-auto-flow: row; */
     grid-template-columns: 70% auto;
     grid-gap: 2em;
     padding: 30px 1em;
+    width: 100%;
   }
 
   .page--container {
@@ -67,7 +67,9 @@
   }
 }
 
-@media (max-width: 1024px) {
+/* Tablet Breakpoint */
+
+@media (max-width: 900px) {
   .page--container {
     grid-template-columns: none;
     grid-auto-flow: row;

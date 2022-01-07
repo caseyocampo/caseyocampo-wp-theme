@@ -63,10 +63,6 @@
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
-  .article {
-    max-width: 100%;
-  }
-
   .single h1 {
     line-height: 1.25;
   }
@@ -91,6 +87,16 @@
   .post {
     margin-bottom: 25px;
     padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .article {
+    max-width: 100%;
+  }
+
+  .single .wp-post-image {
+    width: 100%;
   }
 }
 
