@@ -10,7 +10,7 @@
 
   <!-- LinkedIn Card -->
 
-  <meta property='og:title' content='Casey Ocampo | Writer and React Developer' />
+  <meta property='og:title' content='Casey Ocampo | Documenting Habits, Strategies, and Progress' />
   <meta
     property='og:image'
     content='https://raw.githubusercontent.com/caseyocampo/caseyocampo.com/master/src/assets/images/hello_homepage.jpeg'
@@ -23,6 +23,8 @@
     property='og:url'
     content='https://caseyocampo.com/'
   />
+
+  <meta name="author" content="Casey Ocampo">
 
     <?php
       wp_head();
