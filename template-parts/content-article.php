@@ -12,7 +12,7 @@
 	</div>
 	
 	<span class="article--meta">
-		<span class="article--date"><?php echo get_the_date(); ?></span><?php the_tags('<span class="tag">', '</span><span class="tag">', '</span>'); ?>
+		<span class="article--date"><?php echo get_the_date(); ?> | </span><?php the_tags('<span class="tag">', '</span><span class="tag">', '</span>'); ?>
 	</span>
 
 	<?php 

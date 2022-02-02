@@ -1,137 +1,137 @@
 header {
-  background: white;
-  border-bottom: 1px solid #eaecef;
-  display: flex;
-  justify-content: center;
-  padding: 20px 0;
+    background: white;
+    border-bottom: 1px solid #eaecef;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 nav {
-  align-items: center;
-  display: flex;
-  width: var(--width-content);
+    align-items: center;
+    display: flex;
+    width: var(--width-content);
 }
 
 header nav ul {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  justify-content: flex-end;
-  width: 100%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 header nav ul li a {
-  color: var(--black);
-  display: inline-block;
-  padding-top: 1em;
-  margin: 0 1em;
-  white-space: nowrap;
+    color: var(--black);
+    display: inline-block;
+    padding-top: 1em;
+    margin: 0 1em;
+    white-space: nowrap;
 }
 
 header nav ul li a {
-  border-bottom: 3px solid white;
+    border-bottom: 3px solid white;
 }
 
 header nav ul li a:hover {
-  border-bottom: 3px solid var(--blue);
+    border-bottom: 3px solid var(--blue);
 }
 
 .active {
-  border-bottom: 3px solid var(--blue);
+    border-bottom: 3px solid var(--blue);
 }
 
 .nav--logo {
-  display: none;
-  width: 250px;
+    display: none;
+    width: 250px;
 }
 
 .nav--title {
-  color: var(--black);
-  font-size: 28px;
-  font-weight: bold;
-  min-width: 205px;
+    color: var(--black);
+    font-size: 28px;
+    font-weight: bold;
+    min-width: 205px;
 }
 
 .nav--tagline {
-  font-size: 12px;
-  margin-bottom: -8px;
-  width: 501px;
+    font-size: 12px;
+    margin-bottom: -8px;
+    width: 501px;
 }
 
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
-  header nav ul li a {
-    border-bottom: none;
-    margin: 0;
-  }
+    header nav ul li a {
+        border-bottom: none;
+        margin: 0;
+    }
 
-  header nav ul li a:hover {
-    border-bottom: none;
-  }
+    header nav ul li a:hover {
+        border-bottom: none;
+    }
 
-  nav {
-    align-items: flex-start;
-    padding: 0 1em;
-  }
+    nav {
+        align-items: flex-start;
+        padding: 0 1em;
+    }
 
-  nav {
-    flex-direction: column;
-  }
+    nav {
+        flex-direction: column;
+    }
 
-  .active {
-    border-bottom: none;
-  }
+    .active {
+        border-bottom: none;
+    }
 
-  #nav {
-    display: none;
-  }
+    #nav {
+        display: none;
+    }
 
-  #nav-btn {
-    background: transparent;
-    border: none;
-    color: white;
-    display: block;
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
+    #nav-btn {
+        background: transparent;
+        border: none;
+        color: white;
+        display: block;
+        float: right;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
 
-  .toggle-nav {
-    color: var(--black);
-    font-size: 21px;
-    padding: 1.2em 1.5em;
-    padding: 1.1em 1.5em;
-  }
+    .toggle-nav {
+        color: var(--black);
+        font-size: 21px;
+        padding: 1.2em 1.5em;
+        padding: 1.1em 1.5em;
+    }
 
-  #nav.responsive {
-    display: block;
-    margin-top: 1em;
-    text-align: left;
-  }
+    #nav.responsive {
+        display: block;
+        margin-top: 1em;
+        text-align: left;
+    }
 
-  #nav a {
-    padding: 1em 1em 1em 0;
-    width: 100%;
-  }
+    #nav a {
+        padding: 1em 1em 1em 0;
+        width: 100%;
+    }
 
-  #nav.responsive a:hover {
-    background: white;
-    color: var(--black);
-  }
+    #nav.responsive a:hover {
+        background: white;
+        color: var(--black);
+    }
 
-  #nav li:not(:last-child) {
-    border-bottom: 1px solid #eaecef;
-  }
+    #nav li:not(:last-child) {
+        border-bottom: 1px solid #eaecef;
+    }
 
-  .nav--title {
-    font-size: 26px;
-  }
+    .nav--title {
+        font-size: 26px;
+    }
 
-  .nav--tagline {
-    margin-top: -3px;
-    margin-left: 2px;
-    width: 100%;
-  }
+    .nav--tagline {
+        margin-top: -3px;
+        margin-left: 2px;
+        width: 100%;
+    }
 }

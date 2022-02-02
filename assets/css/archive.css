@@ -1,50 +1,50 @@
 .archive {
-  border-bottom: 1px solid #eaecef;
-  display: flex;
-  justify-content: center;
-  padding: 80px 1em;
+    border-bottom: 1px solid #eaecef;
+    display: flex;
+    justify-content: center;
+    padding: 80px 1em;
 }
 
 .archive-container {
-  width: var(--width-content);
+    width: var(--width-content);
 }
 
 .archive .page--container .permalink {
-  color: var(--black);
-  text-decoration: none;
+    color: var(--black);
+    text-decoration: none;
 }
 
 .archive .page--container a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .archive .wp-post-image {
-  border-radius: 7px;
-  width: 300px;
-  height: auto;
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
 }
 
 .single .wp-post-image {
-  border-radius: 7px;
+    border-radius: 8px;
 }
 
 .read-more {
-  display: none;
+    display: none;
 }
 .post-image {
-  height: auto;
-  width: 300px;
+    height: auto;
+    width: 300px;
 }
 
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
-  .archive {
-    padding: 0;
-  }
+    .archive {
+        padding: 0;
+    }
 
-  .archive-container {
-    padding: 30px 1em 100px 1em;
-    width: 100%;
-  }
+    .archive-container {
+        padding: 30px 1em 100px 1em;
+        width: 100%;
+    }
 }
