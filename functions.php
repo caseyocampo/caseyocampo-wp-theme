@@ -1,19 +1,16 @@
 <?php
-
-function minimalist_theme_support()
+function casey_theme_support()
 {
     // Add dynamic title tag support
-    
     add_theme_support('title-tag');
     add_theme_support('custom-logo');
     add_theme_support('post-thumbnails');
 }
 
-add_action('after_setup_theme', 'minimalist_theme_support');
+add_action('after_setup_theme', 'casey_theme_support');
 
 // Add dynamic menus 
-
-function minimalist_menus()
+function casey_menus()
 {
     $locations = array(
         'primary' => "Desktop Primary Menu",
@@ -23,41 +20,57 @@ function minimalist_menus()
     register_nav_menus($locations);
 }
 
-add_action('init', 'minimalist_menus');
+add_action('init', 'casey_menus');
 
 header('Access-Control-Allow-Origin: *');
 
-function minimalist_register_styles()
+function casey_register_styles()
 {
     $version = wp_get_theme()->get('Version');
-    wp_enqueue_style('minimalist-style', get_template_directory_uri()."/style.css", $version, 'all');
-    wp_enqueue_style('minimalist-header', get_template_directory_uri()."/assets/css/header.css", $version, 'all');
-    wp_enqueue_style('minimalist-footer', get_template_directory_uri()."/assets/css/footer.css", $version, 'all');
-    wp_enqueue_style('minimalist-archive', get_template_directory_uri()."/assets/css/archive.css", $version, 'all');
-    wp_enqueue_style('minimalist-article', get_template_directory_uri()."/assets/css/article.css", $version, 'all');
-    wp_enqueue_style('minimalist-front-page', get_template_directory_uri()."/assets/css/front-page.css", $version, 'all');
-    wp_enqueue_style('minimalist-page-full', get_template_directory_uri()."/assets/css/page-full.css", $version, 'all');
-    wp_enqueue_style('minimalist-page', get_template_directory_uri()."/assets/css/page.css", $version, 'all');
-    wp_enqueue_style('minimalist-sidebar-promo', get_template_directory_uri()."/assets/css/sidebar-promo.css", $version, 'all');
-    wp_enqueue_style('minimalist-sidebar-right', get_template_directory_uri()."/assets/css/sidebar-right.css", $version, 'all');
-    wp_enqueue_style('minimalist-sidebar-footer', get_template_directory_uri()."/assets/css/sidebar-footer.css", $version, 'all');
-    wp_enqueue_style('minimalist-tags', get_template_directory_uri()."/assets/css/tags.css", $version, 'all');
+    $ver = 11;
+    //     wp_enqueue_style('casey-style', get_template_directory_uri()."/style.css", $version, 'all');
+    wp_enqueue_style('casey-style', get_template_directory_uri() . "/style.css", $version, $ver);
+    //     wp_enqueue_style('casey-header', get_template_directory_uri()."/assets/css/header.css", $version, 'all');
+    wp_enqueue_style('casey-header', get_template_directory_uri() . "/assets/css/header.css", $version, $ver);
+    wp_enqueue_style('casey-footer', get_template_directory_uri() . "/assets/css/footer.css", $version, $ver);
+    wp_enqueue_style('casey-archive', get_template_directory_uri() . "/assets/css/archive.css", $version, 'all');
+    wp_enqueue_style('casey-article', get_template_directory_uri() . "/assets/css/article.css", $version, 'all');
+    wp_enqueue_style('casey-single-article', get_template_directory_uri() . "/assets/css/single-post.css", $version, 'all');
+    wp_enqueue_style('casey-front-page', get_template_directory_uri() . "/assets/css/front-page.css", $version, 'all');
+    wp_enqueue_style('casey-page-full', get_template_directory_uri() . "/assets/css/page-full.css", $version, 'all');
+    wp_enqueue_style('casey-page', get_template_directory_uri() . "/assets/css/page.css", $version, 'all');
+    wp_enqueue_style('casey-sidebar-promo', get_template_directory_uri() . "/assets/css/sidebar-promo.css", $version, 'all');
+    wp_enqueue_style('casey-sidebar-right', get_template_directory_uri() . "/assets/css/sidebar-right.css", $version, 'all');
+    wp_enqueue_style('casey-sidebar-footer', get_template_directory_uri() . "/assets/css/sidebar-footer.css", $version, 'all');
+    wp_enqueue_style('casey-tags', get_template_directory_uri() . "/assets/css/tags.css", $version, 'all');
+    wp_enqueue_style('casey-theme', get_template_directory_uri() . "/assets/css/theme.css", $version, 'all');
     wp_enqueue_style('minimalist-fontawesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css", array(), '5.13.0', 'all');
 }
 
-add_action('wp_enqueue_scripts', 'minimalist_register_styles');
+add_action('wp_enqueue_scripts', 'casey_register_styles');
 
-function minimalist_register_scripts()
+function casey_register_scripts()
 {
-    wp_enqueue_script('minimalist-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', array(), '1.7.1', true);
-    wp_enqueue_script('minimalist-main', get_template_directory_uri()."/assets/js/main.js", array(), '1.0', true);
-    wp_enqueue_script('minimalist-font-awesome', 'https://kit.fontawesome.com/2641fe0f3e.js', array(), '5.0', true);
+    wp_enqueue_script('casey-main', get_template_directory_uri() . "/assets/js/main.js", array(), '5', true);
+    wp_enqueue_script('casey-toggleTheme', get_template_directory_uri() . "/assets/js/toggleTheme.js", array(), '5', true);
+    wp_enqueue_script('casey-font-awesome', 'https://kit.fontawesome.com/2641fe0f3e.js', array(), '5.0', true);
 }
 
-add_action('wp_enqueue_scripts', 'minimalist_register_scripts');
+add_action('wp_enqueue_scripts', 'casey_register_scripts');
 
-function minimalist_widget_areas()
+function casey_widget_areas()
 {
+    register_sidebar(
+        array(
+            'before_title' => '<h3>',
+            'after_title' => '</h3>',
+            'before_widget' => '<div class="homepage-widget">',
+            'after_widget' => '</div>',
+            'name' => 'Homepage Widget',
+            'id' => 'homepage-widget',
+            'description' => 'Homepage Widget  Area'
+        )
+    );
     register_sidebar(
         array(
             'before_title' => '<h3>',
@@ -107,28 +120,79 @@ function minimalist_widget_areas()
     );
 }
 
-add_action('widgets_init', 'minimalist_widget_areas');
+add_action('widgets_init', 'casey_widget_areas');
 ?>
 
 <?php
-    // Limit excerpt word count
-    
-    function minimalist_excerpt_length( $length ) {
-        return 19;
+// Limit excerpt word count
+function casey_excerpt_length($length)
+{
+    return 19;
+}
+add_filter('excerpt_length', 'casey_excerpt_length', 999);
+?>
+
+<?php
+function add_cors_http_header()
+{
+    header("Access-Control-Allow-Origin: *");
+}
+
+add_action('init', 'add_cors_http_header');
+?>
+
+<?php
+add_filter('jpeg_quality', function ($arg) {
+    return 100;
+});
+add_filter('jpg_quality', function ($arg) {
+    return 100;
+});
+add_filter('png_quality', function ($arg) {
+    return 100;
+});
+
+add_filter('nav_menu_css_class', 'special_nav_class', 10, 2);
+
+function special_nav_class($classes, $item)
+{
+    if (in_array('current-menu-item', $classes)) {
+        $classes[] = 'active ';
     }
-    add_filter( 'excerpt_length', 'minimalist_excerpt_length', 999 );
+    return $classes;
+}
 ?>
 
 <?php
-	function add_cors_http_header(){
-    	header("Access-Control-Allow-Origin: *");
-	}
 
-	add_action('init','add_cors_http_header');
+define('WP_AUTO_UPDATE_CORE', false);
+add_filter('auto_update_plugin', '__return_false');
+add_filter('auto_update_theme', '__return_false');
+
 ?>
 
 <?php
-	add_filter('jpeg_quality', function($arg){return 100;});
-	add_filter('jpg_quality', function($arg){return 100;});
-	add_filter('png_quality', function($arg){return 100;});
+function get_breadcrumb()
+{
+
+    echo '<a href="' . home_url() . '" rel="nofollow">Home</a>';
+
+    if (is_category() || is_single()) {
+        echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="breadcrumb-divider flex-shrink-0 h-5 w-5 text-gray-400 pt-1"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>';
+        the_category(' &#187; ');
+
+        if (is_single()) {
+            echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="breadcrumb-divider flex-shrink-0 h-5 w-5 text-gray-400 pt-1"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>';
+            the_title();
+        }
+    } elseif (is_page()) {
+        echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="breadcrumb-divider flex-shrink-0 h-5 w-5 text-gray-400 pt-1"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>';
+        echo the_title();
+    } elseif (is_search()) {
+        echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="breadcrumb-divider flex-shrink-0 h-5 w-5 text-gray-400 pt-1"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>';
+        echo '"<em>';
+        echo the_search_query();
+        echo '</em>"';
+    }
+}
 ?>

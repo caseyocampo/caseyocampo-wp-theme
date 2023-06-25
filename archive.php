@@ -2,13 +2,11 @@
   get_header();
 ?>
     
-  <section class="page archive">
+  <main class="page archive" id="main-content"> 
     <div class="page--container">
       <div class="page--content">
 
-      <h1>Archive - <?php single_cat_title(); ?></h1>
-      
-      <!-- <?php the_tags('<span class="tag archive-tag">', '</span><span class="tag archive-tag">', '</span>'); ?> -->
+      <h1>Archive of <?php single_cat_title(); ?> Posts</h1>
 
           <!-- gets post or page content -->
           <?php
@@ -45,7 +43,7 @@
       </div>
     <!-- /.archive-container  -->
 	  
-  </section>
+  </main>
     
 <?php
   get_footer();

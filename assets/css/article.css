@@ -1,117 +1,135 @@
 .article {
-    max-width: 700px;
+  max-width: 650px;
 }
 
 .article .post-image .featured--image {
-    max-width: 700px;
+  max-width: 700px;
 }
 
 .article .post-image {
-    width: 100%;
+  width: 100%;
 }
 
 .archive .post--content p {
-    margin: 0;
+  margin: 0;
 }
 
 .article img {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .single h1 {
-    margin-top: 5px;
-    margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 .page--container .single a {
-    color: #458de2;
-    text-decoration: underline;
-    word-wrap: break-word;
+  color: var(--blue);
+  text-decoration: underline;
+  word-wrap: break-word;
 }
 
 .featured--image {
-    max-width: 700px;
+  max-width: 700px;
 }
 
 .archive .wp-post-image {
-    width: 300px;
-    height: auto;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  width: 300px;
+  max-width: 100%;
 }
 
 .article--meta {
-    color: grey;
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 0;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .single .article--meta,
 .article--date {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .single .article--meta {
-    margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .post-credit {
-    display: inline-block;
-    font-style: italic;
-    margin-top: 30px;
+  display: inline-block;
+  font-style: italic;
+  margin-top: 30px;
 }
 
 .post-credit a {
-    color: var(--black);
-    text-decoration: none;
+  color: var(--black);
+  text-decoration: none;
 }
 
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
-    .single h1 {
-        line-height: 1.25;
-    }
+  .single h1 {
+    line-height: 1.25;
+  }
 
-    .single .wp-post-image {
-        display: block;
-        height: 100%;
-        margin-bottom: 0.5em;
-    }
+  .single .wp-post-image {
+    display: block;
+    height: auto !important;
+    width: 100% !important;
+    margin-bottom: 0.5em;
+  }
 
-    .single img {
-        max-width: 100%;
-        height: auto;
-    }
+  .single img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .single .article .post-image .featured--image .wp-post-image {
+    height: auto;
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 1175px) {
-    .post {
-        margin-bottom: 25px;
-        padding-bottom: 25px;
-    }
+  .post {
+    gap: 1em;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .article {
-        max-width: 100%;
-    }
+  .post {
+    gap: 0;
+  }
+  .article {
+    max-width: 100%;
+  }
 
-    .single .wp-post-image {
-        width: 100%;
-    }
+  .single .wp-post-image {
+    height: auto;
+    width: 100%;
+  }
 }
 
 /* Mobile Breakpoint */
 
 @media (max-width: 700px) {
-    .archive .post {
-        display: flex;
-        flex-direction: column;
-    }
+  .archive .post {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .post-image,
-    .archive .wp-post-image {
-        width: 100%;
-        max-width: 700px;
-    }
+  .post-image,
+  .archive .wp-post-image {
+    width: 100%;
+    max-width: 700px;
+  }
 }

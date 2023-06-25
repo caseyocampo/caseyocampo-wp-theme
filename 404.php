@@ -2,12 +2,12 @@
     get_header();
 ?>
     
-  <section class="page archive">
+  <main class="page archive" id="main-content"> 
     <div class="page--container">
       <div class="page--content">
         
         <h1 style="margin-bottom: 30px">404 Error: Page Not Found</h1>
-        <p>Doh! The page you are looking for has been moved or no longer exists.</p>
+        <p>The page you are looking for has been moved or no longer exists.</p>
       
         <form
           role="search"
@@ -19,7 +19,7 @@
             <div class="search-box">
               <p>
                 <label class="screen-reader-text" for="s"
-                  >Try searching for the topic below instead.</label
+                  >Try searching for the topic instead.</label
                 >
               </p>
               <input
@@ -33,7 +33,7 @@
             <button
               type="submit"
               class="search-button"
-              aria-label="search the blog button"
+              aria-label="search the blog"
             >
               <i class="fas fa-search"></i>
             </button>
@@ -54,7 +54,7 @@
       </div>
       
     </div>
-  </section>
+  </main>
 
 <?php
   get_footer();

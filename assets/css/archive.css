@@ -10,8 +10,19 @@
 }
 
 .archive .page--container .permalink {
-    color: var(--black);
-    text-decoration: none;
+	display: flex;
+    margin-bottom: 0.25em;
+    text-decoration: underline; 
+}
+
+.archive .post--content .permalink:hover {
+    text-decoration: underline;
+}
+
+.archive .post h2 {
+	line-height. 1.25;
+	font-weight: bold;
+    margin-top: 0;
 }
 
 .archive .page--container a {
@@ -20,12 +31,13 @@
 
 .archive .wp-post-image {
     border-radius: 8px;
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
 .single .wp-post-image {
     border-radius: 8px;
+	max-width: 300px;
 }
 
 .read-more {
@@ -33,7 +45,7 @@
 }
 .post-image {
     height: auto;
-    width: 300px;
+    width: 250px;
 }
 
 /* Desktop Breakpoint */
@@ -47,4 +59,14 @@
         padding: 30px 1em 100px 1em;
         width: 100%;
     }
+	
+	.single .wp-post-image {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 700px) {
+	.archive .post-image {
+		margin-right: 0;
+	}
 }

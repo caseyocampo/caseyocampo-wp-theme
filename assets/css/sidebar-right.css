@@ -1,10 +1,39 @@
 /* Right Sidebar */
 
+.sidebar--profile {
+  display: block;
+  margin: 0 auto;
+}
+
+.sidebar--profile {
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  border-radius: 50% !important;
+  width: 70% !important;
+  max-width: 208px;
+  object-fit: cover;
+  text-align: center;
+}
+
 .sidebar--bio:first-child {
   margin-top: 0px;
   border-radius: 3px;
-  background: #f9f7f5;
+  /*     background: #f9f7f5; */
+  /* 	background: #f7f7f7; */
+  /* 	background: #f9f9f9; */
+  background: rgb(0 129 255 / 6%);
   padding: 20px;
+}
+
+.sidebar--widget h2:first-child,
+.sidebar--right h2:first-child {
+  margin-top: 0;
+}
+
+.sidebar--widget h2 {
+  font-weight: 400;
+  margin-bottom: 1.25em;
 }
 
 .sidebar--bio:not(:first-child) {
@@ -12,7 +41,6 @@
 }
 
 .textwidget a {
-  color: var(--blue);
   text-decoration: underline;
 }
 
@@ -22,6 +50,7 @@
 
 .sidebar--right .sidebar--widget h3 {
   font-weight: 500;
+  font-weight: 700;
   margin-top: 0;
   margin-bottom: 20px;
 }

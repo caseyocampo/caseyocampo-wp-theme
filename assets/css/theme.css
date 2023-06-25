@@ -1,0 +1,109 @@
+:root {
+  --border-color: #eaecef;
+  --bg-color: #ffffff;
+  --font-color: #252525;
+  --heading-color: #292922;
+  --inverted-font-color: #c9d1d9;
+  --inverted-bg-color: #252525;
+  --primary-color: #0074e5;
+  --secondary-color: #536390;
+  --tag-color: #252525;
+}
+
+[data-theme="dark"] {
+  --bg-color: #0d1116;
+  --border-color: #c9d1d9;
+  --font-color: #c9d1d9;
+  --heading-color: #818cab;
+  --inverted-font-color: #252525;
+  --inverted-bg-color: #ffffff;
+  --primary-color: #7ee787;
+  --secondary-color: #79bfff;
+  --tag-color: #7ee787;
+}
+
+[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: solid 1px var(--font-color);
+  border-radius: 4px;
+  margin-top: 0.25em;
+  margin-left: 0.25em;
+  position: relative;
+  top: 0.25em;
+}
+
+[type="checkbox"]:checked::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.theme-switch-container {
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.theme-switch-container label,
+.theme-switch-container input {
+  cursor: pointer;
+}
+
+header {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+header nav .nav--title,
+header nav ul .menu-item a {
+  color: var(--font-color);
+}
+
+a .post-title,
+a:visited .post-title {
+  color: var(--font-color);
+}
+.post--content a:visited {
+  color: var(--font-color);
+}
+a:-webkit-any-link {
+  color: var(--primary-color);
+}
+
+.breadcrumbs-container,
+main,
+.sidebar--footer {
+  background: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+  color: var(--font-color);
+}
+
+footer {
+  background: var(--bg-color);
+  color: var(--font-color);
+}
+
+.page,
+.post {
+  border-bottom: 1px solid var(--border-color);
+}
+
+#backToTop {
+  background: var(--inverted-bg-color);
+  color: var(--bg-color);
+}
+
+.secondary-text {
+  color: var(--secondary-color);
+}

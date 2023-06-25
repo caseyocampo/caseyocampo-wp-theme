@@ -2,7 +2,7 @@
   get_header();
 ?>
     
-    <section class="archive">
+    <main class="archive">
       <div class="archive-container">
         <h1>Search Results</h1>
 
@@ -20,7 +20,7 @@
         
         </div>
       <!-- /archive-container  -->
-    </section>
+    </main>
     <!-- /archive -->
 
     

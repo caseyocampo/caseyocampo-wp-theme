@@ -2,7 +2,7 @@
     get_header();
 ?>
 
-    <section class="archive">
+    <main class="archive">
       <div class="archive-container">
         <h1>Thoughts</h1>
 
@@ -24,7 +24,7 @@
 
             
         </div>
-    </section>
+    </main>
 
     <div class="sidebar--footer">
         <div class="sidebar--footer--widgets">

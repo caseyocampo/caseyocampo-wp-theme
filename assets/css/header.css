@@ -1,137 +1,156 @@
 header {
-    background: white;
-    border-bottom: 1px solid #eaecef;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
+  border-bottom: 1px solid #eaecef;
+  display: flex;
+  justify-content: center;
+  padding: 0.75em 0;
+}
+
+header .theme-border {
+  border-bottom: 1px solid #30102f;
 }
 
 nav {
-    align-items: center;
-    display: flex;
-    width: var(--width-content);
+  align-items: center;
+  display: flex;
+  width: var(--width-content);
 }
 
 header nav ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+header nav ul li {
+  margin: 0 1em;
 }
 
 header nav ul li a {
-    color: var(--black);
-    display: inline-block;
-    padding-top: 1em;
-    margin: 0 1em;
-    white-space: nowrap;
-}
-
-header nav ul li a {
-    border-bottom: 3px solid white;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 header nav ul li a:hover {
-    border-bottom: 3px solid var(--blue);
+  text-decoration: underline;
 }
 
 .active {
-    border-bottom: 3px solid var(--blue);
+  text-decoration: underline;
+}
+
+header nav ul .active a {
+  text-decoration: underline;
 }
 
 .nav--logo {
-    display: none;
-    width: 250px;
+  display: none;
+  width: 250px;
 }
 
 .nav--title {
-    color: var(--black);
-    font-size: 28px;
-    font-weight: bold;
-    min-width: 205px;
+  font-size: 28px;
+  font-weight: bold;
+  min-width: 205px;
 }
 
 .nav--tagline {
-    font-size: 12px;
-    margin-bottom: -8px;
-    width: 501px;
+  font-size: 12px;
+  margin-bottom: -8px;
+  width: 501px;
 }
 
 /* Desktop Breakpoint */
 
 @media (max-width: 1200px) {
-    header nav ul li a {
-        border-bottom: none;
-        margin: 0;
-    }
+  header {
+    padding: 0.5em 0;
+  }
 
-    header nav ul li a:hover {
-        border-bottom: none;
-    }
+  header nav ul li {
+    margin: 0;
+  }
 
-    nav {
-        align-items: flex-start;
-        padding: 0 1em;
-    }
+  header nav ul li a {
+    border-bottom: none;
+    margin: 0;
+  }
 
-    nav {
-        flex-direction: column;
-    }
+  header nav ul li a:hover {
+    border-bottom: none;
+  }
 
-    .active {
-        border-bottom: none;
-    }
+  nav {
+    align-items: flex-start;
+    padding: 0 1em;
+  }
 
-    #nav {
-        display: none;
-    }
+  nav {
+    flex-direction: column;
+  }
 
-    #nav-btn {
-        background: transparent;
-        border: none;
-        color: white;
-        display: block;
-        float: right;
-        position: absolute;
-        top: 10px;
-        right: 0;
-    }
+  .active {
+    border-bottom: none;
+  }
 
-    .toggle-nav {
-        color: var(--black);
-        font-size: 21px;
-        padding: 1.2em 1.5em;
-        padding: 1.1em 1.5em;
-    }
+  #nav {
+    display: none;
+  }
 
-    #nav.responsive {
-        display: block;
-        margin-top: 1em;
-        text-align: left;
-    }
+  #nav-btn {
+    background: var(---bg-color);
+    border: 1px solid var(--font-color);
+    border-radius: var(--border-radius);
+    color: var(--font-color);
+    cursor: pointer;
+    display: block;
+    font-size: 21px;
+    float: right;
+    padding: 0.25em 1em;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+  }
 
-    #nav a {
-        padding: 1em 1em 1em 0;
-        width: 100%;
-    }
+  #nav.responsive {
+    display: block;
+    margin-top: 1em;
+    text-align: left;
+  }
 
-    #nav.responsive a:hover {
-        background: white;
-        color: var(--black);
-    }
+  #nav a {
+    padding: 0.75em 1em 0.75em 0;
+    width: 100%;
+  }
 
-    #nav li:not(:last-child) {
-        border-bottom: 1px solid #eaecef;
-    }
+  #nav.responsive a:hover {
+    background: white;
+    color: var(--black);
+  }
 
-    .nav--title {
-        font-size: 26px;
-    }
+  #nav li:not(:last-child) {
+    border-bottom: 1px solid #eaecef;
+  }
 
-    .nav--tagline {
-        margin-top: -3px;
-        margin-left: 2px;
-        width: 100%;
-    }
+  #nav li:last-child {
+    border-bottom: none;
+  }
+
+  .nav--title {
+    font-size: 26px;
+  }
+
+  .nav--tagline {
+    margin-top: -3px;
+    margin-left: 2px;
+    width: 100%;
+  }
+  #nav-btn[aria-expanded="false"] + #nav {
+    display: none;
+  }
+
+  #nav-btn[aria-expanded="true"] + #nav {
+    display: block;
+  }
 }

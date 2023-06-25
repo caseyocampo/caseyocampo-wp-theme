@@ -1,0 +1,8 @@
+[07-Apr-2022 10:41:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/connvhfh/public_html/wp-content/themes/caseyocampo/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/connvhfh/public_html/wp-content/themes/caseyocampo/404.php on line 2
+[09-Apr-2022 19:25:36 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/connvhfh/public_html/wp-content/themes/caseyocampo/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/connvhfh/public_html/wp-content/themes/caseyocampo/404.php on line 2
