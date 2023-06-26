@@ -479,12 +479,14 @@ nav.navigation.pagination {
 }
 
 nav.navigation.post-navigation {
+  display: block;
   margin-top: 3em;
   width: 100% !important;
 }
 
 .post-navigation .nav-links {
   display: flex;
+  justify-content: space-between;
   max-width: 700px;
 }
 
@@ -498,8 +500,12 @@ nav.navigation.post-navigation {
   text-align: right;
 }
 
+.post-navigation .nav-links div a {
+  color: var(--primary-color);
+}
+
 .post-navigation .nav-links div a:visited {
-  color: var(--tag-color);
+  color: var(--primary-color);
 }
 
 .share-post {
@@ -1188,10 +1194,13 @@ form.form_15iP5 {
   text-decoration: none;
 }
 
-/* #single-post .tagcloud a:hover {
-  background: var(--dark);
-  color: var(--light);
-} */
+.article .tagcloud a.tag-cloud-link {
+  text-decoration: none !important;
+}
+
+.article .tagcloud a.tag-cloud-link:hover {
+  text-decoration: underline !important;
+}
 
 #menu-primary-1 .active {
   border-bottom: none !important;

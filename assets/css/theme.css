@@ -6,6 +6,9 @@
   --inverted-font-color: #c9d1d9;
   --inverted-bg-color: #252525;
   --primary-color: #0074e5;
+  /* --primary-color: #174dcc; */
+  /* --primary-color: #3b5125; */
+  /* --primary-color: #7b7144; */
   --secondary-color: #536390;
   --tag-color: #252525;
 }
@@ -74,9 +77,15 @@ a .post-title,
 a:visited .post-title {
   color: var(--font-color);
 }
+
+a .post-title-nav,
+a:visited .post-title-nav {
+  color: var(--primary-color);
+}
 .post--content a:visited {
   color: var(--font-color);
 }
+
 a:-webkit-any-link {
   color: var(--primary-color);
 }
@@ -106,4 +115,8 @@ footer {
 
 .secondary-text {
   color: var(--secondary-color);
+}
+
+.post-title-nav {
+  color: var(--primary-color);
 }

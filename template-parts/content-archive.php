@@ -10,7 +10,7 @@
     </span>
 
     <div class="post--content">
-        <a href="<?php the_permalink(); ?>" class="permalink post-title">
+        <a href="<?php the_permalink(); ?>" class="permalink post-title front-page-post-title">
             <h2 class="post-title"><?php the_title(); ?></h2>
         </a>
 
