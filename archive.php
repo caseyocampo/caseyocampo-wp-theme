@@ -1,50 +1,49 @@
 <?php
-  get_header();
+get_header();
 ?>
-    
-  <main class="page archive" id="main-content"> 
-    <div class="page--container">
-      <div class="page--content">
 
-      <h1>Archive of <?php single_cat_title(); ?> Posts</h1>
+<main class="page archive" id="main-content">
+    <section class="page--container">
+        <div class="page--content">
 
-          <!-- gets post or page content -->
-          <?php
-          if (have_posts()) {
-              while (have_posts()) {
-                  the_post();
+            <h1>Archive of <?php single_cat_title(); ?> Posts</h1>
 
-                  // gets template part from template-parts.php folder
-                  get_template_part('template-parts/content', 'archive');
-              }
+            <!-- gets post or page content -->
+            <?php
+            if (have_posts()) {
+                while (have_posts()) {
+                    the_post();
+
+                    // gets template part from template-parts.php folder
+                    get_template_part('template-parts/content', 'archive');
+                }
             }
-          ?>
+            ?>
 
-          <?php
+            <?php
             the_posts_pagination(array(
-              'screen_reader_text' => '',
-              'title' => '',
-              ));
-          ?>
+                'screen_reader_text' => '',
+                'title' => '',
+            ));
+            ?>
 
         </div>
 
+        <!--
         <div class="sidebar">
           <div class="sidebar--right">
 
               <?php
-              dynamic_sidebar('sidebar-promo-area');
-              ?>
+                //dynamic_sidebar('sidebar-promo-area');
+                ?>
 
           </div>
         </div>
-     
-        
-      </div>
-    <!-- /.archive-container  -->
-	  
-  </main>
-    
+        -->
+
+    </section>
+</main>
+
 <?php
-  get_footer();
+get_footer();
 ?>

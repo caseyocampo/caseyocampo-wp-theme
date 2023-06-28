@@ -107,4 +107,9 @@ footer .widget .textwidget {
   .footer--credit a {
     line-height: 1.75;
   }
+
+  #backToTop {
+    width: 100%;
+    text-align: center;
+  }
 }

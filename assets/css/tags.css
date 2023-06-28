@@ -42,8 +42,6 @@ a.tag-cloud-link.tag-link-position-18,
 a.tag-cloud-link.tag-link-position-19,
 a.tag-cloud-link.tag-link-position-20 {
   border-radius: 3px;
-  /* border: 1px solid var(--primary-color);
-  color: var(--primary-color); */
   border: 1px solid var(--tag-color);
   color: var(--tag-color);
   display: inline-block;

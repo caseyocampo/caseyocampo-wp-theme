@@ -62,6 +62,10 @@
   cursor: pointer;
 }
 
+.theme-switch-container input {
+  margin-right: 2em;
+}
+
 header {
   background-color: var(--bg-color);
   color: var(--font-color);
@@ -82,7 +86,8 @@ a .post-title-nav,
 a:visited .post-title-nav {
   color: var(--primary-color);
 }
-.post--content a:visited {
+
+.post--content a.front-page-post-title:visited {
   color: var(--font-color);
 }
 

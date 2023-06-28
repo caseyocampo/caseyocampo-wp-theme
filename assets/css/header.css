@@ -12,6 +12,7 @@ header .theme-border {
 nav {
   align-items: center;
   display: flex;
+  justify-content: space-between;
   width: var(--width-content);
 }
 
@@ -42,6 +43,11 @@ header nav ul li a:hover {
 
 header nav ul .active a {
   text-decoration: underline;
+}
+
+.right-nav {
+  align-items: baseline;
+  display: flex;
 }
 
 .nav--logo {
@@ -124,10 +130,10 @@ header nav ul .active a {
     width: 100%;
   }
 
-  #nav.responsive a:hover {
+  /* #nav.responsive a:hover {
     background: white;
     color: var(--black);
-  }
+  } */
 
   #nav li:not(:last-child) {
     border-bottom: 1px solid #eaecef;
@@ -152,5 +158,15 @@ header nav ul .active a {
 
   #nav-btn[aria-expanded="true"] + #nav {
     display: block;
+  }
+
+  .toggle-divider {
+    display: none;
+  }
+
+  .right-nav {
+    flex-direction: column;
+    min-width: 100%;
+    width: -webkit-fill-available;
   }
 }

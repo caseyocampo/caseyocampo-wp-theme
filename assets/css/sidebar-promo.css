@@ -27,19 +27,19 @@
 }
 
 .sidebar-recent-post {
-  color: var(--black);
+  color: var(--font-color);
   line-height: 1.75;
 }
 
 .sidebar ul li a,
 .sidebar--footer ul li a {
-  color: var(--font-color);
+  color: var(--tag-color);
   line-height: 1.65;
   text-decoration: underline;
 }
 
 footer .widget ul li a {
-  color: var(--font-color);
+  color: var(--tag-color);
 }
 
 .sidebar ul li a:hover,

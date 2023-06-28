@@ -53,26 +53,29 @@
             <a href="/" class="nav--title"><?php echo get_bloginfo('name'); ?></a>
             <p class="nav--tagline"><?php echo get_option('blogdescription'); ?></p>
 
-            <div class="theme-switch-container">
-                <label class="theme-switch" for="checkboxToggle">Toggle Theme</label>
-                <input type="checkbox" id="checkboxToggle" />
-            </div>
+            <div class="right-nav">
+                <button id="nav-btn" aria-label="primary menu">
+                    <p id="nav-icon">Menu</p>
+                </button>
+                <div class="theme-switch-container">
+                    <label class="theme-switch" for="checkboxToggle">Toggle Theme</label>
+                    <input type="checkbox" id="checkboxToggle" />
+                    <span class="toggle-divider">|</span>
+                </div>
 
-            <button id="nav-btn" aria-label="primary menu">
-                <p id="nav-icon">Menu</p>
-            </button>
-            <?php
-            wp_nav_menu(
-                array(
-                    'menu' => 'Primary',
-                    'container' => '',
-                    'theme_location' => 'Primary',
-                    'items_wrap' => '<ul id="nav" class="nav-links">%3$s</ul>'
-                )
-            );
-            ?>
 
+                <?php
+                wp_nav_menu(
+                    array(
+                        'menu' => 'Primary',
+                        'container' => '',
+                        'theme_location' => 'Primary',
+                        'items_wrap' => '<ul id="nav" class="nav-links">%3$s</ul>'
+                    )
+                );
+                ?>
         </nav>
+        </div>
     </header>
 
     <?php if (!is_home()) : ?>

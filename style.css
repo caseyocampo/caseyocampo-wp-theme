@@ -997,6 +997,11 @@ form.pms-form ul.pms-form-fields-wrapper li {
 }
 
 @media (max-width: 800px) {
+  .skip-link {
+    left: 0;
+    width: 95%;
+    margin: 0 0.5em;
+  }
   .article .post-image {
     flex-direction: column;
     gap: 0.5em;
