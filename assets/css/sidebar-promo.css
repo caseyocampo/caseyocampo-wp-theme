@@ -53,7 +53,7 @@ footer .widget ul li a {
 
 .sidebar ul li,
 .sidebar--footer ul li {
-  border-bottom: 1px solid #eaecef;
+  border-bottom: 1px solid var(--border-color);
   list-style-type: none;
   padding-bottom: 15px;
 }

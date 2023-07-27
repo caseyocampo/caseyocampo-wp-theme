@@ -54,14 +54,14 @@
             <p class="nav--tagline"><?php echo get_option('blogdescription'); ?></p>
 
             <div class="right-nav">
-                <button id="nav-btn" aria-label="primary menu">
-                    <p id="nav-icon">Menu</p>
-                </button>
                 <div class="theme-switch-container">
                     <label class="theme-switch" for="checkboxToggle">Toggle Theme</label>
                     <input type="checkbox" id="checkboxToggle" />
                     <span class="toggle-divider">|</span>
                 </div>
+                <button id="nav-btn" aria-label="primary menu">
+                    <p id="nav-icon">Menu</p>
+                </button>
 
 
                 <?php

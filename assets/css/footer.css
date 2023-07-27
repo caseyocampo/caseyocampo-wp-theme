@@ -23,6 +23,10 @@ footer .widget ul li:last-child {
   margin-bottom: 0;
 }
 
+footer a.footer-link {
+  color: var(--tag-color);
+}
+
 footer .widget a:hover {
   text-decoration: underline;
 }
