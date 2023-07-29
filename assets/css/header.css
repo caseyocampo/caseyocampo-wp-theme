@@ -74,6 +74,10 @@ header nav ul .active a {
     padding: 0.5em 0;
   }
 
+  header nav ul {
+    margin-top: 1em;
+  }
+
   header nav ul li {
     margin: 0;
   }

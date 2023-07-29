@@ -1,7 +1,7 @@
 /*
 Theme Name: Casey Ocampo
 Text Domain: caseyocampo.com
-Version: 7.0
+Version: 7.1
 Description: Custom Accessible WordPress theme.
 Tags: responsive, minimal, accessible, right sidebar, bottom sidebar
 Author: Casey Ocampo
@@ -223,12 +223,12 @@ ul li::marker {
 }
 
 .disclaimer {
-  background: #f5f6f7;
+  border: 1px solid var(--font-color);
   border-radius: 7px;
   display: block;
   margin-bottom: 1em;
   padding: 10px 20px;
-  color: #5f737a;
+  color: var(--font-color);
   font-size: 14px;
 }
 
@@ -446,7 +446,7 @@ nav.navigation.pagination {
 }
 
 .pagination .page-numbers {
-  color: var(--black);
+  color: var(--font-color);
   display: inline-block;
   font-size: 30px;
   margin-right: 0.5em;
@@ -470,8 +470,8 @@ nav.navigation.pagination {
 
 .pagination .current,
 .pagination .page-numbers:hover {
-  border-bottom: 3px solid var(--black);
-  color: var(--black) !important;
+  border-bottom: 3px solid var(--secondary-color);
+  color: var(--secordary-color) !important;
   padding: 0.25em 0;
 }
 
@@ -737,10 +737,6 @@ pre {
   .pagination .page-numbers {
     font-size: 1.75rem;
   }
-}
-
-.pagination .current {
-  color: var(--blue);
 }
 
 #sg-form {
@@ -1083,10 +1079,6 @@ body.customize-partial-edit-shortcuts-hidden {
   background-color: white !important;
 }
 
-.pagination .current {
-  color: var(--blue);
-}
-
 #sg-form {
   border: none !important;
   min-width: 100% !important;
@@ -1281,25 +1273,6 @@ form.pms-form ul.pms-form-fields-wrapper li {
   padding: 0.5em;
   font-size: 1em;
 }
-
-/* .skip-link {
-  background: white;
-  border: 3px solid var(--black);
-  display: block;
-  color: black;
-  font-weight: bold;
-  height: 50px;
-  margin: 0 auto;
-  position: fixed;
-  padding: 0.5em 3em;
-  top: 0.5em;
-  left: 1em;
-  text-align: center;
-  white-space: nowrap;
-  width: 50vw;
-  opacity: 0;
-  z-index: -1;
-} */
 
 .skip-link:focus {
   transform: translateY(0);
