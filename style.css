@@ -63,17 +63,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Atkinson Hyperlegible", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "IBM Plex Sans", system-ui, Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
 }
 
 body,
 li {
-  font-family: "Atkinson Hyperlegible", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-family: "IBM Plex Sans", system-ui, Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
 
 .formkit-form[data-uid="68e01c99d9"] h2 {
-  font-family: "Atkinson Hyperlegible", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-family: "IBM Plex Sans", system-ui, Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
 
 body {
@@ -84,6 +84,10 @@ h1 {
   font-size: 2.875rem;
   font-weight: bold;
   line-height: 1.25;
+}
+
+.primary-color {
+  color: var(--primary-color);
 }
 
 h2 {
@@ -138,7 +142,7 @@ blockquote cite {
 
 input[type="button"],
 input[type="submit"] {
-  font-family: "Atkinson Hyperlegible", helvetica, arial, sans-serif;
+  font-family: "IBM Plex Sans", system-ui, helvetica, arial, sans-serif;
   font-weight: 400;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -169,8 +173,8 @@ td {
 
 hr {
   border-width: 0;
-  color: #eaecef;
-  background: #eaecef;
+  color: var(--border-color);
+  background: var(--border-color);
   height: 1px;
 }
 
@@ -183,7 +187,7 @@ code {
 }
 
 ul li::marker {
-  color: slategray;
+  color: var(--secondary-color);
 }
 
 .icon-blog {
@@ -514,7 +518,7 @@ nav.navigation.post-navigation {
 }
 
 .share-post-text {
-  border-bottom: 1px solid #eaecef;
+  border-bottom: 1px solid var(--border-color);
   font-size: 16px;
   padding-bottom: 5px;
 }
@@ -694,7 +698,7 @@ body.customize-partial-edit-shortcuts-shown {
 pre {
   background: var(--bg-color);
   border-radius: 4px;
-  border: 1px solid var(--font-color);
+  border: 2px solid var(--code-border);
   font-family: Consolas, monospace;
   font-size: 1rem;
   margin-bottom: 1em;
@@ -756,7 +760,7 @@ form.form_15iP5 {
 #mc_embed_signup,
 #mc_embed_signup .button,
 .indicates-required {
-  font-family: "Atkinson Hyperlegible", helvetica, sans-serif !important;
+  font-family: "IBM Plex Sans", system-ui, helvetica, sans-serif !important;
   font-size: 1.15rem !important;
   width: auto !important;
 }
@@ -792,7 +796,7 @@ form.form_15iP5 {
 
 .breadcrumbs-container {
   background: white;
-  border-bottom: 1px solid #eaecef;
+  border-bottom: 1px solid var(--border-color);
   padding: 0.5em;
 }
 
@@ -1039,7 +1043,7 @@ input[type="submit"]:hover {
 .formkit-form[data-uid="68e01c99d9"] h2,
 .formkit-form[data-uid="68e01c99d9"] .formkit-button > span,
 .formkit-form[data-uid="68e01c99d9"] .formkit-submit > span {
-  font-family: helvetica;
+  font-family: "IBM Plex Sans", system-ui;
 }
 
 @media (max-width: 1200px) {
@@ -1100,7 +1104,7 @@ form.form_15iP5 {
 #mc_embed_signup,
 #mc_embed_signup .button,
 .indicates-required {
-  font-family: "Atkinson Hyperlegible", helvetica, sans-serif !important;
+  font-family: "IBM Plex Sans", system-ui, helvetica, sans-serif !important;
   font-size: 1.15rem !important;
   width: auto !important;
 }
@@ -1138,7 +1142,7 @@ form.form_15iP5 {
 
 .breadcrumbs-container {
   background: white;
-  border-bottom: 1px solid #eaecef;
+  border-bottom: 1px solid var(--border-color);
   padding: 0.5em;
 }
 
@@ -1388,7 +1392,7 @@ input[type="submit"] {
 .formkit-form[data-uid="68e01c99d9"] h2,
 .formkit-form[data-uid="68e01c99d9"] .formkit-button > span,
 .formkit-form[data-uid="68e01c99d9"] .formkit-submit > span {
-  font-family: helvetica;
+  font-family: "IBM Plex Sans", system-ui;
 }
 
 @media (max-width: 1200px) {

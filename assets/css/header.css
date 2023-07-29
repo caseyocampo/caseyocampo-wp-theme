@@ -6,7 +6,7 @@ header {
 }
 
 header .theme-border {
-  border-bottom: 1px solid #30102f;
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav {
@@ -116,7 +116,7 @@ header nav ul .active a {
     padding: 0.25em 1em;
     position: absolute;
     top: 0.5em;
-    right: 0.5em;
+    right: 1em;
   }
 
   #nav.responsive {
@@ -136,7 +136,7 @@ header nav ul .active a {
   } */
 
   #nav li:not(:last-child) {
-    border-bottom: 1px solid #eaecef;
+    border-bottom: 1px solid var(--border-color);
   }
 
   #nav li:last-child {
@@ -165,8 +165,12 @@ header nav ul .active a {
   }
 
   .right-nav {
+    border-top: 1px solid var(--border-color);
     flex-direction: column;
+    margin-top: 0.5em;
     min-width: 100%;
+    padding-top: 0.25em;
+    margin-bottom: 0.5em;
     width: -webkit-fill-available;
   }
 }

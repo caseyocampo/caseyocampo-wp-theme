@@ -1,5 +1,5 @@
 .archive {
-    border-bottom: 1px solid #eaecef;
+    border-bottom: 1px solid var(--border-color);
     display: flex;
     justify-content: center;
     padding: 80px 1em;

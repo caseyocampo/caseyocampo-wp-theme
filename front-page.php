@@ -11,8 +11,10 @@ get_header();
         ?>
         <!-- /Homepage widget -->
 
+        <h1 style="margin-top: 1em; padding-bottom: 1em; border-bottom: 1px solid var(--border-color)">I’m an <span class="primary-color">Accessibility Engineer</span> who writes about tech and personal finance.</h1>
+
         <div class="page--content">
-            <h1 class="">Recent Posts <img src="https://www.caseyocampo.com/wp-content/uploads/2023/01/icon-blog.svg" alt="" class="icon-blog"></h1>
+            <h2 style="margin-bottom: 2em;">Check Out Some Recent Posts <img src="https://www.caseyocampo.com/wp-content/uploads/2023/01/icon-blog.svg" alt="" class="icon-blog"></h2>
 
             <?php
             if (have_posts()) {
