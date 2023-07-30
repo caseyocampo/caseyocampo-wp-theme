@@ -132,7 +132,7 @@ blockquote,
 .blockquote {
   background: var(--bg-color);
   border-left: 6px solid var(--secondary-color);
-  padding: 0.5em 1em 0.5em 2em;
+  padding: 0em 1em 0em 2em;
   margin: 1.5em 0;
 }
 
