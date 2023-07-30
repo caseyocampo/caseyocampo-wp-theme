@@ -80,7 +80,8 @@ body {
   height: auto;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 2.875rem;
   font-weight: bold;
   line-height: 1.25;
@@ -196,7 +197,8 @@ ul li::marker {
 }
 
 @media (max-width: 800px) {
-  h1 {
+  h1,
+  .h1 {
     font-size: 30px;
   }
 
