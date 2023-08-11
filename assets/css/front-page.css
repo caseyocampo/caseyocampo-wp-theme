@@ -5,3 +5,9 @@
 .front-page .page--container a {
   text-decoration: none;
 }
+
+.homepage-widget {
+  margin-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--border-color);
+}

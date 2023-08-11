@@ -62,13 +62,13 @@ function casey_widget_areas()
 {
     register_sidebar(
         array(
-            'before_title' => '<h3>',
-            'after_title' => '</h3>',
-            'before_widget' => '<div class="homepage-widget">',
-            'after_widget' => '</div>',
+            'before_title' => '',
+            'after_title' => '',
+            'before_widget' => '',
+            'after_widget' => '',
             'name' => 'Homepage Widget',
             'id' => 'homepage-widget',
-            'description' => 'Homepage Widget  Area'
+            'description' => 'Homepage Widget Area'
         )
     );
     register_sidebar(

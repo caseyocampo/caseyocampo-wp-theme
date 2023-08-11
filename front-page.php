@@ -11,8 +11,6 @@ get_header();
         ?>
         <!-- /Homepage widget -->
 
-        <h1 style="margin-top: 1em; padding-bottom: 1em; border-bottom: 1px solid var(--border-color)">I’m an <span class="primary-color">Accessibility Engineer</span> who writes about technology and personal finance.</h1>
-
         <div class="page--content">
             <h2 class="h1" style="margin-bottom: 1em;">Recent Posts <img src="https://www.caseyocampo.com/wp-content/uploads/2023/01/icon-blog.svg" alt="" class="icon-blog"></h2>
 

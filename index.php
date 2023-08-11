@@ -1,41 +1,41 @@
 <?php
-    get_header();
+get_header();
 ?>
 
-    <main class="archive">
-      <div class="archive-container">
+<main class="archive">
+    <div class="archive-container">
         <h1>Thoughts</h1>
 
-            <!-- gets post or page content -->
-            <?php
-                if (have_posts()) {
-                while (have_posts()) {
-                    the_post();
-                    
-                    // gets template part from template-parts.php folder
-                    get_template_part('template-parts/content', 'archive');
-                }
-                }
-            ?>
+        <!-- gets post or page content -->
+        <?php
+        if (have_posts()) {
+            while (have_posts()) {
+                the_post();
 
-            <?php
-                the_posts_pagination();
-            ?>
+                // gets template part from template-parts.php folder
+                get_template_part('template-parts/content', 'archive');
+            }
+        }
+        ?>
 
-            
-        </div>
-    </main>
+        <?php
+        the_posts_pagination();
+        ?>
 
-    <div class="sidebar--footer">
-        <div class="sidebar--footer--widgets">
 
-            <?php
-                dynamic_sidebar('sidebar-footer');
-            ?>
-
-        </div>  
     </div>
+</main>
+
+<div class="sidebar--footer">
+    <div class="sidebar--footer--widgets">
+
+        <?php
+        dynamic_sidebar('sidebar-footer');
+        ?>
+
+    </div>
+</div>
 
 <?php
-  get_footer();
+get_footer();
 ?>

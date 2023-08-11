@@ -55,7 +55,7 @@
 
             <div class="right-nav">
                 <div class="theme-switch-container">
-                    <label class="theme-switch" for="checkboxToggle">Toggle Theme</label>
+                    <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
                     <input type="checkbox" id="checkboxToggle" />
                     <span class="toggle-divider">|</span>
                 </div>
