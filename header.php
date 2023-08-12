@@ -52,9 +52,6 @@
 
             <a href="/" class="nav--title"><?php echo get_bloginfo('name'); ?></a>
             <p class="nav--tagline"><?php echo get_option('blogdescription'); ?></p>
-            <button id="nav-btn" aria-label="primary menu">
-                <p id="nav-icon">Menu</p>
-            </button>
 
             <div class="right-nav">
                 <button id="nav-btn" aria-label="primary menu" aria-expanded="false">
@@ -65,7 +62,6 @@
                     <input type="checkbox" id="checkboxToggle" />
                     <span class="toggle-divider">|</span>
                 </div>
-
 
 
                 <?php
