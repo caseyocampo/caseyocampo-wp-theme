@@ -25,11 +25,12 @@
     </script>
 
     <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="https://www.caseyocampo.com/wp-content/uploads/2023/08/2023-summary-card-jpg.webp" />
     <meta property="og:title" content="Casey Ocampo's Website">
-    <meta property="og:description" content="I’m an Accessibility Engineer who writes about technology, personal finance, and life.
+    <meta property="og:description" content="Accessibility Engineer who writes about technology, personal finance, and life.
 ">
     <meta property="og:url" content="https://www.caseyocampo.com/">
-    <meta property="og:image" content="https://www.caseyocampo.com/wp-content/uploads/2023/08/summary-card.svg">
+    <meta property="og:image" content="https://www.caseyocampo.com/wp-content/uploads/2023/08/2023-summary-card-jpg.webp">
     <meta property="og:type" content="article">
 
     <?php
