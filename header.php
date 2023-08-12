@@ -24,6 +24,7 @@
         gtag('config', 'UA-217821750-1');
     </script>
 
+    <meta name="twitter:card" content="summary" />
     <meta property="og:title" content="Casey Ocampo's Website">
     <meta property="og:description" content="Personal blog.">
     <meta property="og:url" content="https://www.caseyocampo.com/">
@@ -41,7 +42,6 @@
             <a href="#main-content" class="skip-link">Skip to main content</a>
         </div>
         <nav>
-
 
             <?php
             if (function_exists('the_custom_logo')) {
