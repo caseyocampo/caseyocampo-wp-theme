@@ -57,7 +57,10 @@
             </button>
 
             <div class="right-nav">
-                <div class="theme-switch-container">
+                <button id="nav-btn" aria-label="primary menu" aria-expanded="false">
+                    <p>Menu</p>
+                </button>
+                <div class=" theme-switch-container">
                     <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
                     <input type="checkbox" id="checkboxToggle" />
                     <span class="toggle-divider">|</span>
@@ -75,6 +78,7 @@
                     )
                 );
                 ?>
+
         </nav>
         </div>
     </header>
