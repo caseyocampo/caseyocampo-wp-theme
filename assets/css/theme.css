@@ -1,48 +1,26 @@
 :root {
   --code-border: #7e6d57;
-  /* --border-color: #eaecef; */
   --border-color: #7e6d57;
   --bg-color: #ffffff;
-  /* --bg-color: #d3ccc0; */
-  /* --bg-color: #fff9ef; */
-  /* --font-color: #252525; */
-  /* --font-color: #303051; */
   --font-color: #2f281f;
-  /* --heading-color: #292922; */
   --heading-color: #303051;
   --inverted-font-color: #c9d1d9;
-  /* --inverted-bg-color: #252525; */
-  /* --inverted-bg-color: #303051; */
   --inverted-bg-color: #322b21;
-  /* --primary-color: #0074e5; */
-  /* --primary-color: #574ba1; */
-  /* --primary-color: #b6533b; */
-  /* --primary-color: #ad6062; */
-  /* --primary-color: #7e6d57; */
   --primary-color: #786956;
   --secondary-color: #7e6d57;
-  /* --tag-color: #252525; */
-  /* --tag-color: #574ba1; */
   --tag-color: #7e6d57;
-  /* --tag-color: #b6533b; */
-  /* --tag-color: #c55239; */
 }
 
 [data-theme="dark"] {
   --code-border: #806fe8;
   --bg-color: #0d1116;
-  /* --border-color: #c9d1d9; */
   --border-color: #d3ccc0;
-  /* --font-color: #c9d1d9; */
   --font-color: #d3ccc0;
-  /* --heading-color: #818cab;  */
   --heading-color: #26d0ec;
   --inverted-font-color: #252525;
   --inverted-bg-color: #d3ccc0;
-  /* --primary-color: #7ee787; */
   --primary-color: #ecb76a;
-  --secondary-color: #8275c8;
-  /* --tag-color: #7ee787; */
+  --secondary-color: #ecb76a;
   --tag-color: #ecb76a;
 }
 
