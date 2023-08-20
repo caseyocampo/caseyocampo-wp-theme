@@ -1,7 +1,7 @@
 /*
 Theme Name: Casey Ocampo
 Text Domain: caseyocampo.com
-Version: 7.2
+Version: 7.3
 Description: Custom Accessible WordPress theme.
 Tags: responsive, minimal, accessible, right sidebar, bottom sidebar
 Author: Casey Ocampo
@@ -90,7 +90,7 @@ body {
 h1,
 .h1 {
   font-size: 2.875rem;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.25;
 }
 
@@ -381,7 +381,7 @@ input#s {
 
 .page--container h1,
 .archive-container h1 {
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 30px;
   line-height: 1.25;
 }
@@ -428,14 +428,14 @@ input#s {
 }
 
 .read-more {
-  border-bottom: 5px solid var(--blue);
+  border-bottom: 5px solid var(--primary-color);
   font-weight: bold;
   width: fit-content;
 }
 
 .github--link {
   border-radius: 30px;
-  color: var(--font-color) !important;
+  color: var(--primary-color) !important;
   display: inline-block;
   font-size: 1.15rem;
   margin-top: 10px;
@@ -986,10 +986,6 @@ form.pms-form ul.pms-form-fields-wrapper li {
   top: 5px;
 }
 
-.nav--title {
-  margin-right: 8px;
-}
-
 .nav--tagline {
   display: none;
 }
@@ -1002,7 +998,7 @@ form.pms-form ul.pms-form-fields-wrapper li {
 
 .article .post-image h1 {
   font-size: 34px;
-  font-weight: bold;
+  font-weight: 900;
   margin-top: 12px;
 }
 
@@ -1311,10 +1307,6 @@ form.pms-form ul.pms-form-fields-wrapper li {
   top: 5px;
 }
 
-.nav--title {
-  margin-right: 8px;
-}
-
 .nav--tagline {
   display: none;
 }
@@ -1327,7 +1319,7 @@ form.pms-form ul.pms-form-fields-wrapper li {
 
 .article .post-image h1 {
   font-size: 34px;
-  font-weight: bold;
+  font-weight: 900;
   margin-top: 12px;
 }
 

@@ -24,7 +24,7 @@
 }
 
 .page--container .single a {
-  color: var(--blue);
+  color: var(--primary-color);
   text-decoration: underline;
   word-wrap: break-word;
 }
