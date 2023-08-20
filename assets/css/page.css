@@ -28,10 +28,15 @@
   margin-bottom: 1.5em;
 }
 
+.page--content h2.post-title {
+  font-size: 1.75rem;
+}
+
 .page--content h2 {
-  line-height: 1.35;
+  font-size: 1.85rem;
   font-weight: bold;
-  margin-top: 1.25em;
+  line-height: 1.35;
+  margin-top: 1.5em;
   margin-bottom: 0.125em;
 }
 
@@ -40,16 +45,23 @@
 }
 
 .single h2 {
+  font-size: 1.85rem;
   font-weight: bold;
 }
 
 .page--content p,
 .single p {
+  font-family: var(--secondary-font-family), Baskerville, Garamond serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
   margin: 15px 0;
 }
 
 .page--container a,
 .page--container .page-content-full a {
+  font-family: var(--secondary-font-family), Baskerville, Garamond serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
   text-decoration: underline;
 }
 
@@ -86,7 +98,8 @@
 /* Mobile */
 
 @media (max-width: 700px) {
-  .post--content h2 {
+  .post--content h2,
+  .page--content h2.post-title {
     font-size: 1.25rem;
   }
 

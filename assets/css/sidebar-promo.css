@@ -34,6 +34,7 @@
 .sidebar ul li a,
 .sidebar--footer ul li a {
   color: var(--tag-color);
+  font-family: var(--primary-font-family);
   line-height: 1.65;
   text-decoration: underline;
 }

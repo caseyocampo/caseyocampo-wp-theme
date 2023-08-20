@@ -12,11 +12,9 @@ footer .widget h2 {
 }
 
 footer .widget ul li {
-  list-style: none;
-}
-
-footer .widget ul li {
   display: block;
+  font-family: var(--primary-font-family);
+  list-style: none;
 }
 
 footer .widget ul li:last-child {

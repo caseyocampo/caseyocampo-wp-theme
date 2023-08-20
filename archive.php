@@ -6,7 +6,7 @@ get_header();
     <section class="page--container">
         <div class="page--content">
 
-            <h1>Archive of <?php single_cat_title(); ?> Posts</h1>
+            <h1><?php single_cat_title(); ?> Posts</h1>
 
             <!-- gets post or page content -->
             <?php
