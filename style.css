@@ -16,7 +16,8 @@ Author URI: https://www.caseyocampo.com
 
 :root {
   --primary-font-family: "Libre Franklin", system-ui, arial, sans-serif;
-  --secondary-font-family: "Libre Baskerville", Baskerville, Garamond serif;
+  /* --secondary-font-family: "Libre Baskerville", Baskerville, Garamond serif; */
+  --secondary-font-family: "Libre Franklin", system-ui, arial, sans-serif;
   --aqua: #73fbca;
   --black: #252525;
   --purple: #584f8c;
@@ -127,7 +128,7 @@ body {
 
 p,
 li {
-  font-size: 1.15rem;
+  font-size: 1.125rem;
 }
 
 a {
