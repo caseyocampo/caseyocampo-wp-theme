@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.nav-links .page-numbers {
+  line-height: 1.7;
+}
+
 .homepage-widget {
   margin-top: 1em;
   padding-bottom: 1em;

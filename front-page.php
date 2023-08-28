@@ -11,6 +11,19 @@ get_header();
         ?>
         <!-- /Homepage widget -->
 
+        <section>
+            <h3>Categories</h3>
+
+            <div class="tagcloud">
+                <?php
+                $categories = get_categories();
+                foreach ($categories as $category) {
+                    echo '<a href="' . get_category_link($category->term_id) . '" class="tag-cloud-link">' . $category->name . '</a>';
+                }
+                ?>
+            </div>
+        </section>
+
         <div class="page--content">
             <h2 class="h1" style="margin-bottom: 1em;">Recent Posts <img src="https://www.caseyocampo.com/wp-content/uploads/2023/01/icon-blog.svg" alt="" class="icon-blog"></h2>
 
