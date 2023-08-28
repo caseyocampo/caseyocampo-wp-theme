@@ -858,7 +858,8 @@ form.form_15iP5 {
   color: #0370d9 !important;
 }
 
-#single-post .tagcloud a {
+#single-post .tagcloud a,
+#front-page .tagcloud a {
   border-radius: 3px;
   border: 1px solid var(--tag-color);
   color: var(--tag-color);
@@ -870,10 +871,14 @@ form.form_15iP5 {
   text-decoration: none;
 }
 
-/* #single-post .tagcloud a:hover {
-  background: var(--black);
-  color: white;
-} */
+#front-page .tagcloud {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 3em;
+}
+
+#front-page .tagcloud a:hover {
+  text-decoration: underline;
+}
 
 #menu-primary-1 .active {
   border-bottom: none !important;
@@ -1198,8 +1203,6 @@ form.form_15iP5 {
 
 #single-post .tagcloud a {
   border-radius: 3px;
-  /* border: 1px solid var(--black);
-  color: var(--black); */
   display: inline-block;
   font-size: 1.1rem !important;
   margin-right: 5px;

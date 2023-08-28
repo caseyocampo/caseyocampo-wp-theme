@@ -11,7 +11,7 @@ get_header();
         ?>
         <!-- /Homepage widget -->
 
-        <section>
+        <section id="front-page">
             <h3>Categories</h3>
 
             <div class="tagcloud">
