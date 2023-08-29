@@ -602,6 +602,11 @@ nav.navigation.post-navigation {
   }
 }
 
+.page ol li,
+.single ol li {
+  list-style-position: outside;
+}
+
 @media (max-width: 1200px) {
   .page ul li,
   .page ol li,
