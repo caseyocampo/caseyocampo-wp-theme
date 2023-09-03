@@ -99,7 +99,6 @@
 
 @media screen and (max-width: 1175px) {
   .post {
-    gap: 1em;
     margin-bottom: 25px;
     padding-bottom: 25px;
   }

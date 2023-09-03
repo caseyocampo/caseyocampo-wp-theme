@@ -2,8 +2,10 @@
 get_header();
 ?>
 
-<main class="page archive" id="main-content">
-    <div class="page--container">
+<div style="background: var(--primary-color); background-image: url('https://www.caseyocampo.com/wp-content/uploads/2022/05/books.jpg'); height: 175px; width: 100vw; " class="homepage-image"></div>
+
+<main class="page archive" id="main-content" style="padding-top: 0 !important;">
+    <div class=" page--container">
 
         <!-- Homepage widget -->
         <?php
@@ -25,7 +27,7 @@ get_header();
         </section>
 
         <div class="page--content">
-            <h2 class="h1" style="margin-bottom: 1em;">Recent Posts <img src="https://www.caseyocampo.com/wp-content/uploads/2023/01/icon-blog.svg" alt="" class="icon-blog"></h2>
+            <h2 class="h1" style="margin-bottom: 1em;">Recent Posts</h2>
 
             <?php
             if (have_posts()) {

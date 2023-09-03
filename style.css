@@ -1,7 +1,7 @@
 /*
 Theme Name: Casey Ocampo
 Text Domain: caseyocampo.com
-Version: 7.3
+Version: 7.5
 Description: Custom Accessible WordPress theme.
 Tags: responsive, minimal, accessible, right sidebar, bottom sidebar
 Author: Casey Ocampo
@@ -15,8 +15,9 @@ Author URI: https://www.caseyocampo.com
 }
 
 :root {
-  --primary-font-family: "Libre Franklin", system-ui, arial, sans-serif;
+  /* --primary-font-family: "Libre Franklin", system-ui, arial, sans-serif; */
   /* --secondary-font-family: "Libre Baskerville", Baskerville, Garamond serif; */
+  --primary-font-family: "system-ui", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --secondary-font-family: "Libre Franklin", system-ui, arial, sans-serif;
   --aqua: #73fbca;
   --black: #252525;
@@ -96,7 +97,7 @@ body {
 h1,
 .h1 {
   font-size: 2.875rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.25;
 }
 
@@ -224,6 +225,12 @@ ul li::marker {
     font-size: 24px;
   }
 
+  .homepage-widget-image {
+    margin: 0 !important;
+    top: -6em !important;
+    width: 100px !important;
+  }
+
   .table-container {
     width: 90vw;
   }
@@ -325,9 +332,9 @@ ul li::marker {
 
 input#s {
   background: var(--bg-color);
-  border: 1px solid var(--tag-color);
+  border: 1px solid var(--font-color);
   border-radius: 3px;
-  color: var(--tag-color);
+  color: var(--font-color);
   font-size: var(--font-size-body-desktop);
   height: 40px;
   margin-top: 0.5em;
@@ -462,6 +469,7 @@ nav.navigation.pagination {
 }
 
 .pagination .page-numbers {
+  border-bottom: 3px solid transparent;
   color: var(--font-color);
   display: inline-block;
   font-size: 30px;
@@ -484,11 +492,14 @@ nav.navigation.pagination {
   content: "";
 }
 
-.pagination .current,
+.pagination .current {
+  border-bottom: 3px solid var(--primary-color);
+  line-height: 1.7;
+}
+
 .pagination .page-numbers:hover {
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 3px solid var(--primary-color);
   color: var(--secordary-color) !important;
-  padding: 0.25em 0;
 }
 
 .pagination .screen-reader-text {
@@ -770,6 +781,14 @@ form.form_15iP5 {
   padding: 0 !important;
 }
 
+#mc_embed_signup {
+  background: var(--bg-color) !important;
+}
+
+#mc_embed_signup input {
+  border: 1px solid var(--font-color) !important;
+}
+
 #mc_embed_signup .indicates-required {
   margin-right: 0 !important;
 }
@@ -813,6 +832,7 @@ form.form_15iP5 {
 
 .breadcrumbs-container {
   background: white;
+  border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   padding: 0.5em;
 }
@@ -1358,8 +1378,8 @@ form.pms-form ul.pms-form-fields-wrapper li {
 input[type="button"],
 input[type="submit"] {
   background: var(--bg-color);
-  border: 1px solid var(--tag-color);
-  color: var(--tag-color);
+  border: 1px solid var(--font-color);
+  color: var(--font-color);
   padding: 0.5em 1em;
   margin-top: 0.5em;
   border-radius: 3px;

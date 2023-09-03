@@ -60,11 +60,11 @@
                 <button id="nav-btn" aria-label="primary menu" aria-expanded="false">
                     <p>Menu</p>
                 </button>
-                <div class=" theme-switch-container">
+                <!-- <div class=" theme-switch-container">
                     <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
                     <input type="checkbox" id="checkboxToggle" />
                     <span class="toggle-divider">|</span>
-                </div>
+                </div> -->
 
 
                 <?php
@@ -73,7 +73,11 @@
                         'menu' => 'Primary',
                         'container' => '',
                         'theme_location' => 'Primary',
-                        'items_wrap' => '<ul id="nav" class="nav-links">%3$s</ul>'
+                        'items_wrap' => '<ul id="nav" class="nav-links"><div class=" theme-switch-container">
+                        <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
+                        <input type="checkbox" id="checkboxToggle" />
+                        <span class="toggle-divider">|</span>
+                    </div>%3$s</ul>'
                     )
                 );
                 ?>
