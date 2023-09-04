@@ -25,7 +25,11 @@ header nav ul li {
 }
 
 header nav ul li a {
+  color: var(--header-link-color) !important;
+  font-size: 1rem;
   display: inline-block;
+  font-size: 1rem;
+  font-weight: 300;
   white-space: nowrap;
 }
 
@@ -137,6 +141,7 @@ header nav ul .active a {
 
   #nav li:last-child {
     border-bottom: none;
+    padding-bottom: 1em;
   }
 
   .nav--title {
@@ -165,8 +170,6 @@ header nav ul .active a {
     flex-direction: column;
     margin-top: 0.5em;
     min-width: 100%;
-    /* padding-top: 0.25em; */
-    /* margin-bottom: 0.5em; */
     width: -webkit-fill-available;
   }
   .theme-switch-container {
