@@ -189,7 +189,6 @@ header nav ul .active a {
 
 .homepage-image {
   height: 175px;
-  width: 100vw;
 }
 
 @media (max-width: 800px) {
