@@ -6,7 +6,8 @@
 
 get_header();
 ?>
-<div class="full-width-image" style="background-image: url('<?= filter_var(the_post_thumbnail_url(), FILTER_SANITIZE_URL);  ?>')"></div>
+
+<!-- <div class="full-width-image" style="background-image: url('<?=// filter_var(the_post_thumbnail_url(), FILTER_SANITIZE_URL);  ?>')"></div> -->
 
 
 <main class="page" id="main-content">

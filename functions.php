@@ -64,6 +64,18 @@ function casey_widget_areas()
         array(
             'before_title' => '',
             'after_title' => '',
+            'before_widget' => '<div class="homepage-image">',
+            'after_widget' => '</div>',
+            'name' => 'Homepage Image Widget',
+            'id' => 'homepage-image-widget',
+            'description' => 'Homepage Image Widget Area'
+        )
+    );
+
+    register_sidebar(
+        array(
+            'before_title' => '',
+            'after_title' => '',
             'before_widget' => '',
             'after_widget' => '',
             'name' => 'Homepage Widget',
@@ -71,6 +83,19 @@ function casey_widget_areas()
             'description' => 'Homepage Widget Area'
         )
     );
+
+    // register_sidebar(
+    //     array(
+    //         'before_title' => '',
+    //         'after_title' => '',
+    //         'before_widget' => '<div class="homepage-image">',
+    //         'after_widget' => '</div>',
+    //         'name' => 'Single Page Image Widget',
+    //         'id' => 'single-page-image-widget',
+    //         'description' => 'Single Page Image Widget Area'
+    //     )
+    // );
+
     register_sidebar(
         array(
             'before_title' => '<h3>',
@@ -170,6 +195,8 @@ add_filter('auto_update_plugin', '__return_false');
 add_filter('auto_update_theme', '__return_false');
 
 ?>
+
+
 
 <?php
 function get_breadcrumb()

@@ -2,7 +2,13 @@
 get_header();
 ?>
 
-<div style="background: var(--primary-color); background-image: url('https://www.caseyocampo.com/wp-content/uploads/2022/05/books.jpg'); height: 175px; width: 100vw; " class="homepage-image"></div>
+<!-- <div style="background-image: url('https://www.caseyocampo.com/wp-content/uploads/2022/05/books.jpg'); height: 175px;" class="homepage-image"></div> -->
+
+<!-- Homepage Image Widget -->
+<?php
+dynamic_sidebar('homepage-image-widget');
+?>
+<!-- /Homepage Image Widget -->
 
 <main class="page archive" id="main-content" style="padding-top: 0 !important;">
     <div class=" page--container">

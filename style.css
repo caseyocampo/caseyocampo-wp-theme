@@ -150,7 +150,7 @@ blockquote,
 .blockquote {
   background: var(--bg-color);
   border-left: 8px solid var(--secondary-color);
-  padding: 0em 1em 0em 2em;
+  padding: 0em 1em 0em 1.5em;
   margin: 1.5em 0;
 }
 

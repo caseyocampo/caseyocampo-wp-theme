@@ -6,6 +6,12 @@
 get_header();
 ?>
 
+<!-- Single Page Image Widget -->
+<?php
+dynamic_sidebar('single-page-image-widget');
+?>
+<!-- /Single Page Image Widget -->
+
 <main class="page" id="main-content">
     <div class="page--container">
 
