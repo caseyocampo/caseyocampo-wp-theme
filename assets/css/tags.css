@@ -43,6 +43,7 @@ a.tag-cloud-link.tag-link-position-19,
 a.tag-cloud-link.tag-link-position-20 {
   border-radius: 3px;
   border: 1px solid var(--tag-color);
+  border-bottom-width: thick;
   color: var(--tag-color);
   display: inline-block;
   font-size: 1.1rem !important;

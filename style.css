@@ -887,6 +887,7 @@ form.form_15iP5 {
 #front-page .tagcloud a {
   border-radius: 3px;
   border: 1px solid var(--tag-color);
+  border-bottom-width: thick;
   color: var(--tag-color);
   display: inline-block;
   font-size: 1.1rem !important;
@@ -1228,6 +1229,7 @@ form.form_15iP5 {
 
 #single-post .tagcloud a {
   border-radius: 3px;
+  border-bottom-width: thick;
   display: inline-block;
   font-size: 1.1rem !important;
   margin-right: 5px;
