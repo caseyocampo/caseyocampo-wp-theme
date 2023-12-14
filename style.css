@@ -1,7 +1,7 @@
 /*
 Theme Name: Casey Ocampo
 Text Domain: caseyocampo.com
-Version: 7.6
+Version: 0.1.7
 Description: Custom Accessible WordPress theme.
 Tags: responsive, minimal, accessible, right sidebar, bottom sidebar
 Author: Casey Ocampo
@@ -109,13 +109,15 @@ h1,
   color: var(--primary-color);
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 1.75rem;
   font-weight: 100;
   margin-top: 1.25em;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 1.5em;
