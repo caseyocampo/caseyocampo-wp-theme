@@ -20,7 +20,7 @@ dynamic_sidebar('homepage-image-widget');
         <!-- /Homepage widget -->
 
         <section id="front-page">
-            <h3 class="h2">Categories</h3>
+            <h2 class="h2">Categories</h2>
 
             <div class="tagcloud">
                 <?php
