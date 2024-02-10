@@ -25,9 +25,6 @@
         gtag('config', 'UA-217821750-1');
     </script>
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="https://www.caseyocampo.com/wp-content/uploads/2023/08/2023-summary-card-jpg.webp" />
-    <meta property="og:image" content="https://www.caseyocampo.com/wp-content/uploads/2023/08/2023-summary-card-jpg.webp">
     <meta property="og:type" content="article">
 
     <?php
