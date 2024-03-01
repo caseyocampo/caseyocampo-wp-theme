@@ -26,6 +26,8 @@
     </script>
 
     <meta property="og:type" content="article">
+    <meta charset="utf-8">
+
 
     <?php
     wp_head();
