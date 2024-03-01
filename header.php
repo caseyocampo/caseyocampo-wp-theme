@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,6 @@
     </script>
 
     <meta property="og:type" content="article">
-    <meta charset="utf-8">
 
 
     <?php
