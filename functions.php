@@ -222,4 +222,10 @@ function get_breadcrumb()
         echo '</em>"';
     }
 }
+
+?>
+
+<?php
+// Add this code to your theme's functions.php file or a custom plugin.
+add_filter('unzip_file_use_ziparchive', '__return_false');
 ?>
