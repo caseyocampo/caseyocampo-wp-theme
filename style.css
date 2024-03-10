@@ -15,8 +15,6 @@ Author URI: https://www.caseyocampo.com
 }
 
 :root {
-  /* --primary-font-family: "Libre Franklin", system-ui, arial, sans-serif; */
-  /* --secondary-font-family: "Libre Baskerville", Baskerville, Garamond serif; */
   --primary-font-family: "system-ui", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --secondary-font-family: "Libre Franklin", system-ui, arial, sans-serif;
   --aqua: #73fbca;
@@ -30,8 +28,6 @@ Author URI: https://www.caseyocampo.com
   --w-tablet: 900px;
   --width-mobile: 700px;
   --theme-purple: #31164e;
-  /* --light: #f8aa88;
-  --dark: #30102f; */
   --light: #a9e5a6;
   --dark: #252525;
   --border-radius: 4px;
