@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
     <meta name="google-site-verification" content="yTzqIHzTSkyUeSxm_fpADrUVk9EacY5p-nVKfdlRTp4" />
 
@@ -54,12 +55,6 @@
                 <button id="nav-btn" aria-label="primary menu" aria-expanded="false">
                     <p>Menu</p>
                 </button>
-                <!-- <div class=" theme-switch-container">
-                    <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
-                    <input type="checkbox" id="checkboxToggle" />
-                    <span class="toggle-divider">|</span>
-                </div> -->
-
 
                 <?php
                 wp_nav_menu(

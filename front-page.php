@@ -6,16 +6,17 @@ get_header();
 <?php
 dynamic_sidebar('homepage-image-widget');
 ?>
-<!-- /Homepage Image Widget -->
+
+<!-- Homepage widget -->
+<section class="homepage-widget">
+    <?php
+    dynamic_sidebar('homepage-widget');
+    ?>
+</section>
+
 
 <main class="page archive" id="main-content" style="padding-top: 0 !important;">
-    <div class=" page--container">
-
-        <!-- Homepage widget -->
-        <?php
-        dynamic_sidebar('homepage-widget');
-        ?>
-        <!-- /Homepage widget -->
+    <div class="page--container">
 
         <section id="front-page">
             <h2 class="h3">Categories</h2>

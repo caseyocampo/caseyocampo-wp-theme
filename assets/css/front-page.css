@@ -7,7 +7,18 @@
 }
 
 .homepage-widget {
-  margin-top: 1em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid var(--border-color);
+  align-items: center;
+  display: flex;
+  background: var(--bg-color);
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.homepage-widget h1 {
+  color: var(--font-color);
+  font-size: 5rem;
+  font-weight: 700 !important;
+  max-width: 1200px;
+  margin: 0 1rem;
+  padding: 0 1rem;
 }

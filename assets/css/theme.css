@@ -7,9 +7,9 @@
   --header-link-color: #28302d;
   --inverted-font-color: #c9d1d9;
   --inverted-bg-color: #101b17;
-  --primary-color: #437b68;
-  --secondary-color: #437b68;
-  --tag-color: #437b68;
+  --primary-color: #2d6451;
+  --secondary-color: #2d6451;
+  --tag-color: #2d6451;
 }
 
 [data-theme="dark"] {
