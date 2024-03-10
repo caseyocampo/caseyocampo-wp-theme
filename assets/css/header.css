@@ -58,6 +58,7 @@ header nav ul .active a {
 .nav--title {
   font-size: 2.25rem;
   font-weight: bold;
+  letter-spacing: -0.04em;
   margin-right: 8px;
   min-width: 205px;
 }
