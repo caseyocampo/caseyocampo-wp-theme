@@ -2,8 +2,6 @@
 get_header();
 ?>
 
-<!-- <div style="background-image: url('https://www.caseyocampo.com/wp-content/uploads/2022/05/books.jpg'); height: 175px;" class="homepage-image"></div> -->
-
 <!-- Homepage Image Widget -->
 <?php
 dynamic_sidebar('homepage-image-widget');
@@ -57,18 +55,6 @@ dynamic_sidebar('homepage-image-widget');
 
         </div>
         <!-- /.page--content -->
-
-        <!--
-        <div class="sidebar">
-          <div class="sidebar--right">
-
-            <?php
-            //dynamic_sidebar('sidebar-right');
-            ?>
-
-          </div>
-        </div>
-		-->
 
     </div>
     <!-- /page--container  -->
