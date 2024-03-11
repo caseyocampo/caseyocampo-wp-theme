@@ -224,7 +224,7 @@ ul li::marker {
   }
 
   .homepage-widget-image {
-    margin: 0 !important;
+    margin: 0 1em !important;
     top: -6em !important;
     width: 100px !important;
   }
