@@ -27,7 +27,7 @@
     </script>
 
     <meta property="og:type" content="article">
-
+    <link href="wp-content/themes/caseyocampo-wp-theme/src/output.css" rel="stylesheet">
 
     <?php
     wp_head();
@@ -40,7 +40,6 @@
             <a href="#main-content" class="skip-link">Skip to main content</a>
         </div>
         <nav>
-
             <?php
             if (function_exists('the_custom_logo')) {
                 $custom_logo_id = get_theme_mod('custom_logo');
@@ -48,7 +47,7 @@
             }
             ?>
 
-            <a href="/" class="nav--title"><?php echo get_bloginfo('name'); ?></a>
+            <a href=" /" class="nav--title"><?php echo get_bloginfo('name'); ?></a>
             <p class="nav--tagline"><?php echo get_option('blogdescription'); ?></p>
 
             <div class="right-nav">
