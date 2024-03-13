@@ -19,7 +19,6 @@ get_header();
 
 <main class="page archive" id="main-content" style="padding-top: 0 !important;">
     <div class="page--container">
-
         <section id="front-page">
             <h2 class="h3 tracking-tighter">Categories</h2>
 
@@ -57,10 +56,7 @@ get_header();
             ?>
 
         </div>
-        <!-- /.page--content -->
-
     </div>
-    <!-- /page--container  -->
 </main>
 
 <?php
