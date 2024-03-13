@@ -1,5 +1,7 @@
 # Getting started
 
+This project uses MAMP, WordPress, and Tailwind. It is being served from a shared hosting plan on Namecheap and utilizes Cloudflare CDN and SSL.
+
 - Install a tool like [MAMP](https://www.mamp.info/en/mamp/mac/) to run a local WordPress install
 
 - Download a copy of [WordPress](https://wordpress.org/)
@@ -14,13 +16,15 @@
 
         https://github.com/caseyocampo/caseyocampo-wp-theme.git
 
-### Tailwind
+## Tailwind
+
+This theme uses [Tailwind](https://tailwindcss.com/) for styles. I'm currently in the process of migrating my custom CSS to Tailwind. In my experience, Tailwind is just easier to read, write, and possibly the biggest benefit of them all - you can understand what the classes mean when you revisit a project after a while.
 
 Watch for Tailwind classes:
 
-`npx tailwindcss -i ./src/input.css -o ./src/output.css --watch`
+        npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
-### About CaseyOcampo.com
+## About CaseyOcampo.com
 
 I built this so that I could use my own custom WordPress theme for my blog. It was also a cool dev opportunity to tinker with php and MySQL.
 
