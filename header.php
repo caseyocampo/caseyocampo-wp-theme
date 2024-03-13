@@ -27,7 +27,6 @@
     </script>
 
     <meta property="og:type" content="article">
-    <link href="/wp-content/themes/caseyocampo-wp-theme/src/output.css" rel="stylesheet">
 
     <?php
     wp_head();
