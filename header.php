@@ -27,7 +27,7 @@
     </script>
 
     <meta property="og:type" content="article">
-
+    <meta name="description" content="Casey Ocampo's blog.">
     <?php
     wp_head();
     ?>
