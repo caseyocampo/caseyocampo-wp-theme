@@ -24,6 +24,8 @@ Watch for Tailwind classes:
 
         npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
+Alternatively, you can run `npm run tw` for a shorthand command.
+
 ## About CaseyOcampo.com
 
 I built this so that I could use my own custom WordPress theme for my blog. It was also a cool dev opportunity to tinker with php and MySQL.
