@@ -27,7 +27,7 @@ header('Access-Control-Allow-Origin: *');
 function casey_register_styles()
 {
     $version = wp_get_theme()->get('Version');
-    $ver = date("Y-m-d");
+    $ver = date("Y-m-d") + time();
     wp_enqueue_style('tailwind', get_template_directory_uri() . "/src/output.css", $version, $ver);
     wp_enqueue_style('casey-style', get_template_directory_uri() . "/style.css", $version, $ver);
     wp_enqueue_style('casey-header', get_template_directory_uri() . "/assets/css/header.css", $version, $ver);
@@ -51,7 +51,6 @@ function casey_register_scripts()
 {
     wp_enqueue_script('casey-main', get_template_directory_uri() . "/assets/js/main.js", array(), '5', true);
     wp_enqueue_script('casey-toggleTheme', get_template_directory_uri() . "/assets/js/toggleTheme.js", array(), '5', true);
-    wp_enqueue_script('casey-font-awesome', 'https://kit.fontawesome.com/2641fe0f3e.js', array(), '5.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'casey_register_scripts');

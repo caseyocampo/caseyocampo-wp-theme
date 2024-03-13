@@ -61,9 +61,6 @@
 .page--container a,
 .page--container .page-content-full a {
   font-family: var(--secondary-font-family), Baskerville, Garamond serif;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  text-decoration: underline;
 }
 
 /* Desktop Breakpoint */
