@@ -55,14 +55,6 @@ header nav ul .active a {
   width: 250px;
 }
 
-.nav--title {
-  font-size: 2.25rem;
-  font-weight: bold;
-  letter-spacing: -0.04em;
-  margin-right: 8px;
-  min-width: 205px;
-}
-
 .nav--tagline {
   font-size: 12px;
   margin-bottom: -8px;
@@ -121,7 +113,7 @@ header nav ul .active a {
     float: right;
     padding: 0.25em 0.5em;
     position: absolute;
-    top: 0.5em;
+    top: 1.25em;
     right: 1em;
   }
 
@@ -143,10 +135,6 @@ header nav ul .active a {
   #nav li:last-child {
     border-bottom: none;
     padding-bottom: 1em;
-  }
-
-  .nav--title {
-    font-size: 26px;
   }
 
   .nav--tagline {

@@ -75,7 +75,6 @@
 header nav .nav--title,
 header nav ul .menu-item a {
   color: var(--font-color);
-  font-family: var(--primary-font-family);
 }
 
 a .post-title,

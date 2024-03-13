@@ -3,9 +3,11 @@ get_header();
 ?>
 
 <!-- Homepage Image Widget -->
-<?php
-dynamic_sidebar('homepage-image-widget');
-?>
+<section class="pt-10" style="background: var(--bg-color);">
+    <?php
+    dynamic_sidebar('homepage-image-widget');
+    ?>
+</section>
 
 <!-- Homepage widget -->
 <section class="homepage-widget">
@@ -19,7 +21,7 @@ dynamic_sidebar('homepage-image-widget');
     <div class="page--container">
 
         <section id="front-page">
-            <h2 class="h3">Categories</h2>
+            <h2 class="h3 tracking-tighter">Categories</h2>
 
             <div class="tagcloud">
                 <?php
@@ -32,7 +34,7 @@ dynamic_sidebar('homepage-image-widget');
         </section>
 
         <div class="page--content">
-            <h2 class="h1" style="margin-bottom: 1em;">Recent Posts</h2>
+            <h2 class="h1 tracking-tighter" style="margin-bottom: 1em;">Recent Posts</h2>
 
             <?php
             if (have_posts()) {
