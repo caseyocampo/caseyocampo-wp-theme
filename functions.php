@@ -27,10 +27,9 @@ header('Access-Control-Allow-Origin: *');
 function casey_register_styles()
 {
     $version = wp_get_theme()->get('Version');
-    $ver = 11;
-    //     wp_enqueue_style('casey-style', get_template_directory_uri()."/style.css", $version, 'all');
+    $ver = date("Y-m-d");
+    wp_enqueue_style('tailwind', get_template_directory_uri() . "/src/output.css", $version, $ver);
     wp_enqueue_style('casey-style', get_template_directory_uri() . "/style.css", $version, $ver);
-    //     wp_enqueue_style('casey-header', get_template_directory_uri()."/assets/css/header.css", $version, 'all');
     wp_enqueue_style('casey-header', get_template_directory_uri() . "/assets/css/header.css", $version, $ver);
     wp_enqueue_style('casey-footer', get_template_directory_uri() . "/assets/css/footer.css", $version, $ver);
     wp_enqueue_style('casey-archive', get_template_directory_uri() . "/assets/css/archive.css", $version, 'all');
