@@ -16,7 +16,7 @@ Author URI: https://www.caseyocampo.com
 
 :root {
   --primary-font-family: "Inter", system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --secondary-font-family: "Libre Franklin", system-ui, arial, sans-serif;
+  --secondary-font-family: "Inter", system-ui, arial, sans-serif;
   --aqua: #73fbca;
   --black: #252525;
   --purple: #584f8c;
