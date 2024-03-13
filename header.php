@@ -62,11 +62,11 @@
                         'menu' => 'Primary',
                         'container' => '',
                         'theme_location' => 'Primary',
-                        'items_wrap' => '<ul id="nav" class="nav-links"><div class=" theme-switch-container">
+                        'items_wrap' => '<ul id="nav" class="nav-links"><li class="theme-switch-container">
                         <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
                         <input type="checkbox" id="checkboxToggle" />
                         <span class="toggle-divider">|</span>
-                    </div>%3$s</ul>'
+                    </li>%3$s</ul>'
                     )
                 );
                 ?>
