@@ -29,9 +29,9 @@
             ?>
 
             <a href="/" class="text-zinc-950 text-3xl font-bold mr-4 min-w-52 tracking-tighter md:text-4xl"><?php echo get_bloginfo('name'); ?></a>
-            <p class="nav--tagline"><?php echo get_option('blogdescription'); ?></p>
+            <p class="hidden"><?php echo get_option('blogdescription'); ?></p>
 
-            <div class="right-nav">
+            <div class="flex baseline min-w-full flex-col sm:flex-row xl:min-w-fit">
                 <button id="nav-btn" aria-label="primary menu" aria-expanded="false">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
                         <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
@@ -44,9 +44,9 @@
                         'menu' => 'Primary',
                         'container' => '',
                         'theme_location' => 'Primary',
-                        'items_wrap' => '<ul id="nav" class="nav-links"><li class="theme-switch-container">
+                        'items_wrap' => '<ul id="nav" class="nav-links"><li class="theme-switch-container mr-0 ">
                         <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
-                        <input type="checkbox" id="checkboxToggle" />
+                        <input type="checkbox" id="checkboxToggle" class="mr-6" />
                         <span class="toggle-divider">|</span>
                     </li>%3$s</ul>'
                     )

@@ -1022,10 +1022,6 @@ form.pms-form ul.pms-form-fields-wrapper li {
   top: 5px;
 }
 
-.nav--tagline {
-  display: none;
-}
-
 .article .post-image {
   display: flex;
   flex-direction: row-reverse;
@@ -1340,10 +1336,6 @@ form.pms-form ul.pms-form-fields-wrapper li {
 
 #nav-btn {
   top: 5px;
-}
-
-.nav--tagline {
-  display: none;
 }
 
 .article .post-image {
