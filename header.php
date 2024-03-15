@@ -20,9 +20,11 @@
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
+        gtag('set', {
+            cookie_flags: 'SameSite=None;Secure'
+        });
         gtag('config', 'G-0V4CSP11R7', {
-            cookie_flags: 'max-age=7200;secure;samesite=none'
+            cookie_flags: 'SameSite=None;Secure'
         });
     </script>
 
@@ -35,9 +37,11 @@
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
+        gtag('set', {
+            cookie_flags: 'SameSite=None;Secure'
+        });
         gtag('config', 'G-N2A3FMNDT5', {
-            cookie_flags: 'max-age=7200;secure;samesite=none'
+            cookie_flags: 'SameSite=None;Secure'
         });
     </script>
     <?php
