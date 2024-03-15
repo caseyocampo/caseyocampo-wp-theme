@@ -20,7 +20,9 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'G-0V4CSP11R7');
+        gtag('config', 'G-N2A3FMNDT5', {
+            cookie_flags: 'max-age=7200;secure;samesite=none'
+        });
     </script>
     <?php
     wp_head();
