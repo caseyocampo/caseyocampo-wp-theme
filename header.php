@@ -21,7 +21,9 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'G-0V4CSP11R7');
+        gtag('config', 'G-0V4CSP11R7', {
+            cookie_flags: 'max-age=7200;secure;samesite=none'
+        });
     </script>
 
     <!-- Google Analytics tag (gtag.js) -->
