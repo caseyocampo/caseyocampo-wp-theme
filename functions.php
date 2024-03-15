@@ -49,8 +49,9 @@ add_action('wp_enqueue_scripts', 'casey_register_styles');
 
 function casey_register_scripts()
 {
-    wp_enqueue_script('casey-main', get_template_directory_uri() . "/assets/js/main.js", array(), '5', true);
-    wp_enqueue_script('casey-toggleTheme', get_template_directory_uri() . "/assets/js/toggleTheme.js", array(), '5', true);
+    $ver = date("Y-m-d") + time();
+    wp_enqueue_script('casey-main', get_template_directory_uri() . "/assets/js/main.js", array(),  $ver, true);
+    wp_enqueue_script('casey-toggleTheme', get_template_directory_uri() . "/assets/js/toggleTheme.js", array(),  $ver, true);
 }
 
 add_action('wp_enqueue_scripts', 'casey_register_scripts');
