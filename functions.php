@@ -32,17 +32,17 @@ function casey_register_styles()
     wp_enqueue_style('casey-style', get_template_directory_uri() . "/style.css", $version, $ver);
     wp_enqueue_style('casey-header', get_template_directory_uri() . "/assets/css/header.css", $version, $ver);
     wp_enqueue_style('casey-footer', get_template_directory_uri() . "/assets/css/footer.css", $version, $ver);
-    wp_enqueue_style('casey-archive', get_template_directory_uri() . "/assets/css/archive.css", $version, 'all');
-    wp_enqueue_style('casey-article', get_template_directory_uri() . "/assets/css/article.css", $version, 'all');
-    wp_enqueue_style('casey-single-article', get_template_directory_uri() . "/assets/css/single-post.css", $version, 'all');
-    wp_enqueue_style('casey-front-page', get_template_directory_uri() . "/assets/css/front-page.css", $version, 'all');
-    wp_enqueue_style('casey-page-full', get_template_directory_uri() . "/assets/css/page-full.css", $version, 'all');
-    wp_enqueue_style('casey-page', get_template_directory_uri() . "/assets/css/page.css", $version, 'all');
-    wp_enqueue_style('casey-sidebar-promo', get_template_directory_uri() . "/assets/css/sidebar-promo.css", $version, 'all');
-    wp_enqueue_style('casey-sidebar-right', get_template_directory_uri() . "/assets/css/sidebar-right.css", $version, 'all');
-    wp_enqueue_style('casey-sidebar-footer', get_template_directory_uri() . "/assets/css/sidebar-footer.css", $version, 'all');
-    wp_enqueue_style('casey-tags', get_template_directory_uri() . "/assets/css/tags.css", $version, 'all');
-    wp_enqueue_style('casey-theme', get_template_directory_uri() . "/assets/css/theme.css", $version, 'all');
+    wp_enqueue_style('casey-archive', get_template_directory_uri() . "/assets/css/archive.css", $version);
+    wp_enqueue_style('casey-article', get_template_directory_uri() . "/assets/css/article.css", $version);
+    wp_enqueue_style('casey-single-article', get_template_directory_uri() . "/assets/css/single-post.css", $version);
+    wp_enqueue_style('casey-front-page', get_template_directory_uri() . "/assets/css/front-page.css", $version);
+    wp_enqueue_style('casey-page-full', get_template_directory_uri() . "/assets/css/page-full.css", $version);
+    wp_enqueue_style('casey-page', get_template_directory_uri() . "/assets/css/page.css", $version);
+    wp_enqueue_style('casey-sidebar-promo', get_template_directory_uri() . "/assets/css/sidebar-promo.css", $version);
+    wp_enqueue_style('casey-sidebar-right', get_template_directory_uri() . "/assets/css/sidebar-right.css", $version);
+    wp_enqueue_style('casey-sidebar-footer', get_template_directory_uri() . "/assets/css/sidebar-footer.css", $version);
+    wp_enqueue_style('casey-tags', get_template_directory_uri() . "/assets/css/tags.css", $version);
+    wp_enqueue_style('casey-theme', get_template_directory_uri() . "/assets/css/theme.css", $version);
 }
 
 add_action('wp_enqueue_scripts', 'casey_register_styles');
