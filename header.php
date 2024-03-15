@@ -20,7 +20,7 @@
         <div class="visually-hidden">
             <a href="#main-content" class="skip-link">Skip to main content</a>
         </div>
-        <nav class="pt-4 mb-4 md:mb-0">
+        <nav class="pt-4 mb-4 xl:mb-0">
             <?php
             if (function_exists('the_custom_logo')) {
                 $custom_logo_id = get_theme_mod('custom_logo');
@@ -33,7 +33,7 @@
 
             <div class="flex baseline min-w-full flex-col sm:flex-row xl:min-w-fit">
                 <button id="nav-btn" aria-label="primary menu" aria-expanded="false">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
                         <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
                     </svg>
                 </button>
@@ -44,7 +44,7 @@
                         'menu' => 'Primary',
                         'container' => '',
                         'theme_location' => 'Primary',
-                        'items_wrap' => '<ul id="nav" class="nav-links"><li class="theme-switch-container mr-0 ">
+                        'items_wrap' => '<ul id="nav" class="flex"><li class="mr-0 text-base font-light	py-4 lg:py-0" style="color: var(--header-link-color);">
                         <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
                         <input type="checkbox" id="checkboxToggle" class="mr-6" />
                         <span class="toggle-divider">|</span>
