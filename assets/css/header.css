@@ -121,11 +121,6 @@ header nav ul .active a {
     border-bottom: 1px solid var(--border-color);
   }
 
-  #nav li:last-child {
-    border-bottom: none;
-    padding-bottom: 1em;
-  }
-
   #nav-btn[aria-expanded="false"] + #nav {
     display: none;
   }

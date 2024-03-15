@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    <header>
+    <header style="border-bottom: 1px solid var(--border-color);">
         <div class="visually-hidden">
             <a href="#main-content" class="skip-link">Skip to main content</a>
         </div>
-        <nav class="pt-4">
+        <nav class="pt-4 mb-4 md:mb-0">
             <?php
             if (function_exists('the_custom_logo')) {
                 $custom_logo_id = get_theme_mod('custom_logo');
