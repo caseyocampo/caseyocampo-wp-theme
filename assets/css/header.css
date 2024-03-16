@@ -79,7 +79,15 @@ header nav ul .active a {
   }
 }
 
+.homepage-image {
+  height: 175px;
+}
+
 @media (max-width: 800px) {
+  .homepage-image {
+    height: 125px !important;
+  }
+
   .homepage-widget-h1 {
     font-size: 26px !important;
     padding: 0 !important;
