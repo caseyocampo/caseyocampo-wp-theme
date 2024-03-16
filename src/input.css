@@ -14,3 +14,11 @@ h5,
 h6 {
   @apply tracking-tighter;
 }
+
+main a {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: disc;
+}

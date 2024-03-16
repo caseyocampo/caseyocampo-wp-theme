@@ -133,7 +133,6 @@ li {
 a {
   font-size: 1.15rem;
   overflow-wrap: break-word;
-  text-decoration: none;
 }
 
 aside,
@@ -201,10 +200,6 @@ code {
   color: #333;
   font-size: 1em;
   padding: 2px 10px;
-}
-
-ul li::marker {
-  color: var(--secondary-color);
 }
 
 .icon-blog {

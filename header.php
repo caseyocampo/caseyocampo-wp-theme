@@ -78,7 +78,7 @@
 
     <?php if (!is_home()) : ?>
         <div class="flex items-center justify-center px-4" style="background: var(--bg-color); border-bottom: 1px solid var(--border-color); color: var(--font-color)">
-            <div id="breadcrumb" class="flex items-center py-2 w-[72rem] max-w-6xl">
+            <div id="breadcrumb" class="flex flex-wrap items-center py-2 w-[72rem] max-w-6xl">
                 <?php get_breadcrumb(); ?>
             </div>
         </div>
