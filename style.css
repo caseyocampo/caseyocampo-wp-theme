@@ -815,43 +815,6 @@ form.form_15iP5 {
   margin: 0 !important;
 }
 
-.breadcrumb-divider {
-  display: inline-block;
-  height: 1em;
-  margin: 0 0.125em;
-  width: auto;
-}
-
-.breadcrumbs-container {
-  background: white;
-  border-bottom: 1px solid var(--border-color);
-  padding: 0.5em;
-}
-
-.breadcrumb {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  max-width: var(--width-content);
-}
-
-.breadcrumb a {
-  color: var(--black);
-  text-decoration: underline;
-}
-
-.breadcrumb a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 1200px) {
-  .breadcrumb {
-    padding: 0 0.5em;
-  }
-}
-
 .page--container {
   display: block;
   max-width: 675px;
@@ -1149,19 +1112,6 @@ form.form_15iP5 {
 
 #mc_embed_signup form {
   margin: 0 !important;
-}
-
-.breadcrumb-divider {
-  display: inline-block;
-  height: 1em;
-  margin: 0 0.125em;
-  width: auto;
-}
-
-.breadcrumbs-container {
-  background: white;
-  border-bottom: 1px solid var(--border-color);
-  padding: 0.5em;
 }
 
 .breadcrumb {

@@ -34,11 +34,11 @@
 </head>
 
 <body>
-    <header class="flex items-center justify-center py-0 lg:py-4" style="background-color: var(--bg-color); border-bottom: 1px solid var(--border-color);">
+    <header class="flex items-center justify-center py-0 px-4 lg:py-4" style="background-color: var(--bg-color); border-bottom: 1px solid var(--border-color);">
         <div class="visually-hidden">
             <a href="#main-content" class="skip-link">Skip to main content</a>
         </div>
-        <nav class="flex justify-between w-[72rem] max-w-6xl my-4 lg:mb-0 lg:mt-0 xl:mb-0">
+        <nav class="flex flex-col justify-between w-[72rem] max-w-6xl my-4 xl:flex-row lg:mb-0 lg:mt-0 xl:mb-0">
             <?php
             if (function_exists('the_custom_logo')) {
                 $custom_logo_id = get_theme_mod('custom_logo');
@@ -46,7 +46,7 @@
             }
             ?>
 
-            <a href="/" class="text-zinc-950 text-3xl font-bold mr-4 min-w-52 tracking-tighter md:text-4xl"><?php echo get_bloginfo('name'); ?></a>
+            <a href="/" class="place-self-start text-zinc-950 text-3xl font-bold mr-4 min-w-60 tracking-tighter md:text-4xl"><?php echo get_bloginfo('name'); ?></a>
             <p class="hidden"><?php echo get_option('blogdescription'); ?></p>
 
             <div class="flex baseline min-w-full flex-col sm:flex-row xl:min-w-fit">
@@ -62,7 +62,8 @@
                         'menu' => 'Primary',
                         'container' => '',
                         'theme_location' => 'Primary',
-                        'items_wrap' => '<ul id="nav" class="flex list-none items-center justify-end w-full"><li class="mr-0 text-base font-light py-4 xl:py-0 xl:mx-4" style="color: var(--header-link-color);">
+                        'items_wrap' => '<ul id="nav" class="flex items-start flex-col list-none w-full lg:flex-row lg:items-center">
+                        <li class="mr-0 text-base font-light py-4 xl:py-0 xl:mx-4" style="color: var(--header-link-color);">
                         <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
                         <input type="checkbox" id="checkboxToggle" class="mr-6" />
                         <span class="hidden xl:inline-block">|</span>
@@ -76,8 +77,8 @@
     </header>
 
     <?php if (!is_home()) : ?>
-        <div class="breadcrumbs-container">
-            <div class="breadcrumb">
+        <div class="flex items-center justify-center px-4" style="background: var(--bg-color); border-bottom: 1px solid var(--border-color); color: var(--font-color)">
+            <div id="breadcrumb" class="flex items-center py-2 w-[72rem] max-w-6xl">
                 <?php get_breadcrumb(); ?>
             </div>
         </div>

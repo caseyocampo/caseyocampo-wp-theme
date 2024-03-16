@@ -27,12 +27,7 @@
 }
 
 [type="checkbox"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-[type="checkbox"] {
+  cursor: pointer;
   width: 18px;
   height: 18px;
   border: solid 1px var(--header-link-color);
@@ -40,6 +35,9 @@
   margin-left: 0.75em;
   position: relative;
   top: 0.25em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 [type="checkbox"]:checked::before {
@@ -90,7 +88,6 @@ a:-webkit-any-link {
   color: var(--primary-color);
 }
 
-.breadcrumbs-container,
 main,
 .sidebar--footer {
   background: var(--bg-color);
