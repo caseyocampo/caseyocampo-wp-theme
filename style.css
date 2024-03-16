@@ -595,12 +595,6 @@ nav.navigation.post-navigation {
   width: 300px;
 }
 
-@media (min-width: 800px) {
-  #nav-btn {
-    display: none;
-  }
-}
-
 @media (max-width: 900px) {
   .post .read-more {
     display: none;
@@ -1017,10 +1011,6 @@ form.pms-form ul.pms-form-fields-wrapper li {
   transition: all 0.125s;
 }
 
-#nav-btn {
-  top: 5px;
-}
-
 .article .post-image {
   display: flex;
   flex-direction: row-reverse;
@@ -1331,10 +1321,6 @@ form.pms-form ul.pms-form-fields-wrapper li {
 .tagcloud a:hover,
 #searchsubmit:hover {
   transition: all 0.125s;
-}
-
-#nav-btn {
-  top: 5px;
 }
 
 .article .post-image {

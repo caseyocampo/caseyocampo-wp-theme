@@ -4,10 +4,10 @@ const nav = document.getElementById("nav")
 navBtn.addEventListener("click", toggleNav)
 
 function toggleNav() {
-  if (nav.className === "flex") {
-    nav.classList.add("responsive")
+  if (!nav.classList.contains("responsive")) {
+    nav.classList.toggle("responsive")
     navBtn.setAttribute("aria-expanded", "true")
-  } else if (nav.className === "flex responsive") {
+  } else if (nav.classList.contains("responsive")) {
     nav.classList.remove("responsive")
     navBtn.setAttribute("aria-expanded", "false")
   }
