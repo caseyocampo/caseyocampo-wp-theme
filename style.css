@@ -325,9 +325,9 @@ code {
 
 input#s {
   background: var(--bg-color);
-  border: 1px solid var(--font-color);
+  border: 1px solid var(--primary-color);
   border-radius: 3px;
-  color: var(--font-color);
+  color: var(--primary-color);
   font-size: var(--font-size-body-desktop);
   height: 40px;
   margin-top: 0.5em;
@@ -1300,8 +1300,8 @@ form.pms-form ul.pms-form-fields-wrapper li {
 input[type="button"],
 input[type="submit"] {
   background: var(--bg-color);
-  border: 1px solid var(--font-color);
-  color: var(--font-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   padding: 0.5em 1em;
   margin-top: 0.5em;
   border-radius: 3px;

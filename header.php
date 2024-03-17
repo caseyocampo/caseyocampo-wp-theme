@@ -63,7 +63,7 @@
                         'container' => '',
                         'theme_location' => 'Primary',
                         'items_wrap' => '<ul id="nav" class="flex items-start flex-col list-none w-full lg:flex-row lg:items-center">
-                        <li class="mr-0 text-base font-light py-4 xl:py-0 xl:mx-4" style="color: var(--header-link-color);">
+                        <li class="mr-0 text-base font-light py-4 xl:py-0 xl:mx-4" style="color: var(--font-color);">
                         <label class="theme-switch" for="checkboxToggle">Dark Mode</label>
                         <input type="checkbox" id="checkboxToggle" class="mr-6" />
                         <span class="hidden xl:inline-block">|</span>

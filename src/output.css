@@ -833,6 +833,10 @@ video {
   display: none;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -2489,11 +2493,6 @@ video {
   forced-color-adjust: none;
 }
 
-header nav a {
-  --tw-text-opacity: 1;
-  color: rgb(9 9 11 / var(--tw-text-opacity));
-}
-
 h1,
 h2,
 h3,
@@ -2509,6 +2508,78 @@ main a {
 
 ul {
   list-style-type: disc;
+}
+
+/* HEADER */
+
+header nav a {
+  --tw-text-opacity: 1;
+  color: rgb(9 9 11 / var(--tw-text-opacity));
+}
+
+header nav ul li {
+  margin: 0 1em;
+}
+
+header nav ul li a {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+header nav ul li a:hover,
+header nav ul .active a {
+  text-decoration: underline;
+}
+
+#breadcrumb a {
+  text-decoration: underline;
+}
+
+#breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1152px) {
+  header nav ul li {
+    margin: 0;
+  }
+
+  header nav ul li a {
+    border-bottom: none;
+    margin: 0;
+  }
+
+  header nav ul li a:hover {
+    border-bottom: none;
+  }
+
+  #nav.responsive {
+    display: block;
+    margin-top: 0.5em;
+    text-align: left;
+  }
+
+  #nav a {
+    padding: 0.75em 1em 0.75em 0;
+    width: 100%;
+  }
+
+  #nav li:not(:last-child) {
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  #nav-btn[aria-expanded="false"] + #nav {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .homepage-widget-h1 {
+    font-size: 26px !important;
+    padding: 0 !important;
+  }
 }
 
 @media (min-width: 640px) {
@@ -2593,6 +2664,10 @@ ul {
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:h-64 {
+    height: 16rem;
   }
 
   .lg\:flex-row {

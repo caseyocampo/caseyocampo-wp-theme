@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <!-- Homepage Image Widget -->
-<section class="pt-6" style="background: var(--bg-color);">
+<section class="pt-6 h-36 lg:h-64" style="background: var(--bg-color);">
     <?php
     dynamic_sidebar('homepage-image-widget');
     ?>
