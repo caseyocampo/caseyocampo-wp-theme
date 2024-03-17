@@ -2,18 +2,13 @@
 get_header();
 ?>
 
-<!-- Homepage Image Widget -->
-<section class="pt-6 h-36 lg:h-64" style="background: var(--bg-color);">
-    <?php
-    dynamic_sidebar('homepage-image-widget');
-    ?>
-</section>
-
-<!-- Homepage widget -->
-<section class="homepage-widget">
-    <?php
-    dynamic_sidebar('homepage-widget');
-    ?>
+<!-- Hero widget -->
+<section id="hero-widget" class="flex items-center justify-center pt-20 lg:pt-40" style="background: var(--bg-color); color: var(--font-color)">
+    <div class="w-[72rem] max-w-6xl">
+        <?php
+        dynamic_sidebar('homepage-widget');
+        ?>
+    </div>
 </section>
 
 

@@ -67,8 +67,8 @@ function casey_widget_areas()
         array(
             'before_title' => '',
             'after_title' => '',
-            'before_widget' => '<div class="homepage-image">',
-            'after_widget' => '</div>',
+            'before_widget' => '',
+            'after_widget' => '',
             'name' => 'Homepage Image Widget',
             'id' => 'homepage-image-widget',
             'description' => 'Homepage Image Widget Area'
@@ -81,9 +81,9 @@ function casey_widget_areas()
             'after_title' => '',
             'before_widget' => '',
             'after_widget' => '',
-            'name' => 'Homepage Widget',
+            'name' => 'Hero Widget',
             'id' => 'homepage-widget',
-            'description' => 'Homepage Widget Area'
+            'description' => 'Homepage Hero Widget Area'
         )
     );
 
