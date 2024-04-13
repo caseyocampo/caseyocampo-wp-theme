@@ -19,7 +19,8 @@
 
     <div class="footer--credit">
         <div>
-            <?php echo get_bloginfo('name'); ?> © <?php echo date('Y'); ?> <span aria-hidden="true">|</span> <a href="https://www.caseyocampo.com/accessibility-statement/" class="underline footer-link">Accessibility Statement</a> <span aria-hidden="true">|</span> <a href="https://www.caseyocampo.com/disclosure/" class="underline footer-link">Affiliate Disclosure</a> <span aria-hidden="true">|</span> <a href="https://www.caseyocampo.com/privacy-policy/" class="underline footer-link">Privacy Policy</a> <span aria-hidden="true">|</span> <a href="https://www.caseyocampo.com/terms-and-conditions/" class="underline footer-link">Terms and Conditions</a>
+            <?php echo get_bloginfo('name'); ?> © <?php echo date('Y'); ?> <span aria-hidden="true">|</span> <a href="https://www.caseyocampo.com/accessibility-statement/" class="underline footer-link">Accessibility Statement</a> <span aria-hidden="true">|</span> <a href="https://www.caseyocampo.com/disclosure/" class="underline footer-link">Affiliate Disclosure</a> <span aria-hidden="true">
+                <!-- |</span> <a href="https://www.caseyocampo.com/privacy-policy/" class="underline footer-link">Privacy Policy</a> <span aria-hidden="true">|</span> <a href="https://www.caseyocampo.com/terms-and-conditions/" class="underline footer-link">Terms and Conditions</a> -->
         </div>
 
         <div>
